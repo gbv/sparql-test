@@ -1,0 +1,38 @@
+@prefix : <#> .
+
+<> 
+  :base <http://uri.gbv.de/terminology/bk/> ;
+  :store "DBI;;DBI:SQLite:skos.sqlite" ;
+#  :store "SPARQL;http://uri.gbv.de:8890/sparql" ;
+  :graph "http://uri.gbv.de:8890/DAV/home/rdfimport/rdf_sink/" .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<>
+  void:dataDump "bkskos.ttl" .
+  
+:scheme
+#  foaf:logo <http://k1www.gbv.de/images/logos/1_95.gif> .
+   :css "/terminology/terminology.css" .
+
+:top
+  rdfs:label "\u2198 Hauptgruppen" .
+
+:related
+#  rdfs:label "\u2194 Siehe auch" ;
+  rdfs:label "Siehe auch:" ;
+  :inlist " (vgl. auch %s)" .
+
+:narrower
+  rdfs:label "\u2198 Unterteilung" ;
+  :showdepth 1 .
+
+:examples
+  rdfs:label "Hier auch:" .
+
+:scopeNote
+  rdfs:label "Erläuterung:" .
+

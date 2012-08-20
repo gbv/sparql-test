@@ -1,0 +1,6 @@
+Fix RDF::Endpoint:
+
+- service description ?media-type=text/xml does not result XML but HTML
+- test file with -r and -f instead of -r because file may be a directory
+- 404 and index.html should be customizable as full templates
+

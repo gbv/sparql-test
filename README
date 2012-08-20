@@ -1,0 +1,48 @@
+Implementierung eines SPARQL-Interface ("Endpoint")
+
+
+VORAUSSETZUNGEN
+
+ * Perl-Modul RDF::Endpoint (Version vom 25.5.2011 oder später)
+ * ggf. Webserver-Konfiguration
+
+Die Anwendung basiert auf dem Web-Framework Plack und liegt als Perl-Code in
+Form einer .psgi-Datei vor. PSGI-Dateien können mit Plack unter verschiedenen
+Webservern (Apache2, lighttpd..) und Umgebungen (mod_perl, CGI, FCGI...)
+laufen.  Mit dem Script `plackup` kann Plack kann auch selber als Webserver
+eingesetzt werden, was vor allem zum Testen praktisch ist. Folgendermaßen wird
+die Anwendung 'endpoint.psgi' in einem Webserver auf Port 9090 gestartet:
+
+$ plackup -r -p 9090 endpoint.psgi
+
+
+INSTALLATION
+
+Die Konfiguration der Anwendung (CONFIG) befindet sich in der Datei
+default.json (statt JSON kann je nach Geschmack auch eine XML, INI oder
+YAML-Datei verwendet werden) und die Anpassung der Weboberfläche (SHAREDIR) im
+Unterverzeichnis 'www'. Mit den Umgebungsvariablen RDF_ENDPOINT_CONFIG und
+RDF_ENDPOINT_SHAREDIR darauf verwiesen werden:
+
+$ env RDF_ENDPOINT_SHAREDIR=/path/to/sparql/ plackup -e development -r -p 9090 endpoint.psgi
+
+Um die Anwendung beispielsweise unter Apache2 mit mod_perl einzusetzen, muss in
+der Apache-Konfiguration eingetragen werden:
+
+<Location "/sparql">
+   SetHandler perl-script
+   PerlResponseHandler Plack::Handler::Apache2
+   PerlSetVar psgi_app              /path/to/sparql/endpoint.psgi
+   PerlSetEnv RDF_ENDPOINT_CONFIG   /path/to/sparql/default.json
+   PerlSetEnv RDF_ENDPOINT_SHAREDIR /path/to/sparql/
+</Location>
+
+Die Konfigurationsdatei sollte vor Zugriffen per HTTP geschützt werden,
+beispielsweise mit einer Einstellung in der Datei .htaccess:
+
+order allow,deny
+allow from all
+<Files "default.*">
+  deny from all
+</Files>
+

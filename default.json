@@ -1,0 +1,25 @@
+{
+#	"store": "Memory;file:///Users/samofool/foaf.xrdf",
+	"store": "Memory;file:///home/voj/uri.gbv.de/sparql/test.rdf",
+	"endpoint": {
+        "endpoint_path": "/",
+	    "update": false,			# allow SPARQL Update operations
+		"load_data": false,			# allow loading RDF data via SPARQL Protocol or FROM/FROM NAMED clauses
+		"html": {
+			"resource_links": true,	# turn resources into links in HTML query result pages
+			"embed_images": false,	# display foaf:Images as images in HTML query result pages
+			"image_width": 200,		# with 'embed_images', scale images to this width
+		},
+		"service_description": {
+			"default": true,		# generate dataset description of the default graph
+			"named_graphs": true,	# generate dataset description of the available named graphs
+		},
+        "sample_queries": {
+# TODO
+# Sample queries: 
+# SELECT ?g WHERE { GRAPH ?g { ?s ?p ?o } }
+# SELECT (COUNT(*) AS ?count) WHERE { ?s ?p ?o }
+
+            }
+		}
+}

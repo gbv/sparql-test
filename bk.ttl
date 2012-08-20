@@ -1,0 +1,8027 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+@base <http://uri.gbv.de/terminology/bk/> .
+
+<> void:rootResource <http://uri.gbv.de/terminology/bk/> ;
+    a skos:ConceptScheme, void:Dataset ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <86.25>, <18.26>, <39.02>, <18.72>, <71>, <18.11>, <42.35>, <15.65>, <08.37>, <56.89>, <33.80>, <73.89>, <77.47>, <81.64>, <54.81>, <44.85>, <86.80>, <17.73>, <48.68>, <18.81>, <11.41>, <77.83>, <11.63>, <20.99>, <74.15>, <81.70>, <49.35>, <06.18>, <43.62>, <30.02>, <18.92>, <86.10>, <80.28>, <39.59>, <80.03>, <73.62>, <56.35>, <48.34>, <17.34>, <17.97>, <17.14>, <20.11>, <15.37>, <74.64>, <58.00>, <11.51>, <24.89>, <11.71>, <83.31>, <55.88>, <56.22>, <54.52>, <30.01>, <80.43>, <74.75>, <52.99>, <18.69>, <58>, <56.19>, <31.55>, <71.62>, <15.56>, <86.11>, <39.54>, <06.16>, <89.75>, <76>, <44.48>, <24.07>, <73.88>, <51.70>, <35.25>, <76.01>, <24.30>, <89.50>, <76.61>, <73.10>, <42.00>, <83.20>, <35.61>, <83.50>, <35.46>, <21.13>, <18.48>, <53.74>, <86.88>, <58.51>, <42.94>, <86.36>, <55.20>, <15.77>, <77.00>, <15.33>, <11.38>, <56.00>, <17.59>, <05.02>, <89.93>, <11.05>, <58.18>, <35.51>, <33.50>, <17.94>, <80.55>, <35.04>, <81.32>, <74.80>, <54.29>, <42.44>, <24.25>, <15.27>, <86.58>, <31.78>, <53.56>, <21.73>, <77.57>, <51.01>, <38.39>, <30.30>, <21.97>, <35.68>, <02.01>, <52.25>, <83.29>, <44.41>, <44.00>, <43>, <21.30>, <15.72>, <02.50>, <52.54>, <54.80>, <56.64>, <21.71>, <18.94>, <18.86>, <81.57>, <30.99>, <48.61>, <24.61>, <24.77>, <18.70>, <17.22>, <35.80>, <31.12>, <11.22>, <80.20>, <77.40>, <44.65>, <20.00>, <05.35>, <88.19>, <86.42>, <54.99>, <18.18>, <44.13>, <30.10>, <24.80>, <21.88>, <18.05>, <08.30>, <88.04>, <88.70>, <35.17>, <43.04>, <44.97>, <15.25>, <50.36>, <73.55>, <79.20>, <44.71>, <15.24>, <88.10>, <86.43>, <31.46>, <08.04>, <44.77>, <18.51>, <46.03>, <18.08>, <08>, <51.52>, <81.77>, <39>, <21.59>, <50.91>, <44.87>, <71.00>, <39.10>, <89.91>, <81.23>, <73.24>, <21.90>, <24.66>, <89.39>, <74.07>, <35.13>, <58.48>, <79.02>, <38.70>, <86.67>, <81.29>, <46.70>, <31.40>, <73.45>, <38.48>, <42.22>, <06>, <15.51>, <52.58>, <24.15>, <71.35>, <86.91>, <18.53>, <15.99>, <56.46>, <48.58>, <86.65>, <21.41>, <42.14>, <77.59>, <81.13>, <55.44>, <33.04>, <31.65>, <06.42>, <89.22>, <81.44>, <80.80>, <20.23>, <77.63>, <11.13>, <71.14>, <51.60>, <86.28>, <77.70>, <44.31>, <86.90>, <71.21>, <83.79>, <81.74>, <53.30>, <46.20>, <74.69>, <38.00>, <18.12>, <57.18>, <85.03>, <56.11>, <79.10>, <51>, <85.32>, <44.36>, <58.41>, <57.50>, <53.00>, <33.20>, <86.74>, <89.55>, <81.01>, <02.16>, <88.20>, <11.58>, <11.99>, <89.31>, <74.01>, <52.56>, <89.72>, <44.42>, <73.86>, <42.42>, <38.32>, <56.83>, <38.28>, <24.75>, <24.32>, <44.61>, <06.30>, <86.79>, <58.03>, <33.05>, <35.70>, <71.39>, <06.35>, <52.52>, <33.61>, <44.11>, <20>, <52.78>, <74.00>, <58.53>, <31.30>, <18.74>, <15.92>, <38.81>, <80.26>, <39.51>, <81.81>, <80.31>, <11.53>, <35.41>, <08.45>, <76.79>, <48.40>, <20.25>, <76.18>, <31.24>, <86.86>, <86.93>, <57.35>, <06.14>, <86.95>, <15.35>, <81.94>, <44.80>, <38.58>, <89.56>, <86.32>, <73.13>, <06.11>, <89.42>, <17.78>, <83.72>, <35.28>, <08.99>, <77.79>, <18.22>, <74.25>, <51.50>, <89.73>, <17>, <43.70>, <77.85>, <76.21>, <35.27>, <80.30>, <52.82>, <52.15>, <31.76>, <17.82>, <24.00>, <18.91>, <35.44>, <17.61>, <17.20>, <15.45>, <43.48>, <21.74>, <15.30>, <80.51>, <81.59>, <58.16>, <11.73>, <86.56>, <71.30>, <24.40>, <42.30>, <11.36>, <44.34>, <43.31>, <44.90>, <88.12>, <55.81>, <05.00>, <50.38>, <21.91>, <53.36>, <38.26>, <79.61>, <30.04>, <56.61>, <11.97>, <55.99>, <18.62>, <17.84>, <89.84>, <17.92>, <79.01>, <42.49>, <86.63>, <33>, <24.64>, <11.10>, <77.16>, <57.20>, <77.21>, <57.00>, <71.10>, <18.21>, <77.61>, <71.02>, <44.63>, <77.23>, <43.69>, <06.38>, <18.32>, <89.81>, <73.30>, <31.44>, <89.37>, <20.16>, <18.44>, <81.61>, <71.41>, <21.00>, <83.48>, <85.52>, <77.02>, <76.10>, <38.30>, <24.55>, <76.16>, <54.54>, <53.52>, <48>, <33.40>, <73.91>, <86.21>, <77.92>, <73.22>, <11.49>, <05.38>, <77.80>, <48.36>, <39.12>, <20.63>, <58.46>, <85.50>, <71.50>, <17.08>, <49.20>, <38.69>, <52.71>, <48.32>, <15.85>, <51.99>, <70.02>, <18.60>, <88.02>, <56.13>, <35.11>, <06.00>, <81.41>, <54.21>, <33.21>, <38.37>, <06.25>, <71.85>, <46.01>, <06.40>, <11.24>, <89.58>, <77.55>, <53.72>, <20.21>, <02.20>, <58.34>, <44.73>, <73.76>, <20.51>, <80.04>, <15.63>, <53.70>, <11.43>, <89.14>, <53>, <73.40>, <17.16>, <86.13>, <42.69>, <17.99>, <53.16>, <46.50>, <55.50>, <24.04>, <86.39>, <35.63>, <86.97>, <54.75>, <52.04>, <42.89>, <85>, <33.00>, <58.28>, <74.31>, <71.25>, <48.47>, <42.68>, <38.85>, <80.47>, <38.42>, <74.72>, <02.14>, <18.46>, <86.48>, <86.38>, <05.33>, <42.20>, <89.40>, <53.83>, <74.73>, <73.00>, <50.22>, <38.80>, <38.72>, <86.78>, <18.97>, <77.03>, <71.33>, <33.59>, <08.47>, <08.21>, <24.49>, <76.00>, <55>, <05.42>, <85.05>, <15.22>, <73.01>, <57>, <17.43>, <52.20>, <17.71>, <18.00>, <53.53>, <24.38>, <83.03>, <80.42>, <18.85>, <89>, <76.29>, <33.66>, <73.50>, <74.20>, <42.60>, <35>, <15.06>, <44.08>, <77.29>, <73.73>, <43.33>, <79.15>, <71.51>, <42.03>, <77.76>, <24.68>, <35.60>, <31.00>, <24.34>, <74.30>, <18.24>, <18.03>, <80.81>, <38.51>, <83.67>, <42.61>, <33.90>, <43.50>, <31.42>, <58.55>, <24.13>, <56.04>, <24.10>, <06.10>, <86.64>, <11.16>, <11.91>, <73.96>, <71.79>, <42.38>, <76.12>, <06.21>, <88.00>, <50.02>, <35.39>, <24.63>, <06.54>, <08.49>, <18.34>, <21.37>, <74.27>, <11.39>, <48.03>, <73.70>, <30.20>, <17.90>, <17.63>, <77.69>, <54.72>, <21.83>, <18.16>, <83.39>, <42.97>, <54.25>, <43.11>, <56.90>, <20.27>, <21.39>, <77.14>, <73.97>, <73.31>, <89.78>, <89.86>, <42.11>, <86.84>, <74.03>, <18.43>, <20.54>, <05.32>, <17.03>, <89.34>, <15.47>, <56.21>, <33.81>, <15.32>, <89.49>, <33.11>, <11.81>, <54.62>, <56.86>, <48.63>, <18.15>, <44.76>, <80.89>, <38.87>, <06.22>, <35.78>, <74.71>, <50.93>, <06.12>, <46.30>, <55.41>, <74>, <77.53>, <33.70>, <86.08>, <17.28>, <08.34>, <89.90>, <71.04>, <44.51>, <73.85>, <33.07>, <83.65>, <44.69>, <35.73>, <57.37>, <55.85>, <35.66>, <74.19>, <46.14>, <11.34>, <15.10>, <73.84>, <38.35>, <06.23>, <35.18>, <48.54>, <43.66>, <53.51>, <58.20>, <50.06>, <42.86>, <89.61>, <44.32>, <52.35>, <11.78>, <15.86>, <44.91>, <18.56>, <81.73>, <58.22>, <86.94>, <20.03>, <33.68>, <05.39>, <18.63>, <50.30>, <73.58>, <31.51>, <88.30>, <73.20>, <20.69>, <57.31>, <15.73>, <83.70>, <39.40>, <17.54>, <55.24>, <35.33>, <10.03>, <79.29>, <54.64>, <43.64>, <31.47>, <52.77>, <73.08>, <56.82>, <80.34>, <21.11>, <17.18>, <21.29>, <38.44>, <06.49>, <74.13>, <53.09>, <48.60>, <57.14>, <44.81>, <86.46>, <18.90>, <44.62>, <53.79>, <46>, <38.16>, <79.60>, <76.20>, <71.68>, <35.20>, <57.49>, <57.45>, <71.43>, <86.05>, <86.29>, <44.14>, <15.61>, <81.43>, <18.77>, <20.30>, <51.10>, <49.30>, <50.37>, <83.11>, <21.79>, <70.04>, <54.30>, <89.52>, <50.14>, <08.00>, <46.40>, <38.54>, <77.64>, <74.35>, <77.05>, <33.10>, <15.18>, <73.42>, <58.49>, <57.08>, <49.01>, <48.00>, <11.70>, <80.35>, <24.42>, <71.64>, <08.10>, <15.96>, <86.34>, <44>, <56.30>, <83.33>, <81.50>, <18.67>, <20.40>, <86.18>, <24.76>, <15.68>, <18.41>, <44.46>, <24.98>, <33.01>, <11.83>, <20.70>, <44.12>, <89.04>, <11.87>, <35.77>, <15.41>, <79.21>, <31.20>, <15.08>, <58.17>, <48.56>, <54.74>, <42.63>, <83.05>, <79.65>, <44.83>, <33.64>, <79.04>, <77.45>, <44.96>, <17.01>, <77.12>, <31.02>, <77.74>, <54.27>, <80.83>, <52.75>, <81.91>, <20.49>, <33.46>, <73.94>, <56.87>, <74.21>, <74.37>, <58.26>, <50.04>, <39.99>, <24.83>, <35.15>, <80.44>, <43.68>, <86.23>, <58.40>, <51.30>, <44.20>, <44.03>, <21.02>, <86.62>, <39.04>, <31.27>, <86.70>, <21.81>, <15.15>, <85.99>, <86.60>, <77.31>, <18.39>, <24.23>, <21.99>, <08.25>, <15.90>, <31.25>, <42.92>, <08.23>, <20.48>, <56.24>, <38.03>, <55.59>, <54.22>, <11.61>, <21.22>, <11.29>, <21.72>, <43.35>, <31.04>, <20.13>, <55.04>, <86.51>, <76.24>, <35.24>, <18.89>, <80.01>, <55.01>, <20.14>, <55.10>, <42.99>, <18.30>, <57.12>, <31.70>, <52.86>, <35.90>, <54.87>, <54.32>, <86.81>, <52.12>, <89.11>, <86.76>, <54.50>, <42.79>, <18.80>, <80>, <53.99>, <71.38>, <15.53>, <81.67>, <20.05>, <44.30>, <35.42>, <15.75>, <53.55>, <81.75>, <77.82>, <15.12>, <52.50>, <81.21>, <89.32>, <42.59>, <85.38>, <81.10>, <18.54>, <56.66>, <88.60>, <18.83>, <89.21>, <10>, <35.49>, <81.05>, <17.24>, <83.63>, <81.24>, <54.79>, <43.01>, <11.94>, <11.45>, <17.96>, <52.00>, <10.01>, <55.31>, <73.82>, <86.03>, <73.25>, <70.00>, <88.99>, <15.66>, <17.41>, <21.32>, <21.20>, <73.65>, <18.79>, <44.67>, <35.55>, <56.03>, <54.39>, <50.70>, <81.46>, <71.59>, <50.34>, <15.13>, <54.08>, <50.95>, <74.40>, <73.53>, <53.32>, <81.49>, <73.11>, <77.72>, <55.79>, <33.25>, <74.49>, <42.18>, <18.07>, <73.03>, <71.66>, <51.79>, <50.92>, <18.65>, <33.24>, <15.81>, <56.60>, <05.37>, <15.88>, <52.49>, <58.19>, <56.55>, <71.61>, <35.75>, <11.12>, <08.32>, <50.32>, <35.08>, <53.12>, <24.85>, <44.93>, <86.35>, <50.16>, <31.49>, <39.41>, <71.23>, <21.86>, <17.74>, <56.80>, <21.85>, <18.57>, <77.48>, <56.99>, <71.12>, <55.60>, <86.02>, <50.90>, <81.19>, <77.51>, <35.22>, <89.80>, <50.39>, <76.14>, <53.77>, <35.30>, <51.54>, <38>, <74.47>, <38.89>, <46.54>, <79.12>, <77.37>, <42.40>, <17.52>, <11.80>, <44.88>, <56.63>, <71.11>, <33.06>, <89.33>, <21.70>, <44.39>, <44.78>, <35.59>, <24.60>, <17.23>, <06.90>, <74.26>, <71.65>, <35.00>, <35.47>, <52.59>, <74.09>, <18.87>, <06.50>, <15.26>, <17.87>, <57.10>, <18.33>, <31>, <43.47>, <35.69>, <11.93>, <17.15>, <50.31>, <18.50>, <89.94>, <70.03>, <56.12>, <86.16>, <54.89>, <06.29>, <06.74>, <15.43>, <38.63>, <15.52>, <86.44>, <73.92>, <18.19>, <89.92>, <73.81>, <52.30>, <38.45>, <24.81>, <88.11>, <52.74>, <18.93>, <77.17>, <83.40>, <44.98>, <15>, <86.37>, <79.50>, <80.36>, <73.74>, <74.08>, <20.50>, <46.02>, <35.07>, <21.40>, <38.01>, <24.44>, <76.41>, <35.12>, <46.80>, <71.36>, <05.99>, <42.15>, <15.14>, <11.19>, <38.20>, <89.15>, <76.19>, <54.38>, <33.03>, <33.28>, <20.62>, <35.62>, <11.57>, <44.72>, <73.04>, <33.62>, <58.59>, <56.45>, <77.34>, <35.74>, <11.60>, <15.07>, <77.24>, <49>, <31.29>, <74.23>, <53.13>, <18.37>, <38.84>, <77.93>, <85.02>, <80.10>, <77.10>, <53.37>, <21.87>, <31.08>, <42.67>, <02.15>, <18.52>, <81.80>, <06.44>, <58.47>, <21.52>, <81.12>, <06.41>, <11.30>, <11.52>, <86.71>, <42.23>, <11.21>, <77.71>, <20.41>, <53.01>, <86.41>, <81.76>, <55.34>, <31.10>, <73.99>, <05.36>, <55.54>, <08.42>, <20.33>, <31.11>, <89.87>, <73.44>, <77.62>, <54.82>, <08.38>, <11.74>, <21>, <81.65>, <83.30>, <30.00>, <17.93>, <18.10>, <80.40>, <48.67>, <15.91>, <38.31>, <86.55>, <24.82>, <17.13>, <18.78>, <86.26>, <58.27>, <81.71>, <44.43>, <77.22>, <55.80>, <20.10>, <54.51>, <77.18>, <56.01>, <54.76>, <52.55>, <15.38>, <53.35>, <20.06>, <80.29>, <18.68>, <83.04>, <11.69>, <77>, <17.83>, <18.27>, <73.63>, <18.73>, <24.90>, <31.69>, <80.60>, <79.03>, <53.04>, <39.50>, <42.36>, <20.29>, <31.23>, <89.76>, <71.83>, <11.06>, <73.05>, <06.99>, <24.06>, <38.40>, <55.45>, <52.72>, <71.63>, <39.01>, <46.52>, <05.40>, <56.25>, <71.20>, <89.51>, <57.40>, <79.17>, <06.15>, <38.86>, <89.82>, <86.24>, <79.18>, <11.88>, <15.34>, <89.03>, <77.78>, <44.40>, <42.07>, <58.30>, <17.35>, <76.60>, <44.10>, <79.64>, <21.01>, <21.49>, <56.40>, <73.80>, <50.07>, <58.54>, <56.50>, <21.75>, <24.24>, <33.16>, <42>, <11.47>, <11.62>, <52.42>, <18.59>, <15.19>, <42.91>, <33.75>, <76.02>, <54.88>, <73.49>, <53.75>, <77.84>, <44.19>, <85.09>, <76.25>, <50.97>, <18.20>, <33.56>, <89.36>, <18.45>, <81.17>, <73.21>, <35.50>, <18.13>, <71.52>, <44.17>, <53.71>, <71.01>, <35.16>, <35.53>, <58.29>, <31.43>, <31.59>, <79.40>, <76.17>, <58.45>, <38.61>, <53.31>, <31.35>, <38.88>, <15.40>, <11.23>, <18.04>, <48.59>, <83.01>, <71.40>, <73.56>, <71.70>, <81.78>, <35.99>, <39.22>, <56.47>, <81.58>, <71.24>, <49.25>, <15.46>, <24.46>, <43.03>, <57.01>, <51.20>, <49.04>, <15.50>, <44.06>, <50.20>, <83.19>, <88.14>, <88.13>, <86.22>, <76.04>, <18.09>, <20.56>, <48.50>, <76.11>, <50.35>, <05.30>, <76.30>, <89.01>, <56.59>, <15.04>, <24.41>, <86.73>, <77.20>, <51.24>, <15.28>, <89.89>, <89.69>, <39.52>, <11.92>, <81.60>, <18.99>, <38.79>, <89.60>, <44.37>, <86.66>, <05>, <39.20>, <73.79>, <18.47>, <54.59>, <24.05>, <38.82>, <89.59>, <02.13>, <18.35>, <71.34>, <81.00>, <18.02>, <80.46>, <55.00>, <56.14>, <55.64>, <86.27>, <11.14>, <20.20>, <81.40>, <50.99>, <20.60>, <24.12>, <53.39>, <53.15>, <77.01>, <31.41>, <35.10>, <89.13>, <51.32>, <31.61>, <18.61>, <11.08>, <02.60>, <56.08>, <31.73>, <86.99>, <86.49>, <85.04>, <79>, <58.10>, <17.98>, <56.81>, <11.44>, <20.31>, <33.29>, <24.03>, <38.47>, <83.49>, <05.34>, <44.45>, <89.53>, <24.65>, <81.14>, <39.11>, <43.61>, <15.23>, <86.96>, <71.49>, <33.30>, <17.45>, <86.06>, <51.75>, <17.51>, <44.74>, <81.82>, <31.52>, <73.87>, <56.84>, <38.19>, <57.04>, <15.64>, <54.53>, <15.62>, <11.50>, <56.23>, <86.30>, <74.11>, <11.82>, <46.00>, <42.45>, <74.17>, <35.05>, <86.92>, <30.03>, <38.60>, <56.10>, <15.69>, <31.21>, <44.99>, <08.36>, <80.27>, <15.71>, <11.15>, <38.27>, <35.40>, <85.64>, <08.44>, <83.13>, <20.08>, <06.13>, <20.22>, <42.21>, <88.03>, <50>, <05.12>, <44.05>, <52.57>, <17.81>, <11.54>, <89.41>, <38.59>, <48.20>, <86.68>, <58.04>, <06.60>, <15.36>, <52.79>, <79.22>, <18.84>, <44.60>, <48.10>, <05.01>, <89.57>, <74.28>, <42.13>, <57.36>, <53.59>, <33.18>, <80.39>, <77.56>, <35.02>, <80.50>, <76.22>, <35.26>, <39.29>, <81.22>, <52.47>, <83.73>, <21.92>, <15.74>, <89.74>, <42.93>, <35.71>, <86.77>, <21.42>, <20.01>, <18.23>, <11.04>, <83.21>, <06.20>, <15.78>, <11.55>, <86.53>, <21.10>, <79.69>, <42.05>, <55.82>, <53.73>, <55.83>, <44.64>, <06.04>, <42.01>, <21.31>, <77.60>, <52.53>, <31.45>, <56.62>, <81.31>, <53.89>, <76.62>, <43.30>, <80.99>, <73.61>, <18.75>, <42.47>, <73.66>, <11.98>, <89.99>, <38.29>, <83.64>, <73.93>, <33.77>, <38.49>, <85.10>, <71.31>, <35.79>, <83.44>, <56.15>, <50.25>, <49.15>, <77.52>, <50.01>, <76.72>, <18.38>, <02>, <89.83>, <21.12>, <20.15>, <44.44>, <51.40>, <74.12>, <83.10>, <54.10>, <24.01>, <71.05>, <89.62>, <86.09>, <81.99>, <86.19>, <18.55>, <38.24>, <89.19>, <83.71>, <33.43>, <58.21>, <43.65>, <35.65>, <42.04>, <31.62>, <06.24>, <24.29>, <86.04>, <11>, <51.00>, <85.00>, <44.92>, <48.99>, <11.75>, <20.89>, <15.76>, <11.46>, <44.15>, <05.15>, <44.04>, <79.23>, <55.61>, <52.10>, <85.27>, <53.50>, <11.20>, <44.52>, <35.19>, <06.19>, <24.84>, <73>, <33.72>, <89.63>, <11.31>, <08.22>, <46.60>, <74.41>, <20.04>, <31.48>, <15.87>, <17.80>, <10.02>, <53.38>, <44.84>, <89.70>, <79.14>, <44.89>, <86.54>, <86.14>, <73.57>, <35.21>, <17.56>, <79.99>, <18.64>, <55.23>, <11.17>, <24>, <86.47>, <53.33>, <51.45>, <11.76>, <89.29>, <56.31>, <79.62>, <80.48>, <55.84>, <58.01>, <85.06>, <43.63>, <17.31>, <55.51>, <54.71>, <17.69>, <10.99>, <17.10>, <48.18>, <74.77>, <35.52>, <17.77>, <86.17>, <71.42>, <10.04>, <81.53>, <15.80>, <08.46>, <18.01>, <38.52>, <15.29>, <39.23>, <86.59>, <44.47>, <38.53>, <77.04>, <15.03>, <08.20>, <83.99>, <17.42>, <79.13>, <50.15>, <18.42>, <24.62>, <88.01>, <15.20>, <74.02>, <71.22>, <05.31>, <58.13>, <18.25>, <24.02>, <15.21>, <76.44>, <76.15>, <53.78>, <15.95>, <71.99>, <71.80>, <53.54>, <33.60>, <42.43>, <81.90>, <80.41>, <74.74>, <55.30>, <17.55>, <73.29>, <02.00>, <76.13>, <77.77>, <44.07>, <74.48>, <58.56>, <20.61>, <33.52>, <50.21>, <86.61>, <54.26>, <20.24>, <35.76>, <71.32>, <80.82>, <52.51>, <48.46>, <11.84>, <81.69>, <74.60>, <52>, <85.62>, <73.41>, <38.95>, <53.82>, <35.43>, <42.62>, <06.53>, <24.33>, <42.32>, <73.12>, <05.04>, <15.16>, <15.00>, <17.60>, <05.20>, <83.66>, <15.49>, <42.12>, <86.85>, <35.14>, <89.12>, <54.23>, <83>, <73.32>, <08.33>, <08.41>, <35.29>, <89.79>, <54.33>, <39.30>, <55.39>, <39.19>, <44.21>, <15.60>, <73.90>, <80.00>, <15.48>, <11.07>, <38.90>, <49.99>, <21.21>, <44.35>, <54.61>, <56.20>, <52.85>, <54.04>, <38.41>, <73.71>, <33.79>, <83.02>, <20.07>, <83.14>, <71.89>, <20.28>, <06.43>, <81.11>, <15.11>, <38.22>, <81.66>, <71.29>, <39.13>, <46.04>, <85.20>, <81.72>, <33.69>, <86.69>, <74.70>, <71.07>, <76.70>, <18>, <43.00>, <89.35>, <58.99>, <17.75>, <31.99>, <35.72>, <70.01>, <15.54>, <08.31>, <77.11>, <18.17>, <80.59>, <52.01>, <17.25>, <20.52>, <44.94>, <35.23>, <18.58>, <73.34>, <31.60>, <89.85>, <38.10>, <76.23>, <11.11>, <42.10>, <73.83>, <11.33>, <85.25>, <33.09>, <17.89>, <02.99>, <33.74>, <73.59>, <76.99>, <38.65>, <77.99>, <76.50>, <86.07>, <73.64>, <86.75>, <11.77>, <44.75>, <71.67>, <17.95>, <38.36>, <81.20>, <06.01>, <81>, <18.82>, <18.36>, <85.69>, <08.03>, <35.06>, <86>, <48.30>, <17.40>, <50.17>, <42.41>, <18.06>, <57.30>, <15.67>, <74.10>, <71.19>, <42.02>, <77.73>, <39.53>, <55.40>, <11.40>, <71.13>, <52.43>, <33.14>, <73.07>, <86.45>, <53.76>, <52.38>, <42.17>, <15.70>, <79.16>, <57.99>, <43.02>, <55.86>, <86.01>, <71.44>, <06.80>, <58.11>, <55.21>, <71.60>, <43.99>, <74.79>, <11.48>, <35.48>, <02.10>, <42.65>, <77.49>, <53.84>, <81.85>, <81.42>, <74.95>, <17.53>, <73.02>, <17.91>, <15.42>, <73.39>, <15.79>, <54.70>, <46.99>, <20.64>, <71.15>, <55.89>, <80.25>, <17.04>, <11.79>, <35.31>, <52.76>, <18.40>, <50.03>, <48.01>, <39.42>, <15.31>, <06.70>, <44.38>, <02.02>, <24.37>, <38.71>, <06.17>, <24.43>, <38.55>, <15.17>, <21.98>, <53.11>, <73.19>, <17.50>, <06.51>, <52.87>, <18.88>, <76.49>, <33.02>, <33.38>, <81.92>, <24.99>, <11.09>, <44.49>, <57.11>, <33.99>, <74.61>, <73.95>, <17.00>, <20.26>, <42.64>, <83.46>, <80.02>, <44.95>, <86.52>, <53.03>, <44.09>, <15.55>, <35.01>, <89.20>, <74.05>, <51.04>, <71.37>, <52.80>, <88.17>, <11.72>, <38.43>, <31.80>, <56>, <81.02>, <31.01>, <48.04>, <77.65>, <86.50>, <77.75>, <46.10>, <54>, <73.72>, <77.13>, <70>, <38.46>, <46.90>, <33.19>, <86.33>, <49.55>, <11.37>, <88>, <17.62>, <38.04>, <30>, <18.95>, <31.50>, <83.68>, <58.52>, <48.69>, <70.99>, <74.24>, <54.73>, <18.66>, <74.29>, <54.28>, <89.05>, <31.14>, <86.15>, <81.55>, <86.40>, <73.43>, <81.51>, <17.70>, <24.08>, <86.72>, <21.19>, <76.40>, <48.64>, <33.12>, <79.30>, <52.23>, <38.99>, <44.70>, <85.30>, <74.04>, <11.00>, <44.33>, <86.57>, <54.01>, <21.51>, <85.01>, <17.49>, <08.43>, <17.46>, <48.52>, <15.09>, <44.02>, <86.83>, <56.85>, <49.00>, <50.23>, <44.01>, <77.08>, <20.12>, <08.24>, <86.82>, <57.60>, <11.90>, <18.31>, <89.77>, <77.30>, <44.68> ;
+    dc:title "Basisklassifikation"@de ;
+    void:uriSpace <http://uri.gbv.de/terminology/bk/> .
+
+<86.25> a skos:Concept ;
+    skos:notation "86.25" ;
+    skos:topConceptOf <> .
+
+<18.26> a skos:Concept ;
+    skos:notation "18.26" ;
+    skos:topConceptOf <> .
+
+<39.02> a skos:Concept ;
+    skos:notation "39.02" ;
+    skos:topConceptOf <> .
+
+<18.72> a skos:Concept ;
+    skos:notation "18.72" ;
+    skos:topConceptOf <> .
+
+<71> a skos:Concept ;
+    skos:notation "71" ;
+    skos:topConceptOf <> .
+
+<18.11> a skos:Concept ;
+    skos:notation "18.11" ;
+    skos:topConceptOf <> .
+
+<42.35> a skos:Concept ;
+    skos:notation "42.35" ;
+    skos:topConceptOf <> .
+
+<15.65> a skos:Concept ;
+    skos:notation "15.65" ;
+    skos:topConceptOf <> .
+
+<08.37> a skos:Concept ;
+    skos:notation "08.37" ;
+    skos:topConceptOf <> .
+
+<56.89> a skos:Concept ;
+    skos:notation "56.89" ;
+    skos:topConceptOf <> .
+
+<33.80> a skos:Concept ;
+    skos:notation "33.80" ;
+    skos:topConceptOf <> .
+
+<73.89> a skos:Concept ;
+    skos:notation "73.89" ;
+    skos:topConceptOf <> .
+
+<77.47> a skos:Concept ;
+    skos:notation "77.47" ;
+    skos:topConceptOf <> .
+
+<81.64> a skos:Concept ;
+    skos:notation "81.64" ;
+    skos:topConceptOf <> .
+
+<54.81> a skos:Concept ;
+    skos:notation "54.81" ;
+    skos:topConceptOf <> .
+
+<44.85> a skos:Concept ;
+    skos:notation "44.85" ;
+    skos:topConceptOf <> .
+
+<86.80> a skos:Concept ;
+    skos:notation "86.80" ;
+    skos:topConceptOf <> .
+
+<17.73> a skos:Concept ;
+    skos:notation "17.73" ;
+    skos:topConceptOf <> .
+
+<48.68> a skos:Concept ;
+    skos:notation "48.68" ;
+    skos:topConceptOf <> .
+
+<18.81> a skos:Concept ;
+    skos:notation "18.81" ;
+    skos:topConceptOf <> .
+
+<11.41> a skos:Concept ;
+    skos:notation "11.41" ;
+    skos:topConceptOf <> .
+
+<77.83> a skos:Concept ;
+    skos:notation "77.83" ;
+    skos:topConceptOf <> .
+
+<11.63> a skos:Concept ;
+    skos:notation "11.63" ;
+    skos:topConceptOf <> .
+
+<20.99> a skos:Concept ;
+    skos:notation "20.99" ;
+    skos:topConceptOf <> .
+
+<74.15> a skos:Concept ;
+    skos:notation "74.15" ;
+    skos:topConceptOf <> .
+
+<81.70> a skos:Concept ;
+    skos:notation "81.70" ;
+    skos:topConceptOf <> .
+
+<49.35> a skos:Concept ;
+    skos:notation "49.35" ;
+    skos:topConceptOf <> .
+
+<06.18> a skos:Concept ;
+    skos:notation "06.18" ;
+    skos:topConceptOf <> .
+
+<43.62> a skos:Concept ;
+    skos:notation "43.62" ;
+    skos:topConceptOf <> .
+
+<30.02> a skos:Concept ;
+    skos:notation "30.02" ;
+    skos:topConceptOf <> .
+
+<18.92> a skos:Concept ;
+    skos:notation "18.92" ;
+    skos:topConceptOf <> .
+
+<86.10> a skos:Concept ;
+    skos:notation "86.10" ;
+    skos:topConceptOf <> .
+
+<80.28> a skos:Concept ;
+    skos:notation "80.28" ;
+    skos:topConceptOf <> .
+
+<39.59> a skos:Concept ;
+    skos:notation "39.59" ;
+    skos:topConceptOf <> .
+
+<80.03> a skos:Concept ;
+    skos:notation "80.03" ;
+    skos:topConceptOf <> .
+
+<73.62> a skos:Concept ;
+    skos:notation "73.62" ;
+    skos:topConceptOf <> .
+
+<56.35> a skos:Concept ;
+    skos:notation "56.35" ;
+    skos:topConceptOf <> .
+
+<48.34> a skos:Concept ;
+    skos:notation "48.34" ;
+    skos:topConceptOf <> .
+
+<17.34> a skos:Concept ;
+    skos:notation "17.34" ;
+    skos:topConceptOf <> .
+
+<17.97> a skos:Concept ;
+    skos:notation "17.97" ;
+    skos:topConceptOf <> .
+
+<17.14> a skos:Concept ;
+    skos:notation "17.14" ;
+    skos:topConceptOf <> .
+
+<20.11> a skos:Concept ;
+    skos:notation "20.11" ;
+    skos:topConceptOf <> .
+
+<15.37> a skos:Concept ;
+    skos:notation "15.37" ;
+    skos:topConceptOf <> .
+
+<74.64> a skos:Concept ;
+    skos:notation "74.64" ;
+    skos:topConceptOf <> .
+
+<58.00> a skos:Concept ;
+    skos:notation "58.00" ;
+    skos:topConceptOf <> .
+
+<11.51> a skos:Concept ;
+    skos:notation "11.51" ;
+    skos:topConceptOf <> .
+
+<24.89> a skos:Concept ;
+    skos:notation "24.89" ;
+    skos:topConceptOf <> .
+
+<11.71> a skos:Concept ;
+    skos:notation "11.71" ;
+    skos:topConceptOf <> .
+
+<83.31> a skos:Concept ;
+    skos:notation "83.31" ;
+    skos:topConceptOf <> .
+
+<55.88> a skos:Concept ;
+    skos:notation "55.88" ;
+    skos:topConceptOf <> .
+
+<56.22> a skos:Concept ;
+    skos:notation "56.22" ;
+    skos:topConceptOf <> .
+
+<54.52> a skos:Concept ;
+    skos:notation "54.52" ;
+    skos:topConceptOf <> .
+
+<30.01> a skos:Concept ;
+    skos:notation "30.01" ;
+    skos:topConceptOf <> .
+
+<80.43> a skos:Concept ;
+    skos:notation "80.43" ;
+    skos:topConceptOf <> .
+
+<74.75> a skos:Concept ;
+    skos:notation "74.75" ;
+    skos:topConceptOf <> .
+
+<52.99> a skos:Concept ;
+    skos:notation "52.99" ;
+    skos:topConceptOf <> .
+
+<18.69> a skos:Concept ;
+    skos:notation "18.69" ;
+    skos:topConceptOf <> .
+
+<58> a skos:Concept ;
+    skos:notation "58" ;
+    skos:topConceptOf <> .
+
+<56.19> a skos:Concept ;
+    skos:notation "56.19" ;
+    skos:topConceptOf <> .
+
+<31.55> a skos:Concept ;
+    skos:notation "31.55" ;
+    skos:topConceptOf <> .
+
+<71.62> a skos:Concept ;
+    skos:notation "71.62" ;
+    skos:topConceptOf <> .
+
+<15.56> a skos:Concept ;
+    skos:notation "15.56" ;
+    skos:topConceptOf <> .
+
+<86.11> a skos:Concept ;
+    skos:notation "86.11" ;
+    skos:topConceptOf <> .
+
+<39.54> a skos:Concept ;
+    skos:notation "39.54" ;
+    skos:topConceptOf <> .
+
+<06.16> a skos:Concept ;
+    skos:notation "06.16" ;
+    skos:topConceptOf <> .
+
+<89.75> a skos:Concept ;
+    skos:notation "89.75" ;
+    skos:topConceptOf <> .
+
+<76> a skos:Concept ;
+    skos:notation "76" ;
+    skos:topConceptOf <> .
+
+<44.48> a skos:Concept ;
+    skos:notation "44.48" ;
+    skos:topConceptOf <> .
+
+<24.07> a skos:Concept ;
+    skos:notation "24.07" ;
+    skos:topConceptOf <> .
+
+<73.88> a skos:Concept ;
+    skos:notation "73.88" ;
+    skos:topConceptOf <> .
+
+<51.70> a skos:Concept ;
+    skos:notation "51.70" ;
+    skos:topConceptOf <> .
+
+<35.25> a skos:Concept ;
+    skos:notation "35.25" ;
+    skos:topConceptOf <> .
+
+<76.01> a skos:Concept ;
+    skos:notation "76.01" ;
+    skos:topConceptOf <> .
+
+<24.30> a skos:Concept ;
+    skos:notation "24.30" ;
+    skos:topConceptOf <> .
+
+<89.50> a skos:Concept ;
+    skos:notation "89.50" ;
+    skos:topConceptOf <> .
+
+<76.61> a skos:Concept ;
+    skos:notation "76.61" ;
+    skos:topConceptOf <> .
+
+<73.10> a skos:Concept ;
+    skos:notation "73.10" ;
+    skos:topConceptOf <> .
+
+<42.00> a skos:Concept ;
+    skos:notation "42.00" ;
+    skos:topConceptOf <> .
+
+<83.20> a skos:Concept ;
+    skos:notation "83.20" ;
+    skos:topConceptOf <> .
+
+<35.61> a skos:Concept ;
+    skos:notation "35.61" ;
+    skos:topConceptOf <> .
+
+<83.50> a skos:Concept ;
+    skos:notation "83.50" ;
+    skos:topConceptOf <> .
+
+<35.46> a skos:Concept ;
+    skos:notation "35.46" ;
+    skos:topConceptOf <> .
+
+<21.13> a skos:Concept ;
+    skos:notation "21.13" ;
+    skos:topConceptOf <> .
+
+<18.48> a skos:Concept ;
+    skos:notation "18.48" ;
+    skos:topConceptOf <> .
+
+<53.74> a skos:Concept ;
+    skos:notation "53.74" ;
+    skos:topConceptOf <> .
+
+<86.88> a skos:Concept ;
+    skos:notation "86.88" ;
+    skos:topConceptOf <> .
+
+<58.51> a skos:Concept ;
+    skos:notation "58.51" ;
+    skos:topConceptOf <> .
+
+<42.94> a skos:Concept ;
+    skos:notation "42.94" ;
+    skos:topConceptOf <> .
+
+<86.36> a skos:Concept ;
+    skos:notation "86.36" ;
+    skos:topConceptOf <> .
+
+<55.20> a skos:Concept ;
+    skos:notation "55.20" ;
+    skos:topConceptOf <> .
+
+<15.77> a skos:Concept ;
+    skos:notation "15.77" ;
+    skos:topConceptOf <> .
+
+<77.00> a skos:Concept ;
+    skos:notation "77.00" ;
+    skos:topConceptOf <> .
+
+<15.33> a skos:Concept ;
+    skos:notation "15.33" ;
+    skos:topConceptOf <> .
+
+<11.38> a skos:Concept ;
+    skos:notation "11.38" ;
+    skos:topConceptOf <> .
+
+<56.00> a skos:Concept ;
+    skos:notation "56.00" ;
+    skos:topConceptOf <> .
+
+<17.59> a skos:Concept ;
+    skos:notation "17.59" ;
+    skos:topConceptOf <> .
+
+<05.02> a skos:Concept ;
+    skos:notation "05.02" ;
+    skos:topConceptOf <> .
+
+<89.93> a skos:Concept ;
+    skos:notation "89.93" ;
+    skos:topConceptOf <> .
+
+<11.05> a skos:Concept ;
+    skos:notation "11.05" ;
+    skos:topConceptOf <> .
+
+<58.18> a skos:Concept ;
+    skos:notation "58.18" ;
+    skos:topConceptOf <> .
+
+<35.51> a skos:Concept ;
+    skos:notation "35.51" ;
+    skos:topConceptOf <> .
+
+<33.50> a skos:Concept ;
+    skos:notation "33.50" ;
+    skos:topConceptOf <> .
+
+<17.94> a skos:Concept ;
+    skos:notation "17.94" ;
+    skos:topConceptOf <> .
+
+<80.55> a skos:Concept ;
+    skos:notation "80.55" ;
+    skos:topConceptOf <> .
+
+<35.04> a skos:Concept ;
+    skos:notation "35.04" ;
+    skos:topConceptOf <> .
+
+<81.32> a skos:Concept ;
+    skos:notation "81.32" ;
+    skos:topConceptOf <> .
+
+<74.80> a skos:Concept ;
+    skos:notation "74.80" ;
+    skos:topConceptOf <> .
+
+<54.29> a skos:Concept ;
+    skos:notation "54.29" ;
+    skos:topConceptOf <> .
+
+<42.44> a skos:Concept ;
+    skos:notation "42.44" ;
+    skos:topConceptOf <> .
+
+<24.25> a skos:Concept ;
+    skos:notation "24.25" ;
+    skos:topConceptOf <> .
+
+<15.27> a skos:Concept ;
+    skos:notation "15.27" ;
+    skos:topConceptOf <> .
+
+<86.58> a skos:Concept ;
+    skos:notation "86.58" ;
+    skos:topConceptOf <> .
+
+<31.78> a skos:Concept ;
+    skos:notation "31.78" ;
+    skos:topConceptOf <> .
+
+<53.56> a skos:Concept ;
+    skos:notation "53.56" ;
+    skos:topConceptOf <> .
+
+<21.73> a skos:Concept ;
+    skos:notation "21.73" ;
+    skos:topConceptOf <> .
+
+<77.57> a skos:Concept ;
+    skos:notation "77.57" ;
+    skos:topConceptOf <> .
+
+<51.01> a skos:Concept ;
+    skos:notation "51.01" ;
+    skos:topConceptOf <> .
+
+<38.39> a skos:Concept ;
+    skos:notation "38.39" ;
+    skos:topConceptOf <> .
+
+<30.30> a skos:Concept ;
+    skos:notation "30.30" ;
+    skos:topConceptOf <> .
+
+<21.97> a skos:Concept ;
+    skos:notation "21.97" ;
+    skos:topConceptOf <> .
+
+<35.68> a skos:Concept ;
+    skos:notation "35.68" ;
+    skos:topConceptOf <> .
+
+<02.01> a skos:Concept ;
+    skos:notation "02.01" ;
+    skos:topConceptOf <> .
+
+<52.25> a skos:Concept ;
+    skos:notation "52.25" ;
+    skos:topConceptOf <> .
+
+<83.29> a skos:Concept ;
+    skos:notation "83.29" ;
+    skos:topConceptOf <> .
+
+<44.41> a skos:Concept ;
+    skos:notation "44.41" ;
+    skos:topConceptOf <> .
+
+<44.00> a skos:Concept ;
+    skos:notation "44.00" ;
+    skos:topConceptOf <> .
+
+<43> a skos:Concept ;
+    skos:notation "43" ;
+    skos:topConceptOf <> .
+
+<21.30> a skos:Concept ;
+    skos:notation "21.30" ;
+    skos:topConceptOf <> .
+
+<15.72> a skos:Concept ;
+    skos:notation "15.72" ;
+    skos:topConceptOf <> .
+
+<02.50> a skos:Concept ;
+    skos:notation "02.50" ;
+    skos:topConceptOf <> .
+
+<52.54> a skos:Concept ;
+    skos:notation "52.54" ;
+    skos:topConceptOf <> .
+
+<54.80> a skos:Concept ;
+    skos:notation "54.80" ;
+    skos:topConceptOf <> .
+
+<56.64> a skos:Concept ;
+    skos:notation "56.64" ;
+    skos:topConceptOf <> .
+
+<21.71> a skos:Concept ;
+    skos:notation "21.71" ;
+    skos:topConceptOf <> .
+
+<18.94> a skos:Concept ;
+    skos:notation "18.94" ;
+    skos:topConceptOf <> .
+
+<18.86> a skos:Concept ;
+    skos:notation "18.86" ;
+    skos:topConceptOf <> .
+
+<81.57> a skos:Concept ;
+    skos:notation "81.57" ;
+    skos:topConceptOf <> .
+
+<30.99> a skos:Concept ;
+    skos:notation "30.99" ;
+    skos:topConceptOf <> .
+
+<48.61> a skos:Concept ;
+    skos:notation "48.61" ;
+    skos:topConceptOf <> .
+
+<24.61> a skos:Concept ;
+    skos:notation "24.61" ;
+    skos:topConceptOf <> .
+
+<24.77> a skos:Concept ;
+    skos:notation "24.77" ;
+    skos:topConceptOf <> .
+
+<18.70> a skos:Concept ;
+    skos:notation "18.70" ;
+    skos:topConceptOf <> .
+
+<17.22> a skos:Concept ;
+    skos:notation "17.22" ;
+    skos:topConceptOf <> .
+
+<35.80> a skos:Concept ;
+    skos:notation "35.80" ;
+    skos:topConceptOf <> .
+
+<31.12> a skos:Concept ;
+    skos:notation "31.12" ;
+    skos:topConceptOf <> .
+
+<11.22> a skos:Concept ;
+    skos:notation "11.22" ;
+    skos:topConceptOf <> .
+
+<80.20> a skos:Concept ;
+    skos:notation "80.20" ;
+    skos:topConceptOf <> .
+
+<77.40> a skos:Concept ;
+    skos:notation "77.40" ;
+    skos:topConceptOf <> .
+
+<44.65> a skos:Concept ;
+    skos:notation "44.65" ;
+    skos:topConceptOf <> .
+
+<20.00> a skos:Concept ;
+    skos:notation "20.00" ;
+    skos:topConceptOf <> .
+
+<05.35> a skos:Concept ;
+    skos:notation "05.35" ;
+    skos:topConceptOf <> .
+
+<88.19> a skos:Concept ;
+    skos:notation "88.19" ;
+    skos:topConceptOf <> .
+
+<86.42> a skos:Concept ;
+    skos:notation "86.42" ;
+    skos:topConceptOf <> .
+
+<54.99> a skos:Concept ;
+    skos:notation "54.99" ;
+    skos:topConceptOf <> .
+
+<18.18> a skos:Concept ;
+    skos:notation "18.18" ;
+    skos:topConceptOf <> .
+
+<44.13> a skos:Concept ;
+    skos:notation "44.13" ;
+    skos:topConceptOf <> .
+
+<30.10> a skos:Concept ;
+    skos:notation "30.10" ;
+    skos:topConceptOf <> .
+
+<24.80> a skos:Concept ;
+    skos:notation "24.80" ;
+    skos:topConceptOf <> .
+
+<21.88> a skos:Concept ;
+    skos:notation "21.88" ;
+    skos:topConceptOf <> .
+
+<18.05> a skos:Concept ;
+    skos:notation "18.05" ;
+    skos:topConceptOf <> .
+
+<08.30> a skos:Concept ;
+    skos:notation "08.30" ;
+    skos:topConceptOf <> .
+
+<88.04> a skos:Concept ;
+    skos:notation "88.04" ;
+    skos:topConceptOf <> .
+
+<88.70> a skos:Concept ;
+    skos:notation "88.70" ;
+    skos:topConceptOf <> .
+
+<35.17> a skos:Concept ;
+    skos:notation "35.17" ;
+    skos:topConceptOf <> .
+
+<43.04> a skos:Concept ;
+    skos:notation "43.04" ;
+    skos:topConceptOf <> .
+
+<44.97> a skos:Concept ;
+    skos:notation "44.97" ;
+    skos:topConceptOf <> .
+
+<15.25> a skos:Concept ;
+    skos:notation "15.25" ;
+    skos:topConceptOf <> .
+
+<50.36> a skos:Concept ;
+    skos:notation "50.36" ;
+    skos:topConceptOf <> .
+
+<73.55> a skos:Concept ;
+    skos:notation "73.55" ;
+    skos:topConceptOf <> .
+
+<79.20> a skos:Concept ;
+    skos:notation "79.20" ;
+    skos:topConceptOf <> .
+
+<44.71> a skos:Concept ;
+    skos:notation "44.71" ;
+    skos:topConceptOf <> .
+
+<15.24> a skos:Concept ;
+    skos:notation "15.24" ;
+    skos:topConceptOf <> .
+
+<88.10> a skos:Concept ;
+    skos:notation "88.10" ;
+    skos:topConceptOf <> .
+
+<86.43> a skos:Concept ;
+    skos:notation "86.43" ;
+    skos:topConceptOf <> .
+
+<31.46> a skos:Concept ;
+    skos:notation "31.46" ;
+    skos:topConceptOf <> .
+
+<08.04> a skos:Concept ;
+    skos:notation "08.04" ;
+    skos:topConceptOf <> .
+
+<44.77> a skos:Concept ;
+    skos:notation "44.77" ;
+    skos:topConceptOf <> .
+
+<18.51> a skos:Concept ;
+    skos:notation "18.51" ;
+    skos:topConceptOf <> .
+
+<46.03> a skos:Concept ;
+    skos:notation "46.03" ;
+    skos:topConceptOf <> .
+
+<18.08> a skos:Concept ;
+    skos:notation "18.08" ;
+    skos:topConceptOf <> .
+
+<08> a skos:Concept ;
+    skos:notation "08" ;
+    skos:topConceptOf <> .
+
+<51.52> a skos:Concept ;
+    skos:notation "51.52" ;
+    skos:topConceptOf <> .
+
+<81.77> a skos:Concept ;
+    skos:notation "81.77" ;
+    skos:topConceptOf <> .
+
+<39> a skos:Concept ;
+    skos:notation "39" ;
+    skos:topConceptOf <> .
+
+<21.59> a skos:Concept ;
+    skos:notation "21.59" ;
+    skos:topConceptOf <> .
+
+<50.91> a skos:Concept ;
+    skos:notation "50.91" ;
+    skos:topConceptOf <> .
+
+<44.87> a skos:Concept ;
+    skos:notation "44.87" ;
+    skos:topConceptOf <> .
+
+<71.00> a skos:Concept ;
+    skos:notation "71.00" ;
+    skos:topConceptOf <> .
+
+<39.10> a skos:Concept ;
+    skos:notation "39.10" ;
+    skos:topConceptOf <> .
+
+<89.91> a skos:Concept ;
+    skos:notation "89.91" ;
+    skos:topConceptOf <> .
+
+<81.23> a skos:Concept ;
+    skos:notation "81.23" ;
+    skos:topConceptOf <> .
+
+<73.24> a skos:Concept ;
+    skos:notation "73.24" ;
+    skos:topConceptOf <> .
+
+<21.90> a skos:Concept ;
+    skos:notation "21.90" ;
+    skos:topConceptOf <> .
+
+<24.66> a skos:Concept ;
+    skos:notation "24.66" ;
+    skos:topConceptOf <> .
+
+<89.39> a skos:Concept ;
+    skos:notation "89.39" ;
+    skos:topConceptOf <> .
+
+<74.07> a skos:Concept ;
+    skos:notation "74.07" ;
+    skos:topConceptOf <> .
+
+<35.13> a skos:Concept ;
+    skos:notation "35.13" ;
+    skos:topConceptOf <> .
+
+<58.48> a skos:Concept ;
+    skos:notation "58.48" ;
+    skos:topConceptOf <> .
+
+<79.02> a skos:Concept ;
+    skos:notation "79.02" ;
+    skos:topConceptOf <> .
+
+<38.70> a skos:Concept ;
+    skos:notation "38.70" ;
+    skos:topConceptOf <> .
+
+<86.67> a skos:Concept ;
+    skos:notation "86.67" ;
+    skos:topConceptOf <> .
+
+<81.29> a skos:Concept ;
+    skos:notation "81.29" ;
+    skos:topConceptOf <> .
+
+<46.70> a skos:Concept ;
+    skos:notation "46.70" ;
+    skos:topConceptOf <> .
+
+<31.40> a skos:Concept ;
+    skos:notation "31.40" ;
+    skos:topConceptOf <> .
+
+<73.45> a skos:Concept ;
+    skos:notation "73.45" ;
+    skos:topConceptOf <> .
+
+<38.48> a skos:Concept ;
+    skos:notation "38.48" ;
+    skos:topConceptOf <> .
+
+<42.22> a skos:Concept ;
+    skos:notation "42.22" ;
+    skos:topConceptOf <> .
+
+<06> a skos:Concept ;
+    skos:notation "06" ;
+    skos:topConceptOf <> .
+
+<15.51> a skos:Concept ;
+    skos:notation "15.51" ;
+    skos:topConceptOf <> .
+
+<52.58> a skos:Concept ;
+    skos:notation "52.58" ;
+    skos:topConceptOf <> .
+
+<24.15> a skos:Concept ;
+    skos:notation "24.15" ;
+    skos:topConceptOf <> .
+
+<71.35> a skos:Concept ;
+    skos:notation "71.35" ;
+    skos:topConceptOf <> .
+
+<86.91> a skos:Concept ;
+    skos:notation "86.91" ;
+    skos:topConceptOf <> .
+
+<18.53> a skos:Concept ;
+    skos:notation "18.53" ;
+    skos:topConceptOf <> .
+
+<15.99> a skos:Concept ;
+    skos:notation "15.99" ;
+    skos:topConceptOf <> .
+
+<56.46> a skos:Concept ;
+    skos:notation "56.46" ;
+    skos:topConceptOf <> .
+
+<48.58> a skos:Concept ;
+    skos:notation "48.58" ;
+    skos:topConceptOf <> .
+
+<86.65> a skos:Concept ;
+    skos:notation "86.65" ;
+    skos:topConceptOf <> .
+
+<21.41> a skos:Concept ;
+    skos:notation "21.41" ;
+    skos:topConceptOf <> .
+
+<42.14> a skos:Concept ;
+    skos:notation "42.14" ;
+    skos:topConceptOf <> .
+
+<77.59> a skos:Concept ;
+    skos:notation "77.59" ;
+    skos:topConceptOf <> .
+
+<81.13> a skos:Concept ;
+    skos:notation "81.13" ;
+    skos:topConceptOf <> .
+
+<55.44> a skos:Concept ;
+    skos:notation "55.44" ;
+    skos:topConceptOf <> .
+
+<33.04> a skos:Concept ;
+    skos:notation "33.04" ;
+    skos:topConceptOf <> .
+
+<31.65> a skos:Concept ;
+    skos:notation "31.65" ;
+    skos:topConceptOf <> .
+
+<06.42> a skos:Concept ;
+    skos:notation "06.42" ;
+    skos:topConceptOf <> .
+
+<89.22> a skos:Concept ;
+    skos:notation "89.22" ;
+    skos:topConceptOf <> .
+
+<81.44> a skos:Concept ;
+    skos:notation "81.44" ;
+    skos:topConceptOf <> .
+
+<80.80> a skos:Concept ;
+    skos:notation "80.80" ;
+    skos:topConceptOf <> .
+
+<20.23> a skos:Concept ;
+    skos:notation "20.23" ;
+    skos:topConceptOf <> .
+
+<77.63> a skos:Concept ;
+    skos:notation "77.63" ;
+    skos:topConceptOf <> .
+
+<11.13> a skos:Concept ;
+    skos:notation "11.13" ;
+    skos:topConceptOf <> .
+
+<71.14> a skos:Concept ;
+    skos:notation "71.14" ;
+    skos:topConceptOf <> .
+
+<51.60> a skos:Concept ;
+    skos:notation "51.60" ;
+    skos:topConceptOf <> .
+
+<86.28> a skos:Concept ;
+    skos:notation "86.28" ;
+    skos:topConceptOf <> .
+
+<77.70> a skos:Concept ;
+    skos:notation "77.70" ;
+    skos:topConceptOf <> .
+
+<44.31> a skos:Concept ;
+    skos:notation "44.31" ;
+    skos:topConceptOf <> .
+
+<86.90> a skos:Concept ;
+    skos:notation "86.90" ;
+    skos:topConceptOf <> .
+
+<71.21> a skos:Concept ;
+    skos:notation "71.21" ;
+    skos:topConceptOf <> .
+
+<83.79> a skos:Concept ;
+    skos:notation "83.79" ;
+    skos:topConceptOf <> .
+
+<81.74> a skos:Concept ;
+    skos:notation "81.74" ;
+    skos:topConceptOf <> .
+
+<53.30> a skos:Concept ;
+    skos:notation "53.30" ;
+    skos:topConceptOf <> .
+
+<46.20> a skos:Concept ;
+    skos:notation "46.20" ;
+    skos:topConceptOf <> .
+
+<74.69> a skos:Concept ;
+    skos:notation "74.69" ;
+    skos:topConceptOf <> .
+
+<38.00> a skos:Concept ;
+    skos:notation "38.00" ;
+    skos:topConceptOf <> .
+
+<18.12> a skos:Concept ;
+    skos:notation "18.12" ;
+    skos:topConceptOf <> .
+
+<57.18> a skos:Concept ;
+    skos:notation "57.18" ;
+    skos:topConceptOf <> .
+
+<85.03> a skos:Concept ;
+    skos:notation "85.03" ;
+    skos:topConceptOf <> .
+
+<56.11> a skos:Concept ;
+    skos:notation "56.11" ;
+    skos:topConceptOf <> .
+
+<79.10> a skos:Concept ;
+    skos:notation "79.10" ;
+    skos:topConceptOf <> .
+
+<51> a skos:Concept ;
+    skos:notation "51" ;
+    skos:topConceptOf <> .
+
+<85.32> a skos:Concept ;
+    skos:notation "85.32" ;
+    skos:topConceptOf <> .
+
+<44.36> a skos:Concept ;
+    skos:notation "44.36" ;
+    skos:topConceptOf <> .
+
+<58.41> a skos:Concept ;
+    skos:notation "58.41" ;
+    skos:topConceptOf <> .
+
+<57.50> a skos:Concept ;
+    skos:notation "57.50" ;
+    skos:topConceptOf <> .
+
+<53.00> a skos:Concept ;
+    skos:notation "53.00" ;
+    skos:topConceptOf <> .
+
+<33.20> a skos:Concept ;
+    skos:notation "33.20" ;
+    skos:topConceptOf <> .
+
+<86.74> a skos:Concept ;
+    skos:notation "86.74" ;
+    skos:topConceptOf <> .
+
+<89.55> a skos:Concept ;
+    skos:notation "89.55" ;
+    skos:topConceptOf <> .
+
+<81.01> a skos:Concept ;
+    skos:notation "81.01" ;
+    skos:topConceptOf <> .
+
+<02.16> a skos:Concept ;
+    skos:notation "02.16" ;
+    skos:topConceptOf <> .
+
+<88.20> a skos:Concept ;
+    skos:notation "88.20" ;
+    skos:topConceptOf <> .
+
+<11.58> a skos:Concept ;
+    skos:notation "11.58" ;
+    skos:topConceptOf <> .
+
+<11.99> a skos:Concept ;
+    skos:notation "11.99" ;
+    skos:topConceptOf <> .
+
+<89.31> a skos:Concept ;
+    skos:notation "89.31" ;
+    skos:topConceptOf <> .
+
+<74.01> a skos:Concept ;
+    skos:notation "74.01" ;
+    skos:topConceptOf <> .
+
+<52.56> a skos:Concept ;
+    skos:notation "52.56" ;
+    skos:topConceptOf <> .
+
+<89.72> a skos:Concept ;
+    skos:notation "89.72" ;
+    skos:topConceptOf <> .
+
+<44.42> a skos:Concept ;
+    skos:notation "44.42" ;
+    skos:topConceptOf <> .
+
+<73.86> a skos:Concept ;
+    skos:notation "73.86" ;
+    skos:topConceptOf <> .
+
+<42.42> a skos:Concept ;
+    skos:notation "42.42" ;
+    skos:topConceptOf <> .
+
+<38.32> a skos:Concept ;
+    skos:notation "38.32" ;
+    skos:topConceptOf <> .
+
+<56.83> a skos:Concept ;
+    skos:notation "56.83" ;
+    skos:topConceptOf <> .
+
+<38.28> a skos:Concept ;
+    skos:notation "38.28" ;
+    skos:topConceptOf <> .
+
+<24.75> a skos:Concept ;
+    skos:notation "24.75" ;
+    skos:topConceptOf <> .
+
+<24.32> a skos:Concept ;
+    skos:notation "24.32" ;
+    skos:topConceptOf <> .
+
+<44.61> a skos:Concept ;
+    skos:notation "44.61" ;
+    skos:topConceptOf <> .
+
+<06.30> a skos:Concept ;
+    skos:notation "06.30" ;
+    skos:topConceptOf <> .
+
+<86.79> a skos:Concept ;
+    skos:notation "86.79" ;
+    skos:topConceptOf <> .
+
+<58.03> a skos:Concept ;
+    skos:notation "58.03" ;
+    skos:topConceptOf <> .
+
+<33.05> a skos:Concept ;
+    skos:notation "33.05" ;
+    skos:topConceptOf <> .
+
+<35.70> a skos:Concept ;
+    skos:notation "35.70" ;
+    skos:topConceptOf <> .
+
+<71.39> a skos:Concept ;
+    skos:notation "71.39" ;
+    skos:topConceptOf <> .
+
+<06.35> a skos:Concept ;
+    skos:notation "06.35" ;
+    skos:topConceptOf <> .
+
+<52.52> a skos:Concept ;
+    skos:notation "52.52" ;
+    skos:topConceptOf <> .
+
+<33.61> a skos:Concept ;
+    skos:notation "33.61" ;
+    skos:topConceptOf <> .
+
+<44.11> a skos:Concept ;
+    skos:notation "44.11" ;
+    skos:topConceptOf <> .
+
+<20> a skos:Concept ;
+    skos:notation "20" ;
+    skos:topConceptOf <> .
+
+<52.78> a skos:Concept ;
+    skos:notation "52.78" ;
+    skos:topConceptOf <> .
+
+<74.00> a skos:Concept ;
+    skos:notation "74.00" ;
+    skos:topConceptOf <> .
+
+<58.53> a skos:Concept ;
+    skos:notation "58.53" ;
+    skos:topConceptOf <> .
+
+<31.30> a skos:Concept ;
+    skos:notation "31.30" ;
+    skos:topConceptOf <> .
+
+<18.74> a skos:Concept ;
+    skos:notation "18.74" ;
+    skos:topConceptOf <> .
+
+<15.92> a skos:Concept ;
+    skos:notation "15.92" ;
+    skos:topConceptOf <> .
+
+<38.81> a skos:Concept ;
+    skos:notation "38.81" ;
+    skos:topConceptOf <> .
+
+<80.26> a skos:Concept ;
+    skos:notation "80.26" ;
+    skos:topConceptOf <> .
+
+<39.51> a skos:Concept ;
+    skos:notation "39.51" ;
+    skos:topConceptOf <> .
+
+<81.81> a skos:Concept ;
+    skos:notation "81.81" ;
+    skos:topConceptOf <> .
+
+<80.31> a skos:Concept ;
+    skos:notation "80.31" ;
+    skos:topConceptOf <> .
+
+<11.53> a skos:Concept ;
+    skos:notation "11.53" ;
+    skos:topConceptOf <> .
+
+<35.41> a skos:Concept ;
+    skos:notation "35.41" ;
+    skos:topConceptOf <> .
+
+<08.45> a skos:Concept ;
+    skos:notation "08.45" ;
+    skos:topConceptOf <> .
+
+<76.79> a skos:Concept ;
+    skos:notation "76.79" ;
+    skos:topConceptOf <> .
+
+<48.40> a skos:Concept ;
+    skos:notation "48.40" ;
+    skos:topConceptOf <> .
+
+<20.25> a skos:Concept ;
+    skos:notation "20.25" ;
+    skos:topConceptOf <> .
+
+<76.18> a skos:Concept ;
+    skos:notation "76.18" ;
+    skos:topConceptOf <> .
+
+<31.24> a skos:Concept ;
+    skos:notation "31.24" ;
+    skos:topConceptOf <> .
+
+<86.86> a skos:Concept ;
+    skos:notation "86.86" ;
+    skos:topConceptOf <> .
+
+<86.93> a skos:Concept ;
+    skos:notation "86.93" ;
+    skos:topConceptOf <> .
+
+<57.35> a skos:Concept ;
+    skos:notation "57.35" ;
+    skos:topConceptOf <> .
+
+<06.14> a skos:Concept ;
+    skos:notation "06.14" ;
+    skos:topConceptOf <> .
+
+<86.95> a skos:Concept ;
+    skos:notation "86.95" ;
+    skos:topConceptOf <> .
+
+<15.35> a skos:Concept ;
+    skos:notation "15.35" ;
+    skos:topConceptOf <> .
+
+<81.94> a skos:Concept ;
+    skos:notation "81.94" ;
+    skos:topConceptOf <> .
+
+<44.80> a skos:Concept ;
+    skos:notation "44.80" ;
+    skos:topConceptOf <> .
+
+<38.58> a skos:Concept ;
+    skos:notation "38.58" ;
+    skos:topConceptOf <> .
+
+<89.56> a skos:Concept ;
+    skos:notation "89.56" ;
+    skos:topConceptOf <> .
+
+<86.32> a skos:Concept ;
+    skos:notation "86.32" ;
+    skos:topConceptOf <> .
+
+<73.13> a skos:Concept ;
+    skos:notation "73.13" ;
+    skos:topConceptOf <> .
+
+<06.11> a skos:Concept ;
+    skos:notation "06.11" ;
+    skos:topConceptOf <> .
+
+<89.42> a skos:Concept ;
+    skos:notation "89.42" ;
+    skos:topConceptOf <> .
+
+<17.78> a skos:Concept ;
+    skos:notation "17.78" ;
+    skos:topConceptOf <> .
+
+<83.72> a skos:Concept ;
+    skos:notation "83.72" ;
+    skos:topConceptOf <> .
+
+<35.28> a skos:Concept ;
+    skos:notation "35.28" ;
+    skos:topConceptOf <> .
+
+<08.99> a skos:Concept ;
+    skos:notation "08.99" ;
+    skos:topConceptOf <> .
+
+<77.79> a skos:Concept ;
+    skos:notation "77.79" ;
+    skos:topConceptOf <> .
+
+<18.22> a skos:Concept ;
+    skos:notation "18.22" ;
+    skos:topConceptOf <> .
+
+<74.25> a skos:Concept ;
+    skos:notation "74.25" ;
+    skos:topConceptOf <> .
+
+<51.50> a skos:Concept ;
+    skos:notation "51.50" ;
+    skos:topConceptOf <> .
+
+<89.73> a skos:Concept ;
+    skos:notation "89.73" ;
+    skos:topConceptOf <> .
+
+<17> a skos:Concept ;
+    skos:notation "17" ;
+    skos:topConceptOf <> .
+
+<43.70> a skos:Concept ;
+    skos:notation "43.70" ;
+    skos:topConceptOf <> .
+
+<77.85> a skos:Concept ;
+    skos:notation "77.85" ;
+    skos:topConceptOf <> .
+
+<76.21> a skos:Concept ;
+    skos:notation "76.21" ;
+    skos:topConceptOf <> .
+
+<35.27> a skos:Concept ;
+    skos:notation "35.27" ;
+    skos:topConceptOf <> .
+
+<80.30> a skos:Concept ;
+    skos:notation "80.30" ;
+    skos:topConceptOf <> .
+
+<52.82> a skos:Concept ;
+    skos:notation "52.82" ;
+    skos:topConceptOf <> .
+
+<52.15> a skos:Concept ;
+    skos:notation "52.15" ;
+    skos:topConceptOf <> .
+
+<31.76> a skos:Concept ;
+    skos:notation "31.76" ;
+    skos:topConceptOf <> .
+
+<17.82> a skos:Concept ;
+    skos:notation "17.82" ;
+    skos:topConceptOf <> .
+
+<24.00> a skos:Concept ;
+    skos:notation "24.00" ;
+    skos:topConceptOf <> .
+
+<18.91> a skos:Concept ;
+    skos:notation "18.91" ;
+    skos:topConceptOf <> .
+
+<35.44> a skos:Concept ;
+    skos:notation "35.44" ;
+    skos:topConceptOf <> .
+
+<17.61> a skos:Concept ;
+    skos:notation "17.61" ;
+    skos:topConceptOf <> .
+
+<17.20> a skos:Concept ;
+    skos:notation "17.20" ;
+    skos:topConceptOf <> .
+
+<15.45> a skos:Concept ;
+    skos:notation "15.45" ;
+    skos:topConceptOf <> .
+
+<43.48> a skos:Concept ;
+    skos:notation "43.48" ;
+    skos:topConceptOf <> .
+
+<21.74> a skos:Concept ;
+    skos:notation "21.74" ;
+    skos:topConceptOf <> .
+
+<15.30> a skos:Concept ;
+    skos:notation "15.30" ;
+    skos:topConceptOf <> .
+
+<80.51> a skos:Concept ;
+    skos:notation "80.51" ;
+    skos:topConceptOf <> .
+
+<81.59> a skos:Concept ;
+    skos:notation "81.59" ;
+    skos:topConceptOf <> .
+
+<58.16> a skos:Concept ;
+    skos:notation "58.16" ;
+    skos:topConceptOf <> .
+
+<11.73> a skos:Concept ;
+    skos:notation "11.73" ;
+    skos:topConceptOf <> .
+
+<86.56> a skos:Concept ;
+    skos:notation "86.56" ;
+    skos:topConceptOf <> .
+
+<71.30> a skos:Concept ;
+    skos:notation "71.30" ;
+    skos:topConceptOf <> .
+
+<24.40> a skos:Concept ;
+    skos:notation "24.40" ;
+    skos:topConceptOf <> .
+
+<42.30> a skos:Concept ;
+    skos:notation "42.30" ;
+    skos:topConceptOf <> .
+
+<11.36> a skos:Concept ;
+    skos:notation "11.36" ;
+    skos:topConceptOf <> .
+
+<44.34> a skos:Concept ;
+    skos:notation "44.34" ;
+    skos:topConceptOf <> .
+
+<43.31> a skos:Concept ;
+    skos:notation "43.31" ;
+    skos:topConceptOf <> .
+
+<44.90> a skos:Concept ;
+    skos:notation "44.90" ;
+    skos:topConceptOf <> .
+
+<88.12> a skos:Concept ;
+    skos:notation "88.12" ;
+    skos:topConceptOf <> .
+
+<55.81> a skos:Concept ;
+    skos:notation "55.81" ;
+    skos:topConceptOf <> .
+
+<05.00> a skos:Concept ;
+    skos:notation "05.00" ;
+    skos:topConceptOf <> .
+
+<50.38> a skos:Concept ;
+    skos:notation "50.38" ;
+    skos:topConceptOf <> .
+
+<21.91> a skos:Concept ;
+    skos:notation "21.91" ;
+    skos:topConceptOf <> .
+
+<53.36> a skos:Concept ;
+    skos:notation "53.36" ;
+    skos:topConceptOf <> .
+
+<38.26> a skos:Concept ;
+    skos:notation "38.26" ;
+    skos:topConceptOf <> .
+
+<79.61> a skos:Concept ;
+    skos:notation "79.61" ;
+    skos:topConceptOf <> .
+
+<30.04> a skos:Concept ;
+    skos:notation "30.04" ;
+    skos:topConceptOf <> .
+
+<56.61> a skos:Concept ;
+    skos:notation "56.61" ;
+    skos:topConceptOf <> .
+
+<11.97> a skos:Concept ;
+    skos:notation "11.97" ;
+    skos:topConceptOf <> .
+
+<55.99> a skos:Concept ;
+    skos:notation "55.99" ;
+    skos:topConceptOf <> .
+
+<18.62> a skos:Concept ;
+    skos:notation "18.62" ;
+    skos:topConceptOf <> .
+
+<17.84> a skos:Concept ;
+    skos:notation "17.84" ;
+    skos:topConceptOf <> .
+
+<89.84> a skos:Concept ;
+    skos:notation "89.84" ;
+    skos:topConceptOf <> .
+
+<17.92> a skos:Concept ;
+    skos:notation "17.92" ;
+    skos:topConceptOf <> .
+
+<79.01> a skos:Concept ;
+    skos:notation "79.01" ;
+    skos:topConceptOf <> .
+
+<42.49> a skos:Concept ;
+    skos:notation "42.49" ;
+    skos:topConceptOf <> .
+
+<86.63> a skos:Concept ;
+    skos:notation "86.63" ;
+    skos:topConceptOf <> .
+
+<33> a skos:Concept ;
+    skos:notation "33" ;
+    skos:topConceptOf <> .
+
+<24.64> a skos:Concept ;
+    skos:notation "24.64" ;
+    skos:topConceptOf <> .
+
+<11.10> a skos:Concept ;
+    skos:notation "11.10" ;
+    skos:topConceptOf <> .
+
+<77.16> a skos:Concept ;
+    skos:notation "77.16" ;
+    skos:topConceptOf <> .
+
+<57.20> a skos:Concept ;
+    skos:notation "57.20" ;
+    skos:topConceptOf <> .
+
+<77.21> a skos:Concept ;
+    skos:notation "77.21" ;
+    skos:topConceptOf <> .
+
+<57.00> a skos:Concept ;
+    skos:notation "57.00" ;
+    skos:topConceptOf <> .
+
+<71.10> a skos:Concept ;
+    skos:notation "71.10" ;
+    skos:topConceptOf <> .
+
+<18.21> a skos:Concept ;
+    skos:notation "18.21" ;
+    skos:topConceptOf <> .
+
+<77.61> a skos:Concept ;
+    skos:notation "77.61" ;
+    skos:topConceptOf <> .
+
+<71.02> a skos:Concept ;
+    skos:notation "71.02" ;
+    skos:topConceptOf <> .
+
+<44.63> a skos:Concept ;
+    skos:notation "44.63" ;
+    skos:topConceptOf <> .
+
+<77.23> a skos:Concept ;
+    skos:notation "77.23" ;
+    skos:topConceptOf <> .
+
+<43.69> a skos:Concept ;
+    skos:notation "43.69" ;
+    skos:topConceptOf <> .
+
+<06.38> a skos:Concept ;
+    skos:notation "06.38" ;
+    skos:topConceptOf <> .
+
+<18.32> a skos:Concept ;
+    skos:notation "18.32" ;
+    skos:topConceptOf <> .
+
+<89.81> a skos:Concept ;
+    skos:notation "89.81" ;
+    skos:topConceptOf <> .
+
+<73.30> a skos:Concept ;
+    skos:notation "73.30" ;
+    skos:topConceptOf <> .
+
+<31.44> a skos:Concept ;
+    skos:notation "31.44" ;
+    skos:topConceptOf <> .
+
+<89.37> a skos:Concept ;
+    skos:notation "89.37" ;
+    skos:topConceptOf <> .
+
+<20.16> a skos:Concept ;
+    skos:notation "20.16" ;
+    skos:topConceptOf <> .
+
+<18.44> a skos:Concept ;
+    skos:notation "18.44" ;
+    skos:topConceptOf <> .
+
+<81.61> a skos:Concept ;
+    skos:notation "81.61" ;
+    skos:topConceptOf <> .
+
+<71.41> a skos:Concept ;
+    skos:notation "71.41" ;
+    skos:topConceptOf <> .
+
+<21.00> a skos:Concept ;
+    skos:notation "21.00" ;
+    skos:topConceptOf <> .
+
+<83.48> a skos:Concept ;
+    skos:notation "83.48" ;
+    skos:topConceptOf <> .
+
+<85.52> a skos:Concept ;
+    skos:notation "85.52" ;
+    skos:topConceptOf <> .
+
+<77.02> a skos:Concept ;
+    skos:notation "77.02" ;
+    skos:topConceptOf <> .
+
+<76.10> a skos:Concept ;
+    skos:notation "76.10" ;
+    skos:topConceptOf <> .
+
+<38.30> a skos:Concept ;
+    skos:notation "38.30" ;
+    skos:topConceptOf <> .
+
+<24.55> a skos:Concept ;
+    skos:notation "24.55" ;
+    skos:topConceptOf <> .
+
+<76.16> a skos:Concept ;
+    skos:notation "76.16" ;
+    skos:topConceptOf <> .
+
+<54.54> a skos:Concept ;
+    skos:notation "54.54" ;
+    skos:topConceptOf <> .
+
+<53.52> a skos:Concept ;
+    skos:notation "53.52" ;
+    skos:topConceptOf <> .
+
+<48> a skos:Concept ;
+    skos:notation "48" ;
+    skos:topConceptOf <> .
+
+<33.40> a skos:Concept ;
+    skos:notation "33.40" ;
+    skos:topConceptOf <> .
+
+<73.91> a skos:Concept ;
+    skos:notation "73.91" ;
+    skos:topConceptOf <> .
+
+<86.21> a skos:Concept ;
+    skos:notation "86.21" ;
+    skos:topConceptOf <> .
+
+<77.92> a skos:Concept ;
+    skos:notation "77.92" ;
+    skos:topConceptOf <> .
+
+<73.22> a skos:Concept ;
+    skos:notation "73.22" ;
+    skos:topConceptOf <> .
+
+<11.49> a skos:Concept ;
+    skos:notation "11.49" ;
+    skos:topConceptOf <> .
+
+<05.38> a skos:Concept ;
+    skos:notation "05.38" ;
+    skos:topConceptOf <> .
+
+<77.80> a skos:Concept ;
+    skos:notation "77.80" ;
+    skos:topConceptOf <> .
+
+<48.36> a skos:Concept ;
+    skos:notation "48.36" ;
+    skos:topConceptOf <> .
+
+<39.12> a skos:Concept ;
+    skos:notation "39.12" ;
+    skos:topConceptOf <> .
+
+<20.63> a skos:Concept ;
+    skos:notation "20.63" ;
+    skos:topConceptOf <> .
+
+<58.46> a skos:Concept ;
+    skos:notation "58.46" ;
+    skos:topConceptOf <> .
+
+<85.50> a skos:Concept ;
+    skos:notation "85.50" ;
+    skos:topConceptOf <> .
+
+<71.50> a skos:Concept ;
+    skos:notation "71.50" ;
+    skos:topConceptOf <> .
+
+<17.08> a skos:Concept ;
+    skos:notation "17.08" ;
+    skos:topConceptOf <> .
+
+<49.20> a skos:Concept ;
+    skos:notation "49.20" ;
+    skos:topConceptOf <> .
+
+<38.69> a skos:Concept ;
+    skos:notation "38.69" ;
+    skos:topConceptOf <> .
+
+<52.71> a skos:Concept ;
+    skos:notation "52.71" ;
+    skos:topConceptOf <> .
+
+<48.32> a skos:Concept ;
+    skos:notation "48.32" ;
+    skos:topConceptOf <> .
+
+<15.85> a skos:Concept ;
+    skos:notation "15.85" ;
+    skos:topConceptOf <> .
+
+<51.99> a skos:Concept ;
+    skos:notation "51.99" ;
+    skos:topConceptOf <> .
+
+<70.02> a skos:Concept ;
+    skos:notation "70.02" ;
+    skos:topConceptOf <> .
+
+<18.60> a skos:Concept ;
+    skos:notation "18.60" ;
+    skos:topConceptOf <> .
+
+<88.02> a skos:Concept ;
+    skos:notation "88.02" ;
+    skos:topConceptOf <> .
+
+<56.13> a skos:Concept ;
+    skos:notation "56.13" ;
+    skos:topConceptOf <> .
+
+<35.11> a skos:Concept ;
+    skos:notation "35.11" ;
+    skos:topConceptOf <> .
+
+<06.00> a skos:Concept ;
+    skos:notation "06.00" ;
+    skos:topConceptOf <> .
+
+<81.41> a skos:Concept ;
+    skos:notation "81.41" ;
+    skos:topConceptOf <> .
+
+<54.21> a skos:Concept ;
+    skos:notation "54.21" ;
+    skos:topConceptOf <> .
+
+<33.21> a skos:Concept ;
+    skos:notation "33.21" ;
+    skos:topConceptOf <> .
+
+<38.37> a skos:Concept ;
+    skos:notation "38.37" ;
+    skos:topConceptOf <> .
+
+<06.25> a skos:Concept ;
+    skos:notation "06.25" ;
+    skos:topConceptOf <> .
+
+<71.85> a skos:Concept ;
+    skos:notation "71.85" ;
+    skos:topConceptOf <> .
+
+<46.01> a skos:Concept ;
+    skos:notation "46.01" ;
+    skos:topConceptOf <> .
+
+<06.40> a skos:Concept ;
+    skos:notation "06.40" ;
+    skos:topConceptOf <> .
+
+<11.24> a skos:Concept ;
+    skos:notation "11.24" ;
+    skos:topConceptOf <> .
+
+<89.58> a skos:Concept ;
+    skos:notation "89.58" ;
+    skos:topConceptOf <> .
+
+<77.55> a skos:Concept ;
+    skos:notation "77.55" ;
+    skos:topConceptOf <> .
+
+<53.72> a skos:Concept ;
+    skos:notation "53.72" ;
+    skos:topConceptOf <> .
+
+<20.21> a skos:Concept ;
+    skos:notation "20.21" ;
+    skos:topConceptOf <> .
+
+<02.20> a skos:Concept ;
+    skos:notation "02.20" ;
+    skos:topConceptOf <> .
+
+<58.34> a skos:Concept ;
+    skos:notation "58.34" ;
+    skos:topConceptOf <> .
+
+<44.73> a skos:Concept ;
+    skos:notation "44.73" ;
+    skos:topConceptOf <> .
+
+<73.76> a skos:Concept ;
+    skos:notation "73.76" ;
+    skos:topConceptOf <> .
+
+<20.51> a skos:Concept ;
+    skos:notation "20.51" ;
+    skos:topConceptOf <> .
+
+<80.04> a skos:Concept ;
+    skos:notation "80.04" ;
+    skos:topConceptOf <> .
+
+<15.63> a skos:Concept ;
+    skos:notation "15.63" ;
+    skos:topConceptOf <> .
+
+<53.70> a skos:Concept ;
+    skos:notation "53.70" ;
+    skos:topConceptOf <> .
+
+<11.43> a skos:Concept ;
+    skos:notation "11.43" ;
+    skos:topConceptOf <> .
+
+<89.14> a skos:Concept ;
+    skos:notation "89.14" ;
+    skos:topConceptOf <> .
+
+<53> a skos:Concept ;
+    skos:notation "53" ;
+    skos:topConceptOf <> .
+
+<73.40> a skos:Concept ;
+    skos:notation "73.40" ;
+    skos:topConceptOf <> .
+
+<17.16> a skos:Concept ;
+    skos:notation "17.16" ;
+    skos:topConceptOf <> .
+
+<86.13> a skos:Concept ;
+    skos:notation "86.13" ;
+    skos:topConceptOf <> .
+
+<42.69> a skos:Concept ;
+    skos:notation "42.69" ;
+    skos:topConceptOf <> .
+
+<17.99> a skos:Concept ;
+    skos:notation "17.99" ;
+    skos:topConceptOf <> .
+
+<53.16> a skos:Concept ;
+    skos:notation "53.16" ;
+    skos:topConceptOf <> .
+
+<46.50> a skos:Concept ;
+    skos:notation "46.50" ;
+    skos:topConceptOf <> .
+
+<55.50> a skos:Concept ;
+    skos:notation "55.50" ;
+    skos:topConceptOf <> .
+
+<24.04> a skos:Concept ;
+    skos:notation "24.04" ;
+    skos:topConceptOf <> .
+
+<86.39> a skos:Concept ;
+    skos:notation "86.39" ;
+    skos:topConceptOf <> .
+
+<35.63> a skos:Concept ;
+    skos:notation "35.63" ;
+    skos:topConceptOf <> .
+
+<86.97> a skos:Concept ;
+    skos:notation "86.97" ;
+    skos:topConceptOf <> .
+
+<54.75> a skos:Concept ;
+    skos:notation "54.75" ;
+    skos:topConceptOf <> .
+
+<52.04> a skos:Concept ;
+    skos:notation "52.04" ;
+    skos:topConceptOf <> .
+
+<42.89> a skos:Concept ;
+    skos:notation "42.89" ;
+    skos:topConceptOf <> .
+
+<85> a skos:Concept ;
+    skos:notation "85" ;
+    skos:topConceptOf <> .
+
+<33.00> a skos:Concept ;
+    skos:notation "33.00" ;
+    skos:topConceptOf <> .
+
+<58.28> a skos:Concept ;
+    skos:notation "58.28" ;
+    skos:topConceptOf <> .
+
+<74.31> a skos:Concept ;
+    skos:notation "74.31" ;
+    skos:topConceptOf <> .
+
+<71.25> a skos:Concept ;
+    skos:notation "71.25" ;
+    skos:topConceptOf <> .
+
+<48.47> a skos:Concept ;
+    skos:notation "48.47" ;
+    skos:topConceptOf <> .
+
+<42.68> a skos:Concept ;
+    skos:notation "42.68" ;
+    skos:topConceptOf <> .
+
+<38.85> a skos:Concept ;
+    skos:notation "38.85" ;
+    skos:topConceptOf <> .
+
+<80.47> a skos:Concept ;
+    skos:notation "80.47" ;
+    skos:topConceptOf <> .
+
+<38.42> a skos:Concept ;
+    skos:notation "38.42" ;
+    skos:topConceptOf <> .
+
+<74.72> a skos:Concept ;
+    skos:notation "74.72" ;
+    skos:topConceptOf <> .
+
+<02.14> a skos:Concept ;
+    skos:notation "02.14" ;
+    skos:topConceptOf <> .
+
+<18.46> a skos:Concept ;
+    skos:notation "18.46" ;
+    skos:topConceptOf <> .
+
+<86.48> a skos:Concept ;
+    skos:notation "86.48" ;
+    skos:topConceptOf <> .
+
+<86.38> a skos:Concept ;
+    skos:notation "86.38" ;
+    skos:topConceptOf <> .
+
+<05.33> a skos:Concept ;
+    skos:notation "05.33" ;
+    skos:topConceptOf <> .
+
+<42.20> a skos:Concept ;
+    skos:notation "42.20" ;
+    skos:topConceptOf <> .
+
+<89.40> a skos:Concept ;
+    skos:notation "89.40" ;
+    skos:topConceptOf <> .
+
+<53.83> a skos:Concept ;
+    skos:notation "53.83" ;
+    skos:topConceptOf <> .
+
+<74.73> a skos:Concept ;
+    skos:notation "74.73" ;
+    skos:topConceptOf <> .
+
+<73.00> a skos:Concept ;
+    skos:notation "73.00" ;
+    skos:topConceptOf <> .
+
+<50.22> a skos:Concept ;
+    skos:notation "50.22" ;
+    skos:topConceptOf <> .
+
+<38.80> a skos:Concept ;
+    skos:notation "38.80" ;
+    skos:topConceptOf <> .
+
+<38.72> a skos:Concept ;
+    skos:notation "38.72" ;
+    skos:topConceptOf <> .
+
+<86.78> a skos:Concept ;
+    skos:notation "86.78" ;
+    skos:topConceptOf <> .
+
+<18.97> a skos:Concept ;
+    skos:notation "18.97" ;
+    skos:topConceptOf <> .
+
+<77.03> a skos:Concept ;
+    skos:notation "77.03" ;
+    skos:topConceptOf <> .
+
+<71.33> a skos:Concept ;
+    skos:notation "71.33" ;
+    skos:topConceptOf <> .
+
+<33.59> a skos:Concept ;
+    skos:notation "33.59" ;
+    skos:topConceptOf <> .
+
+<08.47> a skos:Concept ;
+    skos:notation "08.47" ;
+    skos:topConceptOf <> .
+
+<08.21> a skos:Concept ;
+    skos:notation "08.21" ;
+    skos:topConceptOf <> .
+
+<24.49> a skos:Concept ;
+    skos:notation "24.49" ;
+    skos:topConceptOf <> .
+
+<76.00> a skos:Concept ;
+    skos:notation "76.00" ;
+    skos:topConceptOf <> .
+
+<55> a skos:Concept ;
+    skos:notation "55" ;
+    skos:topConceptOf <> .
+
+<05.42> a skos:Concept ;
+    skos:notation "05.42" ;
+    skos:topConceptOf <> .
+
+<85.05> a skos:Concept ;
+    skos:notation "85.05" ;
+    skos:topConceptOf <> .
+
+<15.22> a skos:Concept ;
+    skos:notation "15.22" ;
+    skos:topConceptOf <> .
+
+<73.01> a skos:Concept ;
+    skos:notation "73.01" ;
+    skos:topConceptOf <> .
+
+<57> a skos:Concept ;
+    skos:notation "57" ;
+    skos:topConceptOf <> .
+
+<17.43> a skos:Concept ;
+    skos:notation "17.43" ;
+    skos:topConceptOf <> .
+
+<52.20> a skos:Concept ;
+    skos:notation "52.20" ;
+    skos:topConceptOf <> .
+
+<17.71> a skos:Concept ;
+    skos:notation "17.71" ;
+    skos:topConceptOf <> .
+
+<18.00> a skos:Concept ;
+    skos:notation "18.00" ;
+    skos:topConceptOf <> .
+
+<53.53> a skos:Concept ;
+    skos:notation "53.53" ;
+    skos:topConceptOf <> .
+
+<24.38> a skos:Concept ;
+    skos:notation "24.38" ;
+    skos:topConceptOf <> .
+
+<83.03> a skos:Concept ;
+    skos:notation "83.03" ;
+    skos:topConceptOf <> .
+
+<80.42> a skos:Concept ;
+    skos:notation "80.42" ;
+    skos:topConceptOf <> .
+
+<18.85> a skos:Concept ;
+    skos:notation "18.85" ;
+    skos:topConceptOf <> .
+
+<89> a skos:Concept ;
+    skos:notation "89" ;
+    skos:topConceptOf <> .
+
+<76.29> a skos:Concept ;
+    skos:notation "76.29" ;
+    skos:topConceptOf <> .
+
+<33.66> a skos:Concept ;
+    skos:notation "33.66" ;
+    skos:topConceptOf <> .
+
+<73.50> a skos:Concept ;
+    skos:notation "73.50" ;
+    skos:topConceptOf <> .
+
+<74.20> a skos:Concept ;
+    skos:notation "74.20" ;
+    skos:topConceptOf <> .
+
+<42.60> a skos:Concept ;
+    skos:notation "42.60" ;
+    skos:topConceptOf <> .
+
+<35> a skos:Concept ;
+    skos:notation "35" ;
+    skos:topConceptOf <> .
+
+<15.06> a skos:Concept ;
+    skos:notation "15.06" ;
+    skos:topConceptOf <> .
+
+<44.08> a skos:Concept ;
+    skos:notation "44.08" ;
+    skos:topConceptOf <> .
+
+<77.29> a skos:Concept ;
+    skos:notation "77.29" ;
+    skos:topConceptOf <> .
+
+<73.73> a skos:Concept ;
+    skos:notation "73.73" ;
+    skos:topConceptOf <> .
+
+<43.33> a skos:Concept ;
+    skos:notation "43.33" ;
+    skos:topConceptOf <> .
+
+<79.15> a skos:Concept ;
+    skos:notation "79.15" ;
+    skos:topConceptOf <> .
+
+<71.51> a skos:Concept ;
+    skos:notation "71.51" ;
+    skos:topConceptOf <> .
+
+<42.03> a skos:Concept ;
+    skos:notation "42.03" ;
+    skos:topConceptOf <> .
+
+<77.76> a skos:Concept ;
+    skos:notation "77.76" ;
+    skos:topConceptOf <> .
+
+<24.68> a skos:Concept ;
+    skos:notation "24.68" ;
+    skos:topConceptOf <> .
+
+<35.60> a skos:Concept ;
+    skos:notation "35.60" ;
+    skos:topConceptOf <> .
+
+<31.00> a skos:Concept ;
+    skos:notation "31.00" ;
+    skos:topConceptOf <> .
+
+<24.34> a skos:Concept ;
+    skos:notation "24.34" ;
+    skos:topConceptOf <> .
+
+<74.30> a skos:Concept ;
+    skos:notation "74.30" ;
+    skos:topConceptOf <> .
+
+<18.24> a skos:Concept ;
+    skos:notation "18.24" ;
+    skos:topConceptOf <> .
+
+<18.03> a skos:Concept ;
+    skos:notation "18.03" ;
+    skos:topConceptOf <> .
+
+<80.81> a skos:Concept ;
+    skos:notation "80.81" ;
+    skos:topConceptOf <> .
+
+<38.51> a skos:Concept ;
+    skos:notation "38.51" ;
+    skos:topConceptOf <> .
+
+<83.67> a skos:Concept ;
+    skos:notation "83.67" ;
+    skos:topConceptOf <> .
+
+<42.61> a skos:Concept ;
+    skos:notation "42.61" ;
+    skos:topConceptOf <> .
+
+<33.90> a skos:Concept ;
+    skos:notation "33.90" ;
+    skos:topConceptOf <> .
+
+<43.50> a skos:Concept ;
+    skos:notation "43.50" ;
+    skos:topConceptOf <> .
+
+<31.42> a skos:Concept ;
+    skos:notation "31.42" ;
+    skos:topConceptOf <> .
+
+<58.55> a skos:Concept ;
+    skos:notation "58.55" ;
+    skos:topConceptOf <> .
+
+<24.13> a skos:Concept ;
+    skos:notation "24.13" ;
+    skos:topConceptOf <> .
+
+<56.04> a skos:Concept ;
+    skos:notation "56.04" ;
+    skos:topConceptOf <> .
+
+<24.10> a skos:Concept ;
+    skos:notation "24.10" ;
+    skos:topConceptOf <> .
+
+<06.10> a skos:Concept ;
+    skos:notation "06.10" ;
+    skos:topConceptOf <> .
+
+<86.64> a skos:Concept ;
+    skos:notation "86.64" ;
+    skos:topConceptOf <> .
+
+<11.16> a skos:Concept ;
+    skos:notation "11.16" ;
+    skos:topConceptOf <> .
+
+<11.91> a skos:Concept ;
+    skos:notation "11.91" ;
+    skos:topConceptOf <> .
+
+<73.96> a skos:Concept ;
+    skos:notation "73.96" ;
+    skos:topConceptOf <> .
+
+<71.79> a skos:Concept ;
+    skos:notation "71.79" ;
+    skos:topConceptOf <> .
+
+<42.38> a skos:Concept ;
+    skos:notation "42.38" ;
+    skos:topConceptOf <> .
+
+<76.12> a skos:Concept ;
+    skos:notation "76.12" ;
+    skos:topConceptOf <> .
+
+<06.21> a skos:Concept ;
+    skos:notation "06.21" ;
+    skos:topConceptOf <> .
+
+<88.00> a skos:Concept ;
+    skos:notation "88.00" ;
+    skos:topConceptOf <> .
+
+<50.02> a skos:Concept ;
+    skos:notation "50.02" ;
+    skos:topConceptOf <> .
+
+<35.39> a skos:Concept ;
+    skos:notation "35.39" ;
+    skos:topConceptOf <> .
+
+<24.63> a skos:Concept ;
+    skos:notation "24.63" ;
+    skos:topConceptOf <> .
+
+<06.54> a skos:Concept ;
+    skos:notation "06.54" ;
+    skos:topConceptOf <> .
+
+<08.49> a skos:Concept ;
+    skos:notation "08.49" ;
+    skos:topConceptOf <> .
+
+<18.34> a skos:Concept ;
+    skos:notation "18.34" ;
+    skos:topConceptOf <> .
+
+<21.37> a skos:Concept ;
+    skos:notation "21.37" ;
+    skos:topConceptOf <> .
+
+<74.27> a skos:Concept ;
+    skos:notation "74.27" ;
+    skos:topConceptOf <> .
+
+<11.39> a skos:Concept ;
+    skos:notation "11.39" ;
+    skos:topConceptOf <> .
+
+<48.03> a skos:Concept ;
+    skos:notation "48.03" ;
+    skos:topConceptOf <> .
+
+<73.70> a skos:Concept ;
+    skos:notation "73.70" ;
+    skos:topConceptOf <> .
+
+<30.20> a skos:Concept ;
+    skos:notation "30.20" ;
+    skos:topConceptOf <> .
+
+<17.90> a skos:Concept ;
+    skos:notation "17.90" ;
+    skos:topConceptOf <> .
+
+<17.63> a skos:Concept ;
+    skos:notation "17.63" ;
+    skos:topConceptOf <> .
+
+<77.69> a skos:Concept ;
+    skos:notation "77.69" ;
+    skos:topConceptOf <> .
+
+<54.72> a skos:Concept ;
+    skos:notation "54.72" ;
+    skos:topConceptOf <> .
+
+<21.83> a skos:Concept ;
+    skos:notation "21.83" ;
+    skos:topConceptOf <> .
+
+<18.16> a skos:Concept ;
+    skos:notation "18.16" ;
+    skos:topConceptOf <> .
+
+<83.39> a skos:Concept ;
+    skos:notation "83.39" ;
+    skos:topConceptOf <> .
+
+<42.97> a skos:Concept ;
+    skos:notation "42.97" ;
+    skos:topConceptOf <> .
+
+<54.25> a skos:Concept ;
+    skos:notation "54.25" ;
+    skos:topConceptOf <> .
+
+<43.11> a skos:Concept ;
+    skos:notation "43.11" ;
+    skos:topConceptOf <> .
+
+<56.90> a skos:Concept ;
+    skos:notation "56.90" ;
+    skos:topConceptOf <> .
+
+<20.27> a skos:Concept ;
+    skos:notation "20.27" ;
+    skos:topConceptOf <> .
+
+<21.39> a skos:Concept ;
+    skos:notation "21.39" ;
+    skos:topConceptOf <> .
+
+<77.14> a skos:Concept ;
+    skos:notation "77.14" ;
+    skos:topConceptOf <> .
+
+<73.97> a skos:Concept ;
+    skos:notation "73.97" ;
+    skos:topConceptOf <> .
+
+<73.31> a skos:Concept ;
+    skos:notation "73.31" ;
+    skos:topConceptOf <> .
+
+<89.78> a skos:Concept ;
+    skos:notation "89.78" ;
+    skos:topConceptOf <> .
+
+<89.86> a skos:Concept ;
+    skos:notation "89.86" ;
+    skos:topConceptOf <> .
+
+<42.11> a skos:Concept ;
+    skos:notation "42.11" ;
+    skos:topConceptOf <> .
+
+<86.84> a skos:Concept ;
+    skos:notation "86.84" ;
+    skos:topConceptOf <> .
+
+<74.03> a skos:Concept ;
+    skos:notation "74.03" ;
+    skos:topConceptOf <> .
+
+<18.43> a skos:Concept ;
+    skos:notation "18.43" ;
+    skos:topConceptOf <> .
+
+<20.54> a skos:Concept ;
+    skos:notation "20.54" ;
+    skos:topConceptOf <> .
+
+<05.32> a skos:Concept ;
+    skos:notation "05.32" ;
+    skos:topConceptOf <> .
+
+<17.03> a skos:Concept ;
+    skos:notation "17.03" ;
+    skos:topConceptOf <> .
+
+<89.34> a skos:Concept ;
+    skos:notation "89.34" ;
+    skos:topConceptOf <> .
+
+<15.47> a skos:Concept ;
+    skos:notation "15.47" ;
+    skos:topConceptOf <> .
+
+<56.21> a skos:Concept ;
+    skos:notation "56.21" ;
+    skos:topConceptOf <> .
+
+<33.81> a skos:Concept ;
+    skos:notation "33.81" ;
+    skos:topConceptOf <> .
+
+<15.32> a skos:Concept ;
+    skos:notation "15.32" ;
+    skos:topConceptOf <> .
+
+<89.49> a skos:Concept ;
+    skos:notation "89.49" ;
+    skos:topConceptOf <> .
+
+<33.11> a skos:Concept ;
+    skos:notation "33.11" ;
+    skos:topConceptOf <> .
+
+<11.81> a skos:Concept ;
+    skos:notation "11.81" ;
+    skos:topConceptOf <> .
+
+<54.62> a skos:Concept ;
+    skos:notation "54.62" ;
+    skos:topConceptOf <> .
+
+<56.86> a skos:Concept ;
+    skos:notation "56.86" ;
+    skos:topConceptOf <> .
+
+<48.63> a skos:Concept ;
+    skos:notation "48.63" ;
+    skos:topConceptOf <> .
+
+<18.15> a skos:Concept ;
+    skos:notation "18.15" ;
+    skos:topConceptOf <> .
+
+<44.76> a skos:Concept ;
+    skos:notation "44.76" ;
+    skos:topConceptOf <> .
+
+<80.89> a skos:Concept ;
+    skos:notation "80.89" ;
+    skos:topConceptOf <> .
+
+<38.87> a skos:Concept ;
+    skos:notation "38.87" ;
+    skos:topConceptOf <> .
+
+<06.22> a skos:Concept ;
+    skos:notation "06.22" ;
+    skos:topConceptOf <> .
+
+<35.78> a skos:Concept ;
+    skos:notation "35.78" ;
+    skos:topConceptOf <> .
+
+<74.71> a skos:Concept ;
+    skos:notation "74.71" ;
+    skos:topConceptOf <> .
+
+<50.93> a skos:Concept ;
+    skos:notation "50.93" ;
+    skos:topConceptOf <> .
+
+<06.12> a skos:Concept ;
+    skos:notation "06.12" ;
+    skos:topConceptOf <> .
+
+<46.30> a skos:Concept ;
+    skos:notation "46.30" ;
+    skos:topConceptOf <> .
+
+<55.41> a skos:Concept ;
+    skos:notation "55.41" ;
+    skos:topConceptOf <> .
+
+<74> a skos:Concept ;
+    skos:notation "74" ;
+    skos:topConceptOf <> .
+
+<77.53> a skos:Concept ;
+    skos:notation "77.53" ;
+    skos:topConceptOf <> .
+
+<33.70> a skos:Concept ;
+    skos:notation "33.70" ;
+    skos:topConceptOf <> .
+
+<86.08> a skos:Concept ;
+    skos:notation "86.08" ;
+    skos:topConceptOf <> .
+
+<17.28> a skos:Concept ;
+    skos:notation "17.28" ;
+    skos:topConceptOf <> .
+
+<08.34> a skos:Concept ;
+    skos:notation "08.34" ;
+    skos:topConceptOf <> .
+
+<89.90> a skos:Concept ;
+    skos:notation "89.90" ;
+    skos:topConceptOf <> .
+
+<71.04> a skos:Concept ;
+    skos:notation "71.04" ;
+    skos:topConceptOf <> .
+
+<44.51> a skos:Concept ;
+    skos:notation "44.51" ;
+    skos:topConceptOf <> .
+
+<73.85> a skos:Concept ;
+    skos:notation "73.85" ;
+    skos:topConceptOf <> .
+
+<33.07> a skos:Concept ;
+    skos:notation "33.07" ;
+    skos:topConceptOf <> .
+
+<83.65> a skos:Concept ;
+    skos:notation "83.65" ;
+    skos:topConceptOf <> .
+
+<44.69> a skos:Concept ;
+    skos:notation "44.69" ;
+    skos:topConceptOf <> .
+
+<35.73> a skos:Concept ;
+    skos:notation "35.73" ;
+    skos:topConceptOf <> .
+
+<57.37> a skos:Concept ;
+    skos:notation "57.37" ;
+    skos:topConceptOf <> .
+
+<55.85> a skos:Concept ;
+    skos:notation "55.85" ;
+    skos:topConceptOf <> .
+
+<35.66> a skos:Concept ;
+    skos:notation "35.66" ;
+    skos:topConceptOf <> .
+
+<74.19> a skos:Concept ;
+    skos:notation "74.19" ;
+    skos:topConceptOf <> .
+
+<46.14> a skos:Concept ;
+    skos:notation "46.14" ;
+    skos:topConceptOf <> .
+
+<11.34> a skos:Concept ;
+    skos:notation "11.34" ;
+    skos:topConceptOf <> .
+
+<15.10> a skos:Concept ;
+    skos:notation "15.10" ;
+    skos:topConceptOf <> .
+
+<73.84> a skos:Concept ;
+    skos:notation "73.84" ;
+    skos:topConceptOf <> .
+
+<38.35> a skos:Concept ;
+    skos:notation "38.35" ;
+    skos:topConceptOf <> .
+
+<06.23> a skos:Concept ;
+    skos:notation "06.23" ;
+    skos:topConceptOf <> .
+
+<35.18> a skos:Concept ;
+    skos:notation "35.18" ;
+    skos:topConceptOf <> .
+
+<48.54> a skos:Concept ;
+    skos:notation "48.54" ;
+    skos:topConceptOf <> .
+
+<43.66> a skos:Concept ;
+    skos:notation "43.66" ;
+    skos:topConceptOf <> .
+
+<53.51> a skos:Concept ;
+    skos:notation "53.51" ;
+    skos:topConceptOf <> .
+
+<58.20> a skos:Concept ;
+    skos:notation "58.20" ;
+    skos:topConceptOf <> .
+
+<50.06> a skos:Concept ;
+    skos:notation "50.06" ;
+    skos:topConceptOf <> .
+
+<42.86> a skos:Concept ;
+    skos:notation "42.86" ;
+    skos:topConceptOf <> .
+
+<89.61> a skos:Concept ;
+    skos:notation "89.61" ;
+    skos:topConceptOf <> .
+
+<44.32> a skos:Concept ;
+    skos:notation "44.32" ;
+    skos:topConceptOf <> .
+
+<52.35> a skos:Concept ;
+    skos:notation "52.35" ;
+    skos:topConceptOf <> .
+
+<11.78> a skos:Concept ;
+    skos:notation "11.78" ;
+    skos:topConceptOf <> .
+
+<15.86> a skos:Concept ;
+    skos:notation "15.86" ;
+    skos:topConceptOf <> .
+
+<44.91> a skos:Concept ;
+    skos:notation "44.91" ;
+    skos:topConceptOf <> .
+
+<18.56> a skos:Concept ;
+    skos:notation "18.56" ;
+    skos:topConceptOf <> .
+
+<81.73> a skos:Concept ;
+    skos:notation "81.73" ;
+    skos:topConceptOf <> .
+
+<58.22> a skos:Concept ;
+    skos:notation "58.22" ;
+    skos:topConceptOf <> .
+
+<86.94> a skos:Concept ;
+    skos:notation "86.94" ;
+    skos:topConceptOf <> .
+
+<20.03> a skos:Concept ;
+    skos:notation "20.03" ;
+    skos:topConceptOf <> .
+
+<33.68> a skos:Concept ;
+    skos:notation "33.68" ;
+    skos:topConceptOf <> .
+
+<05.39> a skos:Concept ;
+    skos:notation "05.39" ;
+    skos:topConceptOf <> .
+
+<18.63> a skos:Concept ;
+    skos:notation "18.63" ;
+    skos:topConceptOf <> .
+
+<50.30> a skos:Concept ;
+    skos:notation "50.30" ;
+    skos:topConceptOf <> .
+
+<73.58> a skos:Concept ;
+    skos:notation "73.58" ;
+    skos:topConceptOf <> .
+
+<31.51> a skos:Concept ;
+    skos:notation "31.51" ;
+    skos:topConceptOf <> .
+
+<88.30> a skos:Concept ;
+    skos:notation "88.30" ;
+    skos:topConceptOf <> .
+
+<73.20> a skos:Concept ;
+    skos:notation "73.20" ;
+    skos:topConceptOf <> .
+
+<20.69> a skos:Concept ;
+    skos:notation "20.69" ;
+    skos:topConceptOf <> .
+
+<57.31> a skos:Concept ;
+    skos:notation "57.31" ;
+    skos:topConceptOf <> .
+
+<15.73> a skos:Concept ;
+    skos:notation "15.73" ;
+    skos:topConceptOf <> .
+
+<83.70> a skos:Concept ;
+    skos:notation "83.70" ;
+    skos:topConceptOf <> .
+
+<39.40> a skos:Concept ;
+    skos:notation "39.40" ;
+    skos:topConceptOf <> .
+
+<17.54> a skos:Concept ;
+    skos:notation "17.54" ;
+    skos:topConceptOf <> .
+
+<55.24> a skos:Concept ;
+    skos:notation "55.24" ;
+    skos:topConceptOf <> .
+
+<35.33> a skos:Concept ;
+    skos:notation "35.33" ;
+    skos:topConceptOf <> .
+
+<10.03> a skos:Concept ;
+    skos:notation "10.03" ;
+    skos:topConceptOf <> .
+
+<79.29> a skos:Concept ;
+    skos:notation "79.29" ;
+    skos:topConceptOf <> .
+
+<54.64> a skos:Concept ;
+    skos:notation "54.64" ;
+    skos:topConceptOf <> .
+
+<43.64> a skos:Concept ;
+    skos:notation "43.64" ;
+    skos:topConceptOf <> .
+
+<31.47> a skos:Concept ;
+    skos:notation "31.47" ;
+    skos:topConceptOf <> .
+
+<52.77> a skos:Concept ;
+    skos:notation "52.77" ;
+    skos:topConceptOf <> .
+
+<73.08> a skos:Concept ;
+    skos:notation "73.08" ;
+    skos:topConceptOf <> .
+
+<56.82> a skos:Concept ;
+    skos:notation "56.82" ;
+    skos:topConceptOf <> .
+
+<80.34> a skos:Concept ;
+    skos:notation "80.34" ;
+    skos:topConceptOf <> .
+
+<21.11> a skos:Concept ;
+    skos:notation "21.11" ;
+    skos:topConceptOf <> .
+
+<17.18> a skos:Concept ;
+    skos:notation "17.18" ;
+    skos:topConceptOf <> .
+
+<21.29> a skos:Concept ;
+    skos:notation "21.29" ;
+    skos:topConceptOf <> .
+
+<38.44> a skos:Concept ;
+    skos:notation "38.44" ;
+    skos:topConceptOf <> .
+
+<06.49> a skos:Concept ;
+    skos:notation "06.49" ;
+    skos:topConceptOf <> .
+
+<74.13> a skos:Concept ;
+    skos:notation "74.13" ;
+    skos:topConceptOf <> .
+
+<53.09> a skos:Concept ;
+    skos:notation "53.09" ;
+    skos:topConceptOf <> .
+
+<48.60> a skos:Concept ;
+    skos:notation "48.60" ;
+    skos:topConceptOf <> .
+
+<57.14> a skos:Concept ;
+    skos:notation "57.14" ;
+    skos:topConceptOf <> .
+
+<44.81> a skos:Concept ;
+    skos:notation "44.81" ;
+    skos:topConceptOf <> .
+
+<86.46> a skos:Concept ;
+    skos:notation "86.46" ;
+    skos:topConceptOf <> .
+
+<18.90> a skos:Concept ;
+    skos:notation "18.90" ;
+    skos:topConceptOf <> .
+
+<44.62> a skos:Concept ;
+    skos:notation "44.62" ;
+    skos:topConceptOf <> .
+
+<53.79> a skos:Concept ;
+    skos:notation "53.79" ;
+    skos:topConceptOf <> .
+
+<46> a skos:Concept ;
+    skos:notation "46" ;
+    skos:topConceptOf <> .
+
+<38.16> a skos:Concept ;
+    skos:notation "38.16" ;
+    skos:topConceptOf <> .
+
+<79.60> a skos:Concept ;
+    skos:notation "79.60" ;
+    skos:topConceptOf <> .
+
+<76.20> a skos:Concept ;
+    skos:notation "76.20" ;
+    skos:topConceptOf <> .
+
+<71.68> a skos:Concept ;
+    skos:notation "71.68" ;
+    skos:topConceptOf <> .
+
+<35.20> a skos:Concept ;
+    skos:notation "35.20" ;
+    skos:topConceptOf <> .
+
+<57.49> a skos:Concept ;
+    skos:notation "57.49" ;
+    skos:topConceptOf <> .
+
+<57.45> a skos:Concept ;
+    skos:notation "57.45" ;
+    skos:topConceptOf <> .
+
+<71.43> a skos:Concept ;
+    skos:notation "71.43" ;
+    skos:topConceptOf <> .
+
+<86.05> a skos:Concept ;
+    skos:notation "86.05" ;
+    skos:topConceptOf <> .
+
+<86.29> a skos:Concept ;
+    skos:notation "86.29" ;
+    skos:topConceptOf <> .
+
+<44.14> a skos:Concept ;
+    skos:notation "44.14" ;
+    skos:topConceptOf <> .
+
+<15.61> a skos:Concept ;
+    skos:notation "15.61" ;
+    skos:topConceptOf <> .
+
+<81.43> a skos:Concept ;
+    skos:notation "81.43" ;
+    skos:topConceptOf <> .
+
+<18.77> a skos:Concept ;
+    skos:notation "18.77" ;
+    skos:topConceptOf <> .
+
+<20.30> a skos:Concept ;
+    skos:notation "20.30" ;
+    skos:topConceptOf <> .
+
+<51.10> a skos:Concept ;
+    skos:notation "51.10" ;
+    skos:topConceptOf <> .
+
+<49.30> a skos:Concept ;
+    skos:notation "49.30" ;
+    skos:topConceptOf <> .
+
+<50.37> a skos:Concept ;
+    skos:notation "50.37" ;
+    skos:topConceptOf <> .
+
+<83.11> a skos:Concept ;
+    skos:notation "83.11" ;
+    skos:topConceptOf <> .
+
+<21.79> a skos:Concept ;
+    skos:notation "21.79" ;
+    skos:topConceptOf <> .
+
+<70.04> a skos:Concept ;
+    skos:notation "70.04" ;
+    skos:topConceptOf <> .
+
+<54.30> a skos:Concept ;
+    skos:notation "54.30" ;
+    skos:topConceptOf <> .
+
+<89.52> a skos:Concept ;
+    skos:notation "89.52" ;
+    skos:topConceptOf <> .
+
+<50.14> a skos:Concept ;
+    skos:notation "50.14" ;
+    skos:topConceptOf <> .
+
+<08.00> a skos:Concept ;
+    skos:notation "08.00" ;
+    skos:topConceptOf <> .
+
+<46.40> a skos:Concept ;
+    skos:notation "46.40" ;
+    skos:topConceptOf <> .
+
+<38.54> a skos:Concept ;
+    skos:notation "38.54" ;
+    skos:topConceptOf <> .
+
+<77.64> a skos:Concept ;
+    skos:notation "77.64" ;
+    skos:topConceptOf <> .
+
+<74.35> a skos:Concept ;
+    skos:notation "74.35" ;
+    skos:topConceptOf <> .
+
+<77.05> a skos:Concept ;
+    skos:notation "77.05" ;
+    skos:topConceptOf <> .
+
+<33.10> a skos:Concept ;
+    skos:notation "33.10" ;
+    skos:topConceptOf <> .
+
+<15.18> a skos:Concept ;
+    skos:notation "15.18" ;
+    skos:topConceptOf <> .
+
+<73.42> a skos:Concept ;
+    skos:notation "73.42" ;
+    skos:topConceptOf <> .
+
+<58.49> a skos:Concept ;
+    skos:notation "58.49" ;
+    skos:topConceptOf <> .
+
+<57.08> a skos:Concept ;
+    skos:notation "57.08" ;
+    skos:topConceptOf <> .
+
+<49.01> a skos:Concept ;
+    skos:notation "49.01" ;
+    skos:topConceptOf <> .
+
+<48.00> a skos:Concept ;
+    skos:notation "48.00" ;
+    skos:topConceptOf <> .
+
+<11.70> a skos:Concept ;
+    skos:notation "11.70" ;
+    skos:topConceptOf <> .
+
+<80.35> a skos:Concept ;
+    skos:notation "80.35" ;
+    skos:topConceptOf <> .
+
+<24.42> a skos:Concept ;
+    skos:notation "24.42" ;
+    skos:topConceptOf <> .
+
+<71.64> a skos:Concept ;
+    skos:notation "71.64" ;
+    skos:topConceptOf <> .
+
+<08.10> a skos:Concept ;
+    skos:notation "08.10" ;
+    skos:topConceptOf <> .
+
+<15.96> a skos:Concept ;
+    skos:notation "15.96" ;
+    skos:topConceptOf <> .
+
+<86.34> a skos:Concept ;
+    skos:notation "86.34" ;
+    skos:topConceptOf <> .
+
+<44> a skos:Concept ;
+    skos:notation "44" ;
+    skos:topConceptOf <> .
+
+<56.30> a skos:Concept ;
+    skos:notation "56.30" ;
+    skos:topConceptOf <> .
+
+<83.33> a skos:Concept ;
+    skos:notation "83.33" ;
+    skos:topConceptOf <> .
+
+<81.50> a skos:Concept ;
+    skos:notation "81.50" ;
+    skos:topConceptOf <> .
+
+<18.67> a skos:Concept ;
+    skos:notation "18.67" ;
+    skos:topConceptOf <> .
+
+<20.40> a skos:Concept ;
+    skos:notation "20.40" ;
+    skos:topConceptOf <> .
+
+<86.18> a skos:Concept ;
+    skos:notation "86.18" ;
+    skos:topConceptOf <> .
+
+<24.76> a skos:Concept ;
+    skos:notation "24.76" ;
+    skos:topConceptOf <> .
+
+<15.68> a skos:Concept ;
+    skos:notation "15.68" ;
+    skos:topConceptOf <> .
+
+<18.41> a skos:Concept ;
+    skos:notation "18.41" ;
+    skos:topConceptOf <> .
+
+<44.46> a skos:Concept ;
+    skos:notation "44.46" ;
+    skos:topConceptOf <> .
+
+<24.98> a skos:Concept ;
+    skos:notation "24.98" ;
+    skos:topConceptOf <> .
+
+<33.01> a skos:Concept ;
+    skos:notation "33.01" ;
+    skos:topConceptOf <> .
+
+<11.83> a skos:Concept ;
+    skos:notation "11.83" ;
+    skos:topConceptOf <> .
+
+<20.70> a skos:Concept ;
+    skos:notation "20.70" ;
+    skos:topConceptOf <> .
+
+<44.12> a skos:Concept ;
+    skos:notation "44.12" ;
+    skos:topConceptOf <> .
+
+<89.04> a skos:Concept ;
+    skos:notation "89.04" ;
+    skos:topConceptOf <> .
+
+<11.87> a skos:Concept ;
+    skos:notation "11.87" ;
+    skos:topConceptOf <> .
+
+<35.77> a skos:Concept ;
+    skos:notation "35.77" ;
+    skos:topConceptOf <> .
+
+<15.41> a skos:Concept ;
+    skos:notation "15.41" ;
+    skos:topConceptOf <> .
+
+<79.21> a skos:Concept ;
+    skos:notation "79.21" ;
+    skos:topConceptOf <> .
+
+<31.20> a skos:Concept ;
+    skos:notation "31.20" ;
+    skos:topConceptOf <> .
+
+<15.08> a skos:Concept ;
+    skos:notation "15.08" ;
+    skos:topConceptOf <> .
+
+<58.17> a skos:Concept ;
+    skos:notation "58.17" ;
+    skos:topConceptOf <> .
+
+<48.56> a skos:Concept ;
+    skos:notation "48.56" ;
+    skos:topConceptOf <> .
+
+<54.74> a skos:Concept ;
+    skos:notation "54.74" ;
+    skos:topConceptOf <> .
+
+<42.63> a skos:Concept ;
+    skos:notation "42.63" ;
+    skos:topConceptOf <> .
+
+<83.05> a skos:Concept ;
+    skos:notation "83.05" ;
+    skos:topConceptOf <> .
+
+<79.65> a skos:Concept ;
+    skos:notation "79.65" ;
+    skos:topConceptOf <> .
+
+<44.83> a skos:Concept ;
+    skos:notation "44.83" ;
+    skos:topConceptOf <> .
+
+<33.64> a skos:Concept ;
+    skos:notation "33.64" ;
+    skos:topConceptOf <> .
+
+<79.04> a skos:Concept ;
+    skos:notation "79.04" ;
+    skos:topConceptOf <> .
+
+<77.45> a skos:Concept ;
+    skos:notation "77.45" ;
+    skos:topConceptOf <> .
+
+<44.96> a skos:Concept ;
+    skos:notation "44.96" ;
+    skos:topConceptOf <> .
+
+<17.01> a skos:Concept ;
+    skos:notation "17.01" ;
+    skos:topConceptOf <> .
+
+<77.12> a skos:Concept ;
+    skos:notation "77.12" ;
+    skos:topConceptOf <> .
+
+<31.02> a skos:Concept ;
+    skos:notation "31.02" ;
+    skos:topConceptOf <> .
+
+<77.74> a skos:Concept ;
+    skos:notation "77.74" ;
+    skos:topConceptOf <> .
+
+<54.27> a skos:Concept ;
+    skos:notation "54.27" ;
+    skos:topConceptOf <> .
+
+<80.83> a skos:Concept ;
+    skos:notation "80.83" ;
+    skos:topConceptOf <> .
+
+<52.75> a skos:Concept ;
+    skos:notation "52.75" ;
+    skos:topConceptOf <> .
+
+<81.91> a skos:Concept ;
+    skos:notation "81.91" ;
+    skos:topConceptOf <> .
+
+<20.49> a skos:Concept ;
+    skos:notation "20.49" ;
+    skos:topConceptOf <> .
+
+<33.46> a skos:Concept ;
+    skos:notation "33.46" ;
+    skos:topConceptOf <> .
+
+<73.94> a skos:Concept ;
+    skos:notation "73.94" ;
+    skos:topConceptOf <> .
+
+<56.87> a skos:Concept ;
+    skos:notation "56.87" ;
+    skos:topConceptOf <> .
+
+<74.21> a skos:Concept ;
+    skos:notation "74.21" ;
+    skos:topConceptOf <> .
+
+<74.37> a skos:Concept ;
+    skos:notation "74.37" ;
+    skos:topConceptOf <> .
+
+<58.26> a skos:Concept ;
+    skos:notation "58.26" ;
+    skos:topConceptOf <> .
+
+<50.04> a skos:Concept ;
+    skos:notation "50.04" ;
+    skos:topConceptOf <> .
+
+<39.99> a skos:Concept ;
+    skos:notation "39.99" ;
+    skos:topConceptOf <> .
+
+<24.83> a skos:Concept ;
+    skos:notation "24.83" ;
+    skos:topConceptOf <> .
+
+<35.15> a skos:Concept ;
+    skos:notation "35.15" ;
+    skos:topConceptOf <> .
+
+<80.44> a skos:Concept ;
+    skos:notation "80.44" ;
+    skos:topConceptOf <> .
+
+<43.68> a skos:Concept ;
+    skos:notation "43.68" ;
+    skos:topConceptOf <> .
+
+<86.23> a skos:Concept ;
+    skos:notation "86.23" ;
+    skos:topConceptOf <> .
+
+<58.40> a skos:Concept ;
+    skos:notation "58.40" ;
+    skos:topConceptOf <> .
+
+<51.30> a skos:Concept ;
+    skos:notation "51.30" ;
+    skos:topConceptOf <> .
+
+<44.20> a skos:Concept ;
+    skos:notation "44.20" ;
+    skos:topConceptOf <> .
+
+<44.03> a skos:Concept ;
+    skos:notation "44.03" ;
+    skos:topConceptOf <> .
+
+<21.02> a skos:Concept ;
+    skos:notation "21.02" ;
+    skos:topConceptOf <> .
+
+<86.62> a skos:Concept ;
+    skos:notation "86.62" ;
+    skos:topConceptOf <> .
+
+<39.04> a skos:Concept ;
+    skos:notation "39.04" ;
+    skos:topConceptOf <> .
+
+<31.27> a skos:Concept ;
+    skos:notation "31.27" ;
+    skos:topConceptOf <> .
+
+<86.70> a skos:Concept ;
+    skos:notation "86.70" ;
+    skos:topConceptOf <> .
+
+<21.81> a skos:Concept ;
+    skos:notation "21.81" ;
+    skos:topConceptOf <> .
+
+<15.15> a skos:Concept ;
+    skos:notation "15.15" ;
+    skos:topConceptOf <> .
+
+<85.99> a skos:Concept ;
+    skos:notation "85.99" ;
+    skos:topConceptOf <> .
+
+<86.60> a skos:Concept ;
+    skos:notation "86.60" ;
+    skos:topConceptOf <> .
+
+<77.31> a skos:Concept ;
+    skos:notation "77.31" ;
+    skos:topConceptOf <> .
+
+<18.39> a skos:Concept ;
+    skos:notation "18.39" ;
+    skos:topConceptOf <> .
+
+<24.23> a skos:Concept ;
+    skos:notation "24.23" ;
+    skos:topConceptOf <> .
+
+<21.99> a skos:Concept ;
+    skos:notation "21.99" ;
+    skos:topConceptOf <> .
+
+<08.25> a skos:Concept ;
+    skos:notation "08.25" ;
+    skos:topConceptOf <> .
+
+<15.90> a skos:Concept ;
+    skos:notation "15.90" ;
+    skos:topConceptOf <> .
+
+<31.25> a skos:Concept ;
+    skos:notation "31.25" ;
+    skos:topConceptOf <> .
+
+<42.92> a skos:Concept ;
+    skos:notation "42.92" ;
+    skos:topConceptOf <> .
+
+<08.23> a skos:Concept ;
+    skos:notation "08.23" ;
+    skos:topConceptOf <> .
+
+<20.48> a skos:Concept ;
+    skos:notation "20.48" ;
+    skos:topConceptOf <> .
+
+<56.24> a skos:Concept ;
+    skos:notation "56.24" ;
+    skos:topConceptOf <> .
+
+<38.03> a skos:Concept ;
+    skos:notation "38.03" ;
+    skos:topConceptOf <> .
+
+<55.59> a skos:Concept ;
+    skos:notation "55.59" ;
+    skos:topConceptOf <> .
+
+<54.22> a skos:Concept ;
+    skos:notation "54.22" ;
+    skos:topConceptOf <> .
+
+<11.61> a skos:Concept ;
+    skos:notation "11.61" ;
+    skos:topConceptOf <> .
+
+<21.22> a skos:Concept ;
+    skos:notation "21.22" ;
+    skos:topConceptOf <> .
+
+<11.29> a skos:Concept ;
+    skos:notation "11.29" ;
+    skos:topConceptOf <> .
+
+<21.72> a skos:Concept ;
+    skos:notation "21.72" ;
+    skos:topConceptOf <> .
+
+<43.35> a skos:Concept ;
+    skos:notation "43.35" ;
+    skos:topConceptOf <> .
+
+<31.04> a skos:Concept ;
+    skos:notation "31.04" ;
+    skos:topConceptOf <> .
+
+<20.13> a skos:Concept ;
+    skos:notation "20.13" ;
+    skos:topConceptOf <> .
+
+<55.04> a skos:Concept ;
+    skos:notation "55.04" ;
+    skos:topConceptOf <> .
+
+<86.51> a skos:Concept ;
+    skos:notation "86.51" ;
+    skos:topConceptOf <> .
+
+<76.24> a skos:Concept ;
+    skos:notation "76.24" ;
+    skos:topConceptOf <> .
+
+<35.24> a skos:Concept ;
+    skos:notation "35.24" ;
+    skos:topConceptOf <> .
+
+<18.89> a skos:Concept ;
+    skos:notation "18.89" ;
+    skos:topConceptOf <> .
+
+<80.01> a skos:Concept ;
+    skos:notation "80.01" ;
+    skos:topConceptOf <> .
+
+<55.01> a skos:Concept ;
+    skos:notation "55.01" ;
+    skos:topConceptOf <> .
+
+<20.14> a skos:Concept ;
+    skos:notation "20.14" ;
+    skos:topConceptOf <> .
+
+<55.10> a skos:Concept ;
+    skos:notation "55.10" ;
+    skos:topConceptOf <> .
+
+<42.99> a skos:Concept ;
+    skos:notation "42.99" ;
+    skos:topConceptOf <> .
+
+<18.30> a skos:Concept ;
+    skos:notation "18.30" ;
+    skos:topConceptOf <> .
+
+<57.12> a skos:Concept ;
+    skos:notation "57.12" ;
+    skos:topConceptOf <> .
+
+<31.70> a skos:Concept ;
+    skos:notation "31.70" ;
+    skos:topConceptOf <> .
+
+<52.86> a skos:Concept ;
+    skos:notation "52.86" ;
+    skos:topConceptOf <> .
+
+<35.90> a skos:Concept ;
+    skos:notation "35.90" ;
+    skos:topConceptOf <> .
+
+<54.87> a skos:Concept ;
+    skos:notation "54.87" ;
+    skos:topConceptOf <> .
+
+<54.32> a skos:Concept ;
+    skos:notation "54.32" ;
+    skos:topConceptOf <> .
+
+<86.81> a skos:Concept ;
+    skos:notation "86.81" ;
+    skos:topConceptOf <> .
+
+<52.12> a skos:Concept ;
+    skos:notation "52.12" ;
+    skos:topConceptOf <> .
+
+<89.11> a skos:Concept ;
+    skos:notation "89.11" ;
+    skos:topConceptOf <> .
+
+<86.76> a skos:Concept ;
+    skos:notation "86.76" ;
+    skos:topConceptOf <> .
+
+<54.50> a skos:Concept ;
+    skos:notation "54.50" ;
+    skos:topConceptOf <> .
+
+<42.79> a skos:Concept ;
+    skos:notation "42.79" ;
+    skos:topConceptOf <> .
+
+<18.80> a skos:Concept ;
+    skos:notation "18.80" ;
+    skos:topConceptOf <> .
+
+<80> a skos:Concept ;
+    skos:notation "80" ;
+    skos:topConceptOf <> .
+
+<53.99> a skos:Concept ;
+    skos:notation "53.99" ;
+    skos:topConceptOf <> .
+
+<71.38> a skos:Concept ;
+    skos:notation "71.38" ;
+    skos:topConceptOf <> .
+
+<15.53> a skos:Concept ;
+    skos:notation "15.53" ;
+    skos:topConceptOf <> .
+
+<81.67> a skos:Concept ;
+    skos:notation "81.67" ;
+    skos:topConceptOf <> .
+
+<20.05> a skos:Concept ;
+    skos:notation "20.05" ;
+    skos:topConceptOf <> .
+
+<44.30> a skos:Concept ;
+    skos:notation "44.30" ;
+    skos:topConceptOf <> .
+
+<35.42> a skos:Concept ;
+    skos:notation "35.42" ;
+    skos:topConceptOf <> .
+
+<15.75> a skos:Concept ;
+    skos:notation "15.75" ;
+    skos:topConceptOf <> .
+
+<53.55> a skos:Concept ;
+    skos:notation "53.55" ;
+    skos:topConceptOf <> .
+
+<81.75> a skos:Concept ;
+    skos:notation "81.75" ;
+    skos:topConceptOf <> .
+
+<77.82> a skos:Concept ;
+    skos:notation "77.82" ;
+    skos:topConceptOf <> .
+
+<15.12> a skos:Concept ;
+    skos:notation "15.12" ;
+    skos:topConceptOf <> .
+
+<52.50> a skos:Concept ;
+    skos:notation "52.50" ;
+    skos:topConceptOf <> .
+
+<81.21> a skos:Concept ;
+    skos:notation "81.21" ;
+    skos:topConceptOf <> .
+
+<89.32> a skos:Concept ;
+    skos:notation "89.32" ;
+    skos:topConceptOf <> .
+
+<42.59> a skos:Concept ;
+    skos:notation "42.59" ;
+    skos:topConceptOf <> .
+
+<85.38> a skos:Concept ;
+    skos:notation "85.38" ;
+    skos:topConceptOf <> .
+
+<81.10> a skos:Concept ;
+    skos:notation "81.10" ;
+    skos:topConceptOf <> .
+
+<18.54> a skos:Concept ;
+    skos:notation "18.54" ;
+    skos:topConceptOf <> .
+
+<56.66> a skos:Concept ;
+    skos:notation "56.66" ;
+    skos:topConceptOf <> .
+
+<88.60> a skos:Concept ;
+    skos:notation "88.60" ;
+    skos:topConceptOf <> .
+
+<18.83> a skos:Concept ;
+    skos:notation "18.83" ;
+    skos:topConceptOf <> .
+
+<89.21> a skos:Concept ;
+    skos:notation "89.21" ;
+    skos:topConceptOf <> .
+
+<10> a skos:Concept ;
+    skos:notation "10" ;
+    skos:topConceptOf <> .
+
+<35.49> a skos:Concept ;
+    skos:notation "35.49" ;
+    skos:topConceptOf <> .
+
+<81.05> a skos:Concept ;
+    skos:notation "81.05" ;
+    skos:topConceptOf <> .
+
+<17.24> a skos:Concept ;
+    skos:notation "17.24" ;
+    skos:topConceptOf <> .
+
+<83.63> a skos:Concept ;
+    skos:notation "83.63" ;
+    skos:topConceptOf <> .
+
+<81.24> a skos:Concept ;
+    skos:notation "81.24" ;
+    skos:topConceptOf <> .
+
+<54.79> a skos:Concept ;
+    skos:notation "54.79" ;
+    skos:topConceptOf <> .
+
+<43.01> a skos:Concept ;
+    skos:notation "43.01" ;
+    skos:topConceptOf <> .
+
+<11.94> a skos:Concept ;
+    skos:notation "11.94" ;
+    skos:topConceptOf <> .
+
+<11.45> a skos:Concept ;
+    skos:notation "11.45" ;
+    skos:topConceptOf <> .
+
+<17.96> a skos:Concept ;
+    skos:notation "17.96" ;
+    skos:topConceptOf <> .
+
+<52.00> a skos:Concept ;
+    skos:notation "52.00" ;
+    skos:topConceptOf <> .
+
+<10.01> a skos:Concept ;
+    skos:notation "10.01" ;
+    skos:topConceptOf <> .
+
+<55.31> a skos:Concept ;
+    skos:notation "55.31" ;
+    skos:topConceptOf <> .
+
+<73.82> a skos:Concept ;
+    skos:notation "73.82" ;
+    skos:topConceptOf <> .
+
+<86.03> a skos:Concept ;
+    skos:notation "86.03" ;
+    skos:topConceptOf <> .
+
+<73.25> a skos:Concept ;
+    skos:notation "73.25" ;
+    skos:topConceptOf <> .
+
+<70.00> a skos:Concept ;
+    skos:notation "70.00" ;
+    skos:topConceptOf <> .
+
+<88.99> a skos:Concept ;
+    skos:notation "88.99" ;
+    skos:topConceptOf <> .
+
+<15.66> a skos:Concept ;
+    skos:notation "15.66" ;
+    skos:topConceptOf <> .
+
+<17.41> a skos:Concept ;
+    skos:notation "17.41" ;
+    skos:topConceptOf <> .
+
+<21.32> a skos:Concept ;
+    skos:notation "21.32" ;
+    skos:topConceptOf <> .
+
+<21.20> a skos:Concept ;
+    skos:notation "21.20" ;
+    skos:topConceptOf <> .
+
+<73.65> a skos:Concept ;
+    skos:notation "73.65" ;
+    skos:topConceptOf <> .
+
+<18.79> a skos:Concept ;
+    skos:notation "18.79" ;
+    skos:topConceptOf <> .
+
+<44.67> a skos:Concept ;
+    skos:notation "44.67" ;
+    skos:topConceptOf <> .
+
+<35.55> a skos:Concept ;
+    skos:notation "35.55" ;
+    skos:topConceptOf <> .
+
+<56.03> a skos:Concept ;
+    skos:notation "56.03" ;
+    skos:topConceptOf <> .
+
+<54.39> a skos:Concept ;
+    skos:notation "54.39" ;
+    skos:topConceptOf <> .
+
+<50.70> a skos:Concept ;
+    skos:notation "50.70" ;
+    skos:topConceptOf <> .
+
+<81.46> a skos:Concept ;
+    skos:notation "81.46" ;
+    skos:topConceptOf <> .
+
+<71.59> a skos:Concept ;
+    skos:notation "71.59" ;
+    skos:topConceptOf <> .
+
+<50.34> a skos:Concept ;
+    skos:notation "50.34" ;
+    skos:topConceptOf <> .
+
+<15.13> a skos:Concept ;
+    skos:notation "15.13" ;
+    skos:topConceptOf <> .
+
+<54.08> a skos:Concept ;
+    skos:notation "54.08" ;
+    skos:topConceptOf <> .
+
+<50.95> a skos:Concept ;
+    skos:notation "50.95" ;
+    skos:topConceptOf <> .
+
+<74.40> a skos:Concept ;
+    skos:notation "74.40" ;
+    skos:topConceptOf <> .
+
+<73.53> a skos:Concept ;
+    skos:notation "73.53" ;
+    skos:topConceptOf <> .
+
+<53.32> a skos:Concept ;
+    skos:notation "53.32" ;
+    skos:topConceptOf <> .
+
+<81.49> a skos:Concept ;
+    skos:notation "81.49" ;
+    skos:topConceptOf <> .
+
+<73.11> a skos:Concept ;
+    skos:notation "73.11" ;
+    skos:topConceptOf <> .
+
+<77.72> a skos:Concept ;
+    skos:notation "77.72" ;
+    skos:topConceptOf <> .
+
+<55.79> a skos:Concept ;
+    skos:notation "55.79" ;
+    skos:topConceptOf <> .
+
+<33.25> a skos:Concept ;
+    skos:notation "33.25" ;
+    skos:topConceptOf <> .
+
+<74.49> a skos:Concept ;
+    skos:notation "74.49" ;
+    skos:topConceptOf <> .
+
+<42.18> a skos:Concept ;
+    skos:notation "42.18" ;
+    skos:topConceptOf <> .
+
+<18.07> a skos:Concept ;
+    skos:notation "18.07" ;
+    skos:topConceptOf <> .
+
+<73.03> a skos:Concept ;
+    skos:notation "73.03" ;
+    skos:topConceptOf <> .
+
+<71.66> a skos:Concept ;
+    skos:notation "71.66" ;
+    skos:topConceptOf <> .
+
+<51.79> a skos:Concept ;
+    skos:notation "51.79" ;
+    skos:topConceptOf <> .
+
+<50.92> a skos:Concept ;
+    skos:notation "50.92" ;
+    skos:topConceptOf <> .
+
+<18.65> a skos:Concept ;
+    skos:notation "18.65" ;
+    skos:topConceptOf <> .
+
+<33.24> a skos:Concept ;
+    skos:notation "33.24" ;
+    skos:topConceptOf <> .
+
+<15.81> a skos:Concept ;
+    skos:notation "15.81" ;
+    skos:topConceptOf <> .
+
+<56.60> a skos:Concept ;
+    skos:notation "56.60" ;
+    skos:topConceptOf <> .
+
+<05.37> a skos:Concept ;
+    skos:notation "05.37" ;
+    skos:topConceptOf <> .
+
+<15.88> a skos:Concept ;
+    skos:notation "15.88" ;
+    skos:topConceptOf <> .
+
+<52.49> a skos:Concept ;
+    skos:notation "52.49" ;
+    skos:topConceptOf <> .
+
+<58.19> a skos:Concept ;
+    skos:notation "58.19" ;
+    skos:topConceptOf <> .
+
+<56.55> a skos:Concept ;
+    skos:notation "56.55" ;
+    skos:topConceptOf <> .
+
+<71.61> a skos:Concept ;
+    skos:notation "71.61" ;
+    skos:topConceptOf <> .
+
+<35.75> a skos:Concept ;
+    skos:notation "35.75" ;
+    skos:topConceptOf <> .
+
+<11.12> a skos:Concept ;
+    skos:notation "11.12" ;
+    skos:topConceptOf <> .
+
+<08.32> a skos:Concept ;
+    skos:notation "08.32" ;
+    skos:topConceptOf <> .
+
+<50.32> a skos:Concept ;
+    skos:notation "50.32" ;
+    skos:topConceptOf <> .
+
+<35.08> a skos:Concept ;
+    skos:notation "35.08" ;
+    skos:topConceptOf <> .
+
+<53.12> a skos:Concept ;
+    skos:notation "53.12" ;
+    skos:topConceptOf <> .
+
+<24.85> a skos:Concept ;
+    skos:notation "24.85" ;
+    skos:topConceptOf <> .
+
+<44.93> a skos:Concept ;
+    skos:notation "44.93" ;
+    skos:topConceptOf <> .
+
+<86.35> a skos:Concept ;
+    skos:notation "86.35" ;
+    skos:topConceptOf <> .
+
+<50.16> a skos:Concept ;
+    skos:notation "50.16" ;
+    skos:topConceptOf <> .
+
+<31.49> a skos:Concept ;
+    skos:notation "31.49" ;
+    skos:topConceptOf <> .
+
+<39.41> a skos:Concept ;
+    skos:notation "39.41" ;
+    skos:topConceptOf <> .
+
+<71.23> a skos:Concept ;
+    skos:notation "71.23" ;
+    skos:topConceptOf <> .
+
+<21.86> a skos:Concept ;
+    skos:notation "21.86" ;
+    skos:topConceptOf <> .
+
+<17.74> a skos:Concept ;
+    skos:notation "17.74" ;
+    skos:topConceptOf <> .
+
+<56.80> a skos:Concept ;
+    skos:notation "56.80" ;
+    skos:topConceptOf <> .
+
+<21.85> a skos:Concept ;
+    skos:notation "21.85" ;
+    skos:topConceptOf <> .
+
+<18.57> a skos:Concept ;
+    skos:notation "18.57" ;
+    skos:topConceptOf <> .
+
+<77.48> a skos:Concept ;
+    skos:notation "77.48" ;
+    skos:topConceptOf <> .
+
+<56.99> a skos:Concept ;
+    skos:notation "56.99" ;
+    skos:topConceptOf <> .
+
+<71.12> a skos:Concept ;
+    skos:notation "71.12" ;
+    skos:topConceptOf <> .
+
+<55.60> a skos:Concept ;
+    skos:notation "55.60" ;
+    skos:topConceptOf <> .
+
+<86.02> a skos:Concept ;
+    skos:notation "86.02" ;
+    skos:topConceptOf <> .
+
+<50.90> a skos:Concept ;
+    skos:notation "50.90" ;
+    skos:topConceptOf <> .
+
+<81.19> a skos:Concept ;
+    skos:notation "81.19" ;
+    skos:topConceptOf <> .
+
+<77.51> a skos:Concept ;
+    skos:notation "77.51" ;
+    skos:topConceptOf <> .
+
+<35.22> a skos:Concept ;
+    skos:notation "35.22" ;
+    skos:topConceptOf <> .
+
+<89.80> a skos:Concept ;
+    skos:notation "89.80" ;
+    skos:topConceptOf <> .
+
+<50.39> a skos:Concept ;
+    skos:notation "50.39" ;
+    skos:topConceptOf <> .
+
+<76.14> a skos:Concept ;
+    skos:notation "76.14" ;
+    skos:topConceptOf <> .
+
+<53.77> a skos:Concept ;
+    skos:notation "53.77" ;
+    skos:topConceptOf <> .
+
+<35.30> a skos:Concept ;
+    skos:notation "35.30" ;
+    skos:topConceptOf <> .
+
+<51.54> a skos:Concept ;
+    skos:notation "51.54" ;
+    skos:topConceptOf <> .
+
+<38> a skos:Concept ;
+    skos:notation "38" ;
+    skos:topConceptOf <> .
+
+<74.47> a skos:Concept ;
+    skos:notation "74.47" ;
+    skos:topConceptOf <> .
+
+<38.89> a skos:Concept ;
+    skos:notation "38.89" ;
+    skos:topConceptOf <> .
+
+<46.54> a skos:Concept ;
+    skos:notation "46.54" ;
+    skos:topConceptOf <> .
+
+<79.12> a skos:Concept ;
+    skos:notation "79.12" ;
+    skos:topConceptOf <> .
+
+<77.37> a skos:Concept ;
+    skos:notation "77.37" ;
+    skos:topConceptOf <> .
+
+<42.40> a skos:Concept ;
+    skos:notation "42.40" ;
+    skos:topConceptOf <> .
+
+<17.52> a skos:Concept ;
+    skos:notation "17.52" ;
+    skos:topConceptOf <> .
+
+<11.80> a skos:Concept ;
+    skos:notation "11.80" ;
+    skos:topConceptOf <> .
+
+<44.88> a skos:Concept ;
+    skos:notation "44.88" ;
+    skos:topConceptOf <> .
+
+<56.63> a skos:Concept ;
+    skos:notation "56.63" ;
+    skos:topConceptOf <> .
+
+<71.11> a skos:Concept ;
+    skos:notation "71.11" ;
+    skos:topConceptOf <> .
+
+<33.06> a skos:Concept ;
+    skos:notation "33.06" ;
+    skos:topConceptOf <> .
+
+<89.33> a skos:Concept ;
+    skos:notation "89.33" ;
+    skos:topConceptOf <> .
+
+<21.70> a skos:Concept ;
+    skos:notation "21.70" ;
+    skos:topConceptOf <> .
+
+<44.39> a skos:Concept ;
+    skos:notation "44.39" ;
+    skos:topConceptOf <> .
+
+<44.78> a skos:Concept ;
+    skos:notation "44.78" ;
+    skos:topConceptOf <> .
+
+<35.59> a skos:Concept ;
+    skos:notation "35.59" ;
+    skos:topConceptOf <> .
+
+<24.60> a skos:Concept ;
+    skos:notation "24.60" ;
+    skos:topConceptOf <> .
+
+<17.23> a skos:Concept ;
+    skos:notation "17.23" ;
+    skos:topConceptOf <> .
+
+<06.90> a skos:Concept ;
+    skos:notation "06.90" ;
+    skos:topConceptOf <> .
+
+<74.26> a skos:Concept ;
+    skos:notation "74.26" ;
+    skos:topConceptOf <> .
+
+<71.65> a skos:Concept ;
+    skos:notation "71.65" ;
+    skos:topConceptOf <> .
+
+<35.00> a skos:Concept ;
+    skos:notation "35.00" ;
+    skos:topConceptOf <> .
+
+<35.47> a skos:Concept ;
+    skos:notation "35.47" ;
+    skos:topConceptOf <> .
+
+<52.59> a skos:Concept ;
+    skos:notation "52.59" ;
+    skos:topConceptOf <> .
+
+<74.09> a skos:Concept ;
+    skos:notation "74.09" ;
+    skos:topConceptOf <> .
+
+<18.87> a skos:Concept ;
+    skos:notation "18.87" ;
+    skos:topConceptOf <> .
+
+<06.50> a skos:Concept ;
+    skos:notation "06.50" ;
+    skos:topConceptOf <> .
+
+<15.26> a skos:Concept ;
+    skos:notation "15.26" ;
+    skos:topConceptOf <> .
+
+<17.87> a skos:Concept ;
+    skos:notation "17.87" ;
+    skos:topConceptOf <> .
+
+<57.10> a skos:Concept ;
+    skos:notation "57.10" ;
+    skos:topConceptOf <> .
+
+<18.33> a skos:Concept ;
+    skos:notation "18.33" ;
+    skos:topConceptOf <> .
+
+<31> a skos:Concept ;
+    skos:notation "31" ;
+    skos:topConceptOf <> .
+
+<43.47> a skos:Concept ;
+    skos:notation "43.47" ;
+    skos:topConceptOf <> .
+
+<35.69> a skos:Concept ;
+    skos:notation "35.69" ;
+    skos:topConceptOf <> .
+
+<11.93> a skos:Concept ;
+    skos:notation "11.93" ;
+    skos:topConceptOf <> .
+
+<17.15> a skos:Concept ;
+    skos:notation "17.15" ;
+    skos:topConceptOf <> .
+
+<50.31> a skos:Concept ;
+    skos:notation "50.31" ;
+    skos:topConceptOf <> .
+
+<18.50> a skos:Concept ;
+    skos:notation "18.50" ;
+    skos:topConceptOf <> .
+
+<89.94> a skos:Concept ;
+    skos:notation "89.94" ;
+    skos:topConceptOf <> .
+
+<70.03> a skos:Concept ;
+    skos:notation "70.03" ;
+    skos:topConceptOf <> .
+
+<56.12> a skos:Concept ;
+    skos:notation "56.12" ;
+    skos:topConceptOf <> .
+
+<86.16> a skos:Concept ;
+    skos:notation "86.16" ;
+    skos:topConceptOf <> .
+
+<54.89> a skos:Concept ;
+    skos:notation "54.89" ;
+    skos:topConceptOf <> .
+
+<06.29> a skos:Concept ;
+    skos:notation "06.29" ;
+    skos:topConceptOf <> .
+
+<06.74> a skos:Concept ;
+    skos:notation "06.74" ;
+    skos:topConceptOf <> .
+
+<15.43> a skos:Concept ;
+    skos:notation "15.43" ;
+    skos:topConceptOf <> .
+
+<38.63> a skos:Concept ;
+    skos:notation "38.63" ;
+    skos:topConceptOf <> .
+
+<15.52> a skos:Concept ;
+    skos:notation "15.52" ;
+    skos:topConceptOf <> .
+
+<86.44> a skos:Concept ;
+    skos:notation "86.44" ;
+    skos:topConceptOf <> .
+
+<73.92> a skos:Concept ;
+    skos:notation "73.92" ;
+    skos:topConceptOf <> .
+
+<18.19> a skos:Concept ;
+    skos:notation "18.19" ;
+    skos:topConceptOf <> .
+
+<89.92> a skos:Concept ;
+    skos:notation "89.92" ;
+    skos:topConceptOf <> .
+
+<73.81> a skos:Concept ;
+    skos:notation "73.81" ;
+    skos:topConceptOf <> .
+
+<52.30> a skos:Concept ;
+    skos:notation "52.30" ;
+    skos:topConceptOf <> .
+
+<38.45> a skos:Concept ;
+    skos:notation "38.45" ;
+    skos:topConceptOf <> .
+
+<24.81> a skos:Concept ;
+    skos:notation "24.81" ;
+    skos:topConceptOf <> .
+
+<88.11> a skos:Concept ;
+    skos:notation "88.11" ;
+    skos:topConceptOf <> .
+
+<52.74> a skos:Concept ;
+    skos:notation "52.74" ;
+    skos:topConceptOf <> .
+
+<18.93> a skos:Concept ;
+    skos:notation "18.93" ;
+    skos:topConceptOf <> .
+
+<77.17> a skos:Concept ;
+    skos:notation "77.17" ;
+    skos:topConceptOf <> .
+
+<83.40> a skos:Concept ;
+    skos:notation "83.40" ;
+    skos:topConceptOf <> .
+
+<44.98> a skos:Concept ;
+    skos:notation "44.98" ;
+    skos:topConceptOf <> .
+
+<15> a skos:Concept ;
+    skos:notation "15" ;
+    skos:topConceptOf <> .
+
+<86.37> a skos:Concept ;
+    skos:notation "86.37" ;
+    skos:topConceptOf <> .
+
+<79.50> a skos:Concept ;
+    skos:notation "79.50" ;
+    skos:topConceptOf <> .
+
+<80.36> a skos:Concept ;
+    skos:notation "80.36" ;
+    skos:topConceptOf <> .
+
+<73.74> a skos:Concept ;
+    skos:notation "73.74" ;
+    skos:topConceptOf <> .
+
+<74.08> a skos:Concept ;
+    skos:notation "74.08" ;
+    skos:topConceptOf <> .
+
+<20.50> a skos:Concept ;
+    skos:notation "20.50" ;
+    skos:topConceptOf <> .
+
+<46.02> a skos:Concept ;
+    skos:notation "46.02" ;
+    skos:topConceptOf <> .
+
+<35.07> a skos:Concept ;
+    skos:notation "35.07" ;
+    skos:topConceptOf <> .
+
+<21.40> a skos:Concept ;
+    skos:notation "21.40" ;
+    skos:topConceptOf <> .
+
+<38.01> a skos:Concept ;
+    skos:notation "38.01" ;
+    skos:topConceptOf <> .
+
+<24.44> a skos:Concept ;
+    skos:notation "24.44" ;
+    skos:topConceptOf <> .
+
+<76.41> a skos:Concept ;
+    skos:notation "76.41" ;
+    skos:topConceptOf <> .
+
+<35.12> a skos:Concept ;
+    skos:notation "35.12" ;
+    skos:topConceptOf <> .
+
+<46.80> a skos:Concept ;
+    skos:notation "46.80" ;
+    skos:topConceptOf <> .
+
+<71.36> a skos:Concept ;
+    skos:notation "71.36" ;
+    skos:topConceptOf <> .
+
+<05.99> a skos:Concept ;
+    skos:notation "05.99" ;
+    skos:topConceptOf <> .
+
+<42.15> a skos:Concept ;
+    skos:notation "42.15" ;
+    skos:topConceptOf <> .
+
+<15.14> a skos:Concept ;
+    skos:notation "15.14" ;
+    skos:topConceptOf <> .
+
+<11.19> a skos:Concept ;
+    skos:notation "11.19" ;
+    skos:topConceptOf <> .
+
+<38.20> a skos:Concept ;
+    skos:notation "38.20" ;
+    skos:topConceptOf <> .
+
+<89.15> a skos:Concept ;
+    skos:notation "89.15" ;
+    skos:topConceptOf <> .
+
+<76.19> a skos:Concept ;
+    skos:notation "76.19" ;
+    skos:topConceptOf <> .
+
+<54.38> a skos:Concept ;
+    skos:notation "54.38" ;
+    skos:topConceptOf <> .
+
+<33.03> a skos:Concept ;
+    skos:notation "33.03" ;
+    skos:topConceptOf <> .
+
+<33.28> a skos:Concept ;
+    skos:notation "33.28" ;
+    skos:topConceptOf <> .
+
+<20.62> a skos:Concept ;
+    skos:notation "20.62" ;
+    skos:topConceptOf <> .
+
+<35.62> a skos:Concept ;
+    skos:notation "35.62" ;
+    skos:topConceptOf <> .
+
+<11.57> a skos:Concept ;
+    skos:notation "11.57" ;
+    skos:topConceptOf <> .
+
+<44.72> a skos:Concept ;
+    skos:notation "44.72" ;
+    skos:topConceptOf <> .
+
+<73.04> a skos:Concept ;
+    skos:notation "73.04" ;
+    skos:topConceptOf <> .
+
+<33.62> a skos:Concept ;
+    skos:notation "33.62" ;
+    skos:topConceptOf <> .
+
+<58.59> a skos:Concept ;
+    skos:notation "58.59" ;
+    skos:topConceptOf <> .
+
+<56.45> a skos:Concept ;
+    skos:notation "56.45" ;
+    skos:topConceptOf <> .
+
+<77.34> a skos:Concept ;
+    skos:notation "77.34" ;
+    skos:topConceptOf <> .
+
+<35.74> a skos:Concept ;
+    skos:notation "35.74" ;
+    skos:topConceptOf <> .
+
+<11.60> a skos:Concept ;
+    skos:notation "11.60" ;
+    skos:topConceptOf <> .
+
+<15.07> a skos:Concept ;
+    skos:notation "15.07" ;
+    skos:topConceptOf <> .
+
+<77.24> a skos:Concept ;
+    skos:notation "77.24" ;
+    skos:topConceptOf <> .
+
+<49> a skos:Concept ;
+    skos:notation "49" ;
+    skos:topConceptOf <> .
+
+<31.29> a skos:Concept ;
+    skos:notation "31.29" ;
+    skos:topConceptOf <> .
+
+<74.23> a skos:Concept ;
+    skos:notation "74.23" ;
+    skos:topConceptOf <> .
+
+<53.13> a skos:Concept ;
+    skos:notation "53.13" ;
+    skos:topConceptOf <> .
+
+<18.37> a skos:Concept ;
+    skos:notation "18.37" ;
+    skos:topConceptOf <> .
+
+<38.84> a skos:Concept ;
+    skos:notation "38.84" ;
+    skos:topConceptOf <> .
+
+<77.93> a skos:Concept ;
+    skos:notation "77.93" ;
+    skos:topConceptOf <> .
+
+<85.02> a skos:Concept ;
+    skos:notation "85.02" ;
+    skos:topConceptOf <> .
+
+<80.10> a skos:Concept ;
+    skos:notation "80.10" ;
+    skos:topConceptOf <> .
+
+<77.10> a skos:Concept ;
+    skos:notation "77.10" ;
+    skos:topConceptOf <> .
+
+<53.37> a skos:Concept ;
+    skos:notation "53.37" ;
+    skos:topConceptOf <> .
+
+<21.87> a skos:Concept ;
+    skos:notation "21.87" ;
+    skos:topConceptOf <> .
+
+<31.08> a skos:Concept ;
+    skos:notation "31.08" ;
+    skos:topConceptOf <> .
+
+<42.67> a skos:Concept ;
+    skos:notation "42.67" ;
+    skos:topConceptOf <> .
+
+<02.15> a skos:Concept ;
+    skos:notation "02.15" ;
+    skos:topConceptOf <> .
+
+<18.52> a skos:Concept ;
+    skos:notation "18.52" ;
+    skos:topConceptOf <> .
+
+<81.80> a skos:Concept ;
+    skos:notation "81.80" ;
+    skos:topConceptOf <> .
+
+<06.44> a skos:Concept ;
+    skos:notation "06.44" ;
+    skos:topConceptOf <> .
+
+<58.47> a skos:Concept ;
+    skos:notation "58.47" ;
+    skos:topConceptOf <> .
+
+<21.52> a skos:Concept ;
+    skos:notation "21.52" ;
+    skos:topConceptOf <> .
+
+<81.12> a skos:Concept ;
+    skos:notation "81.12" ;
+    skos:topConceptOf <> .
+
+<06.41> a skos:Concept ;
+    skos:notation "06.41" ;
+    skos:topConceptOf <> .
+
+<11.30> a skos:Concept ;
+    skos:notation "11.30" ;
+    skos:topConceptOf <> .
+
+<11.52> a skos:Concept ;
+    skos:notation "11.52" ;
+    skos:topConceptOf <> .
+
+<86.71> a skos:Concept ;
+    skos:notation "86.71" ;
+    skos:topConceptOf <> .
+
+<42.23> a skos:Concept ;
+    skos:notation "42.23" ;
+    skos:topConceptOf <> .
+
+<11.21> a skos:Concept ;
+    skos:notation "11.21" ;
+    skos:topConceptOf <> .
+
+<77.71> a skos:Concept ;
+    skos:notation "77.71" ;
+    skos:topConceptOf <> .
+
+<20.41> a skos:Concept ;
+    skos:notation "20.41" ;
+    skos:topConceptOf <> .
+
+<53.01> a skos:Concept ;
+    skos:notation "53.01" ;
+    skos:topConceptOf <> .
+
+<86.41> a skos:Concept ;
+    skos:notation "86.41" ;
+    skos:topConceptOf <> .
+
+<81.76> a skos:Concept ;
+    skos:notation "81.76" ;
+    skos:topConceptOf <> .
+
+<55.34> a skos:Concept ;
+    skos:notation "55.34" ;
+    skos:topConceptOf <> .
+
+<31.10> a skos:Concept ;
+    skos:notation "31.10" ;
+    skos:topConceptOf <> .
+
+<73.99> a skos:Concept ;
+    skos:notation "73.99" ;
+    skos:topConceptOf <> .
+
+<05.36> a skos:Concept ;
+    skos:notation "05.36" ;
+    skos:topConceptOf <> .
+
+<55.54> a skos:Concept ;
+    skos:notation "55.54" ;
+    skos:topConceptOf <> .
+
+<08.42> a skos:Concept ;
+    skos:notation "08.42" ;
+    skos:topConceptOf <> .
+
+<20.33> a skos:Concept ;
+    skos:notation "20.33" ;
+    skos:topConceptOf <> .
+
+<31.11> a skos:Concept ;
+    skos:notation "31.11" ;
+    skos:topConceptOf <> .
+
+<89.87> a skos:Concept ;
+    skos:notation "89.87" ;
+    skos:topConceptOf <> .
+
+<73.44> a skos:Concept ;
+    skos:notation "73.44" ;
+    skos:topConceptOf <> .
+
+<77.62> a skos:Concept ;
+    skos:notation "77.62" ;
+    skos:topConceptOf <> .
+
+<54.82> a skos:Concept ;
+    skos:notation "54.82" ;
+    skos:topConceptOf <> .
+
+<08.38> a skos:Concept ;
+    skos:notation "08.38" ;
+    skos:topConceptOf <> .
+
+<11.74> a skos:Concept ;
+    skos:notation "11.74" ;
+    skos:topConceptOf <> .
+
+<21> a skos:Concept ;
+    skos:notation "21" ;
+    skos:topConceptOf <> .
+
+<81.65> a skos:Concept ;
+    skos:notation "81.65" ;
+    skos:topConceptOf <> .
+
+<83.30> a skos:Concept ;
+    skos:notation "83.30" ;
+    skos:topConceptOf <> .
+
+<30.00> a skos:Concept ;
+    skos:notation "30.00" ;
+    skos:topConceptOf <> .
+
+<17.93> a skos:Concept ;
+    skos:notation "17.93" ;
+    skos:topConceptOf <> .
+
+<18.10> a skos:Concept ;
+    skos:notation "18.10" ;
+    skos:topConceptOf <> .
+
+<80.40> a skos:Concept ;
+    skos:notation "80.40" ;
+    skos:topConceptOf <> .
+
+<48.67> a skos:Concept ;
+    skos:notation "48.67" ;
+    skos:topConceptOf <> .
+
+<15.91> a skos:Concept ;
+    skos:notation "15.91" ;
+    skos:topConceptOf <> .
+
+<38.31> a skos:Concept ;
+    skos:notation "38.31" ;
+    skos:topConceptOf <> .
+
+<86.55> a skos:Concept ;
+    skos:notation "86.55" ;
+    skos:topConceptOf <> .
+
+<24.82> a skos:Concept ;
+    skos:notation "24.82" ;
+    skos:topConceptOf <> .
+
+<17.13> a skos:Concept ;
+    skos:notation "17.13" ;
+    skos:topConceptOf <> .
+
+<18.78> a skos:Concept ;
+    skos:notation "18.78" ;
+    skos:topConceptOf <> .
+
+<86.26> a skos:Concept ;
+    skos:notation "86.26" ;
+    skos:topConceptOf <> .
+
+<58.27> a skos:Concept ;
+    skos:notation "58.27" ;
+    skos:topConceptOf <> .
+
+<81.71> a skos:Concept ;
+    skos:notation "81.71" ;
+    skos:topConceptOf <> .
+
+<44.43> a skos:Concept ;
+    skos:notation "44.43" ;
+    skos:topConceptOf <> .
+
+<77.22> a skos:Concept ;
+    skos:notation "77.22" ;
+    skos:topConceptOf <> .
+
+<55.80> a skos:Concept ;
+    skos:notation "55.80" ;
+    skos:topConceptOf <> .
+
+<20.10> a skos:Concept ;
+    skos:notation "20.10" ;
+    skos:topConceptOf <> .
+
+<54.51> a skos:Concept ;
+    skos:notation "54.51" ;
+    skos:topConceptOf <> .
+
+<77.18> a skos:Concept ;
+    skos:notation "77.18" ;
+    skos:topConceptOf <> .
+
+<56.01> a skos:Concept ;
+    skos:notation "56.01" ;
+    skos:topConceptOf <> .
+
+<54.76> a skos:Concept ;
+    skos:notation "54.76" ;
+    skos:topConceptOf <> .
+
+<52.55> a skos:Concept ;
+    skos:notation "52.55" ;
+    skos:topConceptOf <> .
+
+<15.38> a skos:Concept ;
+    skos:notation "15.38" ;
+    skos:topConceptOf <> .
+
+<53.35> a skos:Concept ;
+    skos:notation "53.35" ;
+    skos:topConceptOf <> .
+
+<20.06> a skos:Concept ;
+    skos:notation "20.06" ;
+    skos:topConceptOf <> .
+
+<80.29> a skos:Concept ;
+    skos:notation "80.29" ;
+    skos:topConceptOf <> .
+
+<18.68> a skos:Concept ;
+    skos:notation "18.68" ;
+    skos:topConceptOf <> .
+
+<83.04> a skos:Concept ;
+    skos:notation "83.04" ;
+    skos:topConceptOf <> .
+
+<11.69> a skos:Concept ;
+    skos:notation "11.69" ;
+    skos:topConceptOf <> .
+
+<77> a skos:Concept ;
+    skos:notation "77" ;
+    skos:topConceptOf <> .
+
+<17.83> a skos:Concept ;
+    skos:notation "17.83" ;
+    skos:topConceptOf <> .
+
+<18.27> a skos:Concept ;
+    skos:notation "18.27" ;
+    skos:topConceptOf <> .
+
+<73.63> a skos:Concept ;
+    skos:notation "73.63" ;
+    skos:topConceptOf <> .
+
+<18.73> a skos:Concept ;
+    skos:notation "18.73" ;
+    skos:topConceptOf <> .
+
+<24.90> a skos:Concept ;
+    skos:notation "24.90" ;
+    skos:topConceptOf <> .
+
+<31.69> a skos:Concept ;
+    skos:notation "31.69" ;
+    skos:topConceptOf <> .
+
+<80.60> a skos:Concept ;
+    skos:notation "80.60" ;
+    skos:topConceptOf <> .
+
+<79.03> a skos:Concept ;
+    skos:notation "79.03" ;
+    skos:topConceptOf <> .
+
+<53.04> a skos:Concept ;
+    skos:notation "53.04" ;
+    skos:topConceptOf <> .
+
+<39.50> a skos:Concept ;
+    skos:notation "39.50" ;
+    skos:topConceptOf <> .
+
+<42.36> a skos:Concept ;
+    skos:notation "42.36" ;
+    skos:topConceptOf <> .
+
+<20.29> a skos:Concept ;
+    skos:notation "20.29" ;
+    skos:topConceptOf <> .
+
+<31.23> a skos:Concept ;
+    skos:notation "31.23" ;
+    skos:topConceptOf <> .
+
+<89.76> a skos:Concept ;
+    skos:notation "89.76" ;
+    skos:topConceptOf <> .
+
+<71.83> a skos:Concept ;
+    skos:notation "71.83" ;
+    skos:topConceptOf <> .
+
+<11.06> a skos:Concept ;
+    skos:notation "11.06" ;
+    skos:topConceptOf <> .
+
+<73.05> a skos:Concept ;
+    skos:notation "73.05" ;
+    skos:topConceptOf <> .
+
+<06.99> a skos:Concept ;
+    skos:notation "06.99" ;
+    skos:topConceptOf <> .
+
+<24.06> a skos:Concept ;
+    skos:notation "24.06" ;
+    skos:topConceptOf <> .
+
+<38.40> a skos:Concept ;
+    skos:notation "38.40" ;
+    skos:topConceptOf <> .
+
+<55.45> a skos:Concept ;
+    skos:notation "55.45" ;
+    skos:topConceptOf <> .
+
+<52.72> a skos:Concept ;
+    skos:notation "52.72" ;
+    skos:topConceptOf <> .
+
+<71.63> a skos:Concept ;
+    skos:notation "71.63" ;
+    skos:topConceptOf <> .
+
+<39.01> a skos:Concept ;
+    skos:notation "39.01" ;
+    skos:topConceptOf <> .
+
+<46.52> a skos:Concept ;
+    skos:notation "46.52" ;
+    skos:topConceptOf <> .
+
+<05.40> a skos:Concept ;
+    skos:notation "05.40" ;
+    skos:topConceptOf <> .
+
+<56.25> a skos:Concept ;
+    skos:notation "56.25" ;
+    skos:topConceptOf <> .
+
+<71.20> a skos:Concept ;
+    skos:notation "71.20" ;
+    skos:topConceptOf <> .
+
+<89.51> a skos:Concept ;
+    skos:notation "89.51" ;
+    skos:topConceptOf <> .
+
+<57.40> a skos:Concept ;
+    skos:notation "57.40" ;
+    skos:topConceptOf <> .
+
+<79.17> a skos:Concept ;
+    skos:notation "79.17" ;
+    skos:topConceptOf <> .
+
+<06.15> a skos:Concept ;
+    skos:notation "06.15" ;
+    skos:topConceptOf <> .
+
+<38.86> a skos:Concept ;
+    skos:notation "38.86" ;
+    skos:topConceptOf <> .
+
+<89.82> a skos:Concept ;
+    skos:notation "89.82" ;
+    skos:topConceptOf <> .
+
+<86.24> a skos:Concept ;
+    skos:notation "86.24" ;
+    skos:topConceptOf <> .
+
+<79.18> a skos:Concept ;
+    skos:notation "79.18" ;
+    skos:topConceptOf <> .
+
+<11.88> a skos:Concept ;
+    skos:notation "11.88" ;
+    skos:topConceptOf <> .
+
+<15.34> a skos:Concept ;
+    skos:notation "15.34" ;
+    skos:topConceptOf <> .
+
+<89.03> a skos:Concept ;
+    skos:notation "89.03" ;
+    skos:topConceptOf <> .
+
+<77.78> a skos:Concept ;
+    skos:notation "77.78" ;
+    skos:topConceptOf <> .
+
+<44.40> a skos:Concept ;
+    skos:notation "44.40" ;
+    skos:topConceptOf <> .
+
+<42.07> a skos:Concept ;
+    skos:notation "42.07" ;
+    skos:topConceptOf <> .
+
+<58.30> a skos:Concept ;
+    skos:notation "58.30" ;
+    skos:topConceptOf <> .
+
+<17.35> a skos:Concept ;
+    skos:notation "17.35" ;
+    skos:topConceptOf <> .
+
+<76.60> a skos:Concept ;
+    skos:notation "76.60" ;
+    skos:topConceptOf <> .
+
+<44.10> a skos:Concept ;
+    skos:notation "44.10" ;
+    skos:topConceptOf <> .
+
+<79.64> a skos:Concept ;
+    skos:notation "79.64" ;
+    skos:topConceptOf <> .
+
+<21.01> a skos:Concept ;
+    skos:notation "21.01" ;
+    skos:topConceptOf <> .
+
+<21.49> a skos:Concept ;
+    skos:notation "21.49" ;
+    skos:topConceptOf <> .
+
+<56.40> a skos:Concept ;
+    skos:notation "56.40" ;
+    skos:topConceptOf <> .
+
+<73.80> a skos:Concept ;
+    skos:notation "73.80" ;
+    skos:topConceptOf <> .
+
+<50.07> a skos:Concept ;
+    skos:notation "50.07" ;
+    skos:topConceptOf <> .
+
+<58.54> a skos:Concept ;
+    skos:notation "58.54" ;
+    skos:topConceptOf <> .
+
+<56.50> a skos:Concept ;
+    skos:notation "56.50" ;
+    skos:topConceptOf <> .
+
+<21.75> a skos:Concept ;
+    skos:notation "21.75" ;
+    skos:topConceptOf <> .
+
+<24.24> a skos:Concept ;
+    skos:notation "24.24" ;
+    skos:topConceptOf <> .
+
+<33.16> a skos:Concept ;
+    skos:notation "33.16" ;
+    skos:topConceptOf <> .
+
+<42> a skos:Concept ;
+    skos:notation "42" ;
+    skos:topConceptOf <> .
+
+<11.47> a skos:Concept ;
+    skos:notation "11.47" ;
+    skos:topConceptOf <> .
+
+<11.62> a skos:Concept ;
+    skos:notation "11.62" ;
+    skos:topConceptOf <> .
+
+<52.42> a skos:Concept ;
+    skos:notation "52.42" ;
+    skos:topConceptOf <> .
+
+<18.59> a skos:Concept ;
+    skos:notation "18.59" ;
+    skos:topConceptOf <> .
+
+<15.19> a skos:Concept ;
+    skos:notation "15.19" ;
+    skos:topConceptOf <> .
+
+<42.91> a skos:Concept ;
+    skos:notation "42.91" ;
+    skos:topConceptOf <> .
+
+<33.75> a skos:Concept ;
+    skos:notation "33.75" ;
+    skos:topConceptOf <> .
+
+<76.02> a skos:Concept ;
+    skos:notation "76.02" ;
+    skos:topConceptOf <> .
+
+<54.88> a skos:Concept ;
+    skos:notation "54.88" ;
+    skos:topConceptOf <> .
+
+<73.49> a skos:Concept ;
+    skos:notation "73.49" ;
+    skos:topConceptOf <> .
+
+<53.75> a skos:Concept ;
+    skos:notation "53.75" ;
+    skos:topConceptOf <> .
+
+<77.84> a skos:Concept ;
+    skos:notation "77.84" ;
+    skos:topConceptOf <> .
+
+<44.19> a skos:Concept ;
+    skos:notation "44.19" ;
+    skos:topConceptOf <> .
+
+<85.09> a skos:Concept ;
+    skos:notation "85.09" ;
+    skos:topConceptOf <> .
+
+<76.25> a skos:Concept ;
+    skos:notation "76.25" ;
+    skos:topConceptOf <> .
+
+<50.97> a skos:Concept ;
+    skos:notation "50.97" ;
+    skos:topConceptOf <> .
+
+<18.20> a skos:Concept ;
+    skos:notation "18.20" ;
+    skos:topConceptOf <> .
+
+<33.56> a skos:Concept ;
+    skos:notation "33.56" ;
+    skos:topConceptOf <> .
+
+<89.36> a skos:Concept ;
+    skos:notation "89.36" ;
+    skos:topConceptOf <> .
+
+<18.45> a skos:Concept ;
+    skos:notation "18.45" ;
+    skos:topConceptOf <> .
+
+<81.17> a skos:Concept ;
+    skos:notation "81.17" ;
+    skos:topConceptOf <> .
+
+<73.21> a skos:Concept ;
+    skos:notation "73.21" ;
+    skos:topConceptOf <> .
+
+<35.50> a skos:Concept ;
+    skos:notation "35.50" ;
+    skos:topConceptOf <> .
+
+<18.13> a skos:Concept ;
+    skos:notation "18.13" ;
+    skos:topConceptOf <> .
+
+<71.52> a skos:Concept ;
+    skos:notation "71.52" ;
+    skos:topConceptOf <> .
+
+<44.17> a skos:Concept ;
+    skos:notation "44.17" ;
+    skos:topConceptOf <> .
+
+<53.71> a skos:Concept ;
+    skos:notation "53.71" ;
+    skos:topConceptOf <> .
+
+<71.01> a skos:Concept ;
+    skos:notation "71.01" ;
+    skos:topConceptOf <> .
+
+<35.16> a skos:Concept ;
+    skos:notation "35.16" ;
+    skos:topConceptOf <> .
+
+<35.53> a skos:Concept ;
+    skos:notation "35.53" ;
+    skos:topConceptOf <> .
+
+<58.29> a skos:Concept ;
+    skos:notation "58.29" ;
+    skos:topConceptOf <> .
+
+<31.43> a skos:Concept ;
+    skos:notation "31.43" ;
+    skos:topConceptOf <> .
+
+<31.59> a skos:Concept ;
+    skos:notation "31.59" ;
+    skos:topConceptOf <> .
+
+<79.40> a skos:Concept ;
+    skos:notation "79.40" ;
+    skos:topConceptOf <> .
+
+<76.17> a skos:Concept ;
+    skos:notation "76.17" ;
+    skos:topConceptOf <> .
+
+<58.45> a skos:Concept ;
+    skos:notation "58.45" ;
+    skos:topConceptOf <> .
+
+<38.61> a skos:Concept ;
+    skos:notation "38.61" ;
+    skos:topConceptOf <> .
+
+<53.31> a skos:Concept ;
+    skos:notation "53.31" ;
+    skos:topConceptOf <> .
+
+<31.35> a skos:Concept ;
+    skos:notation "31.35" ;
+    skos:topConceptOf <> .
+
+<38.88> a skos:Concept ;
+    skos:notation "38.88" ;
+    skos:topConceptOf <> .
+
+<15.40> a skos:Concept ;
+    skos:notation "15.40" ;
+    skos:topConceptOf <> .
+
+<11.23> a skos:Concept ;
+    skos:notation "11.23" ;
+    skos:topConceptOf <> .
+
+<18.04> a skos:Concept ;
+    skos:notation "18.04" ;
+    skos:topConceptOf <> .
+
+<48.59> a skos:Concept ;
+    skos:notation "48.59" ;
+    skos:topConceptOf <> .
+
+<83.01> a skos:Concept ;
+    skos:notation "83.01" ;
+    skos:topConceptOf <> .
+
+<71.40> a skos:Concept ;
+    skos:notation "71.40" ;
+    skos:topConceptOf <> .
+
+<73.56> a skos:Concept ;
+    skos:notation "73.56" ;
+    skos:topConceptOf <> .
+
+<71.70> a skos:Concept ;
+    skos:notation "71.70" ;
+    skos:topConceptOf <> .
+
+<81.78> a skos:Concept ;
+    skos:notation "81.78" ;
+    skos:topConceptOf <> .
+
+<35.99> a skos:Concept ;
+    skos:notation "35.99" ;
+    skos:topConceptOf <> .
+
+<39.22> a skos:Concept ;
+    skos:notation "39.22" ;
+    skos:topConceptOf <> .
+
+<56.47> a skos:Concept ;
+    skos:notation "56.47" ;
+    skos:topConceptOf <> .
+
+<81.58> a skos:Concept ;
+    skos:notation "81.58" ;
+    skos:topConceptOf <> .
+
+<71.24> a skos:Concept ;
+    skos:notation "71.24" ;
+    skos:topConceptOf <> .
+
+<49.25> a skos:Concept ;
+    skos:notation "49.25" ;
+    skos:topConceptOf <> .
+
+<15.46> a skos:Concept ;
+    skos:notation "15.46" ;
+    skos:topConceptOf <> .
+
+<24.46> a skos:Concept ;
+    skos:notation "24.46" ;
+    skos:topConceptOf <> .
+
+<43.03> a skos:Concept ;
+    skos:notation "43.03" ;
+    skos:topConceptOf <> .
+
+<57.01> a skos:Concept ;
+    skos:notation "57.01" ;
+    skos:topConceptOf <> .
+
+<51.20> a skos:Concept ;
+    skos:notation "51.20" ;
+    skos:topConceptOf <> .
+
+<49.04> a skos:Concept ;
+    skos:notation "49.04" ;
+    skos:topConceptOf <> .
+
+<15.50> a skos:Concept ;
+    skos:notation "15.50" ;
+    skos:topConceptOf <> .
+
+<44.06> a skos:Concept ;
+    skos:notation "44.06" ;
+    skos:topConceptOf <> .
+
+<50.20> a skos:Concept ;
+    skos:notation "50.20" ;
+    skos:topConceptOf <> .
+
+<83.19> a skos:Concept ;
+    skos:notation "83.19" ;
+    skos:topConceptOf <> .
+
+<88.14> a skos:Concept ;
+    skos:notation "88.14" ;
+    skos:topConceptOf <> .
+
+<88.13> a skos:Concept ;
+    skos:notation "88.13" ;
+    skos:topConceptOf <> .
+
+<86.22> a skos:Concept ;
+    skos:notation "86.22" ;
+    skos:topConceptOf <> .
+
+<76.04> a skos:Concept ;
+    skos:notation "76.04" ;
+    skos:topConceptOf <> .
+
+<18.09> a skos:Concept ;
+    skos:notation "18.09" ;
+    skos:topConceptOf <> .
+
+<20.56> a skos:Concept ;
+    skos:notation "20.56" ;
+    skos:topConceptOf <> .
+
+<48.50> a skos:Concept ;
+    skos:notation "48.50" ;
+    skos:topConceptOf <> .
+
+<76.11> a skos:Concept ;
+    skos:notation "76.11" ;
+    skos:topConceptOf <> .
+
+<50.35> a skos:Concept ;
+    skos:notation "50.35" ;
+    skos:topConceptOf <> .
+
+<05.30> a skos:Concept ;
+    skos:notation "05.30" ;
+    skos:topConceptOf <> .
+
+<76.30> a skos:Concept ;
+    skos:notation "76.30" ;
+    skos:topConceptOf <> .
+
+<89.01> a skos:Concept ;
+    skos:notation "89.01" ;
+    skos:topConceptOf <> .
+
+<56.59> a skos:Concept ;
+    skos:notation "56.59" ;
+    skos:topConceptOf <> .
+
+<15.04> a skos:Concept ;
+    skos:notation "15.04" ;
+    skos:topConceptOf <> .
+
+<24.41> a skos:Concept ;
+    skos:notation "24.41" ;
+    skos:topConceptOf <> .
+
+<86.73> a skos:Concept ;
+    skos:notation "86.73" ;
+    skos:topConceptOf <> .
+
+<77.20> a skos:Concept ;
+    skos:notation "77.20" ;
+    skos:topConceptOf <> .
+
+<51.24> a skos:Concept ;
+    skos:notation "51.24" ;
+    skos:topConceptOf <> .
+
+<15.28> a skos:Concept ;
+    skos:notation "15.28" ;
+    skos:topConceptOf <> .
+
+<89.89> a skos:Concept ;
+    skos:notation "89.89" ;
+    skos:topConceptOf <> .
+
+<89.69> a skos:Concept ;
+    skos:notation "89.69" ;
+    skos:topConceptOf <> .
+
+<39.52> a skos:Concept ;
+    skos:notation "39.52" ;
+    skos:topConceptOf <> .
+
+<11.92> a skos:Concept ;
+    skos:notation "11.92" ;
+    skos:topConceptOf <> .
+
+<81.60> a skos:Concept ;
+    skos:notation "81.60" ;
+    skos:topConceptOf <> .
+
+<18.99> a skos:Concept ;
+    skos:notation "18.99" ;
+    skos:topConceptOf <> .
+
+<38.79> a skos:Concept ;
+    skos:notation "38.79" ;
+    skos:topConceptOf <> .
+
+<89.60> a skos:Concept ;
+    skos:notation "89.60" ;
+    skos:topConceptOf <> .
+
+<44.37> a skos:Concept ;
+    skos:notation "44.37" ;
+    skos:topConceptOf <> .
+
+<86.66> a skos:Concept ;
+    skos:notation "86.66" ;
+    skos:topConceptOf <> .
+
+<05> a skos:Concept ;
+    skos:notation "05" ;
+    skos:topConceptOf <> .
+
+<39.20> a skos:Concept ;
+    skos:notation "39.20" ;
+    skos:topConceptOf <> .
+
+<73.79> a skos:Concept ;
+    skos:notation "73.79" ;
+    skos:topConceptOf <> .
+
+<18.47> a skos:Concept ;
+    skos:notation "18.47" ;
+    skos:topConceptOf <> .
+
+<54.59> a skos:Concept ;
+    skos:notation "54.59" ;
+    skos:topConceptOf <> .
+
+<24.05> a skos:Concept ;
+    skos:notation "24.05" ;
+    skos:topConceptOf <> .
+
+<38.82> a skos:Concept ;
+    skos:notation "38.82" ;
+    skos:topConceptOf <> .
+
+<89.59> a skos:Concept ;
+    skos:notation "89.59" ;
+    skos:topConceptOf <> .
+
+<02.13> a skos:Concept ;
+    skos:notation "02.13" ;
+    skos:topConceptOf <> .
+
+<18.35> a skos:Concept ;
+    skos:notation "18.35" ;
+    skos:topConceptOf <> .
+
+<71.34> a skos:Concept ;
+    skos:notation "71.34" ;
+    skos:topConceptOf <> .
+
+<81.00> a skos:Concept ;
+    skos:notation "81.00" ;
+    skos:topConceptOf <> .
+
+<18.02> a skos:Concept ;
+    skos:notation "18.02" ;
+    skos:topConceptOf <> .
+
+<80.46> a skos:Concept ;
+    skos:notation "80.46" ;
+    skos:topConceptOf <> .
+
+<55.00> a skos:Concept ;
+    skos:notation "55.00" ;
+    skos:topConceptOf <> .
+
+<56.14> a skos:Concept ;
+    skos:notation "56.14" ;
+    skos:topConceptOf <> .
+
+<55.64> a skos:Concept ;
+    skos:notation "55.64" ;
+    skos:topConceptOf <> .
+
+<86.27> a skos:Concept ;
+    skos:notation "86.27" ;
+    skos:topConceptOf <> .
+
+<11.14> a skos:Concept ;
+    skos:notation "11.14" ;
+    skos:topConceptOf <> .
+
+<20.20> a skos:Concept ;
+    skos:notation "20.20" ;
+    skos:topConceptOf <> .
+
+<81.40> a skos:Concept ;
+    skos:notation "81.40" ;
+    skos:topConceptOf <> .
+
+<50.99> a skos:Concept ;
+    skos:notation "50.99" ;
+    skos:topConceptOf <> .
+
+<20.60> a skos:Concept ;
+    skos:notation "20.60" ;
+    skos:topConceptOf <> .
+
+<24.12> a skos:Concept ;
+    skos:notation "24.12" ;
+    skos:topConceptOf <> .
+
+<53.39> a skos:Concept ;
+    skos:notation "53.39" ;
+    skos:topConceptOf <> .
+
+<53.15> a skos:Concept ;
+    skos:notation "53.15" ;
+    skos:topConceptOf <> .
+
+<77.01> a skos:Concept ;
+    skos:notation "77.01" ;
+    skos:topConceptOf <> .
+
+<31.41> a skos:Concept ;
+    skos:notation "31.41" ;
+    skos:topConceptOf <> .
+
+<35.10> a skos:Concept ;
+    skos:notation "35.10" ;
+    skos:topConceptOf <> .
+
+<89.13> a skos:Concept ;
+    skos:notation "89.13" ;
+    skos:topConceptOf <> .
+
+<51.32> a skos:Concept ;
+    skos:notation "51.32" ;
+    skos:topConceptOf <> .
+
+<31.61> a skos:Concept ;
+    skos:notation "31.61" ;
+    skos:topConceptOf <> .
+
+<18.61> a skos:Concept ;
+    skos:notation "18.61" ;
+    skos:topConceptOf <> .
+
+<11.08> a skos:Concept ;
+    skos:notation "11.08" ;
+    skos:topConceptOf <> .
+
+<02.60> a skos:Concept ;
+    skos:notation "02.60" ;
+    skos:topConceptOf <> .
+
+<56.08> a skos:Concept ;
+    skos:notation "56.08" ;
+    skos:topConceptOf <> .
+
+<31.73> a skos:Concept ;
+    skos:notation "31.73" ;
+    skos:topConceptOf <> .
+
+<86.99> a skos:Concept ;
+    skos:notation "86.99" ;
+    skos:topConceptOf <> .
+
+<86.49> a skos:Concept ;
+    skos:notation "86.49" ;
+    skos:topConceptOf <> .
+
+<85.04> a skos:Concept ;
+    skos:notation "85.04" ;
+    skos:topConceptOf <> .
+
+<79> a skos:Concept ;
+    skos:notation "79" ;
+    skos:topConceptOf <> .
+
+<58.10> a skos:Concept ;
+    skos:notation "58.10" ;
+    skos:topConceptOf <> .
+
+<17.98> a skos:Concept ;
+    skos:notation "17.98" ;
+    skos:topConceptOf <> .
+
+<56.81> a skos:Concept ;
+    skos:notation "56.81" ;
+    skos:topConceptOf <> .
+
+<11.44> a skos:Concept ;
+    skos:notation "11.44" ;
+    skos:topConceptOf <> .
+
+<20.31> a skos:Concept ;
+    skos:notation "20.31" ;
+    skos:topConceptOf <> .
+
+<33.29> a skos:Concept ;
+    skos:notation "33.29" ;
+    skos:topConceptOf <> .
+
+<24.03> a skos:Concept ;
+    skos:notation "24.03" ;
+    skos:topConceptOf <> .
+
+<38.47> a skos:Concept ;
+    skos:notation "38.47" ;
+    skos:topConceptOf <> .
+
+<83.49> a skos:Concept ;
+    skos:notation "83.49" ;
+    skos:topConceptOf <> .
+
+<05.34> a skos:Concept ;
+    skos:notation "05.34" ;
+    skos:topConceptOf <> .
+
+<44.45> a skos:Concept ;
+    skos:notation "44.45" ;
+    skos:topConceptOf <> .
+
+<89.53> a skos:Concept ;
+    skos:notation "89.53" ;
+    skos:topConceptOf <> .
+
+<24.65> a skos:Concept ;
+    skos:notation "24.65" ;
+    skos:topConceptOf <> .
+
+<81.14> a skos:Concept ;
+    skos:notation "81.14" ;
+    skos:topConceptOf <> .
+
+<39.11> a skos:Concept ;
+    skos:notation "39.11" ;
+    skos:topConceptOf <> .
+
+<43.61> a skos:Concept ;
+    skos:notation "43.61" ;
+    skos:topConceptOf <> .
+
+<15.23> a skos:Concept ;
+    skos:notation "15.23" ;
+    skos:topConceptOf <> .
+
+<86.96> a skos:Concept ;
+    skos:notation "86.96" ;
+    skos:topConceptOf <> .
+
+<71.49> a skos:Concept ;
+    skos:notation "71.49" ;
+    skos:topConceptOf <> .
+
+<33.30> a skos:Concept ;
+    skos:notation "33.30" ;
+    skos:topConceptOf <> .
+
+<17.45> a skos:Concept ;
+    skos:notation "17.45" ;
+    skos:topConceptOf <> .
+
+<86.06> a skos:Concept ;
+    skos:notation "86.06" ;
+    skos:topConceptOf <> .
+
+<51.75> a skos:Concept ;
+    skos:notation "51.75" ;
+    skos:topConceptOf <> .
+
+<17.51> a skos:Concept ;
+    skos:notation "17.51" ;
+    skos:topConceptOf <> .
+
+<44.74> a skos:Concept ;
+    skos:notation "44.74" ;
+    skos:topConceptOf <> .
+
+<81.82> a skos:Concept ;
+    skos:notation "81.82" ;
+    skos:topConceptOf <> .
+
+<31.52> a skos:Concept ;
+    skos:notation "31.52" ;
+    skos:topConceptOf <> .
+
+<73.87> a skos:Concept ;
+    skos:notation "73.87" ;
+    skos:topConceptOf <> .
+
+<56.84> a skos:Concept ;
+    skos:notation "56.84" ;
+    skos:topConceptOf <> .
+
+<38.19> a skos:Concept ;
+    skos:notation "38.19" ;
+    skos:topConceptOf <> .
+
+<57.04> a skos:Concept ;
+    skos:notation "57.04" ;
+    skos:topConceptOf <> .
+
+<15.64> a skos:Concept ;
+    skos:notation "15.64" ;
+    skos:topConceptOf <> .
+
+<54.53> a skos:Concept ;
+    skos:notation "54.53" ;
+    skos:topConceptOf <> .
+
+<15.62> a skos:Concept ;
+    skos:notation "15.62" ;
+    skos:topConceptOf <> .
+
+<11.50> a skos:Concept ;
+    skos:notation "11.50" ;
+    skos:topConceptOf <> .
+
+<56.23> a skos:Concept ;
+    skos:notation "56.23" ;
+    skos:topConceptOf <> .
+
+<86.30> a skos:Concept ;
+    skos:notation "86.30" ;
+    skos:topConceptOf <> .
+
+<74.11> a skos:Concept ;
+    skos:notation "74.11" ;
+    skos:topConceptOf <> .
+
+<11.82> a skos:Concept ;
+    skos:notation "11.82" ;
+    skos:topConceptOf <> .
+
+<46.00> a skos:Concept ;
+    skos:notation "46.00" ;
+    skos:topConceptOf <> .
+
+<42.45> a skos:Concept ;
+    skos:notation "42.45" ;
+    skos:topConceptOf <> .
+
+<74.17> a skos:Concept ;
+    skos:notation "74.17" ;
+    skos:topConceptOf <> .
+
+<35.05> a skos:Concept ;
+    skos:notation "35.05" ;
+    skos:topConceptOf <> .
+
+<86.92> a skos:Concept ;
+    skos:notation "86.92" ;
+    skos:topConceptOf <> .
+
+<30.03> a skos:Concept ;
+    skos:notation "30.03" ;
+    skos:topConceptOf <> .
+
+<38.60> a skos:Concept ;
+    skos:notation "38.60" ;
+    skos:topConceptOf <> .
+
+<56.10> a skos:Concept ;
+    skos:notation "56.10" ;
+    skos:topConceptOf <> .
+
+<15.69> a skos:Concept ;
+    skos:notation "15.69" ;
+    skos:topConceptOf <> .
+
+<31.21> a skos:Concept ;
+    skos:notation "31.21" ;
+    skos:topConceptOf <> .
+
+<44.99> a skos:Concept ;
+    skos:notation "44.99" ;
+    skos:topConceptOf <> .
+
+<08.36> a skos:Concept ;
+    skos:notation "08.36" ;
+    skos:topConceptOf <> .
+
+<80.27> a skos:Concept ;
+    skos:notation "80.27" ;
+    skos:topConceptOf <> .
+
+<15.71> a skos:Concept ;
+    skos:notation "15.71" ;
+    skos:topConceptOf <> .
+
+<11.15> a skos:Concept ;
+    skos:notation "11.15" ;
+    skos:topConceptOf <> .
+
+<38.27> a skos:Concept ;
+    skos:notation "38.27" ;
+    skos:topConceptOf <> .
+
+<35.40> a skos:Concept ;
+    skos:notation "35.40" ;
+    skos:topConceptOf <> .
+
+<85.64> a skos:Concept ;
+    skos:notation "85.64" ;
+    skos:topConceptOf <> .
+
+<08.44> a skos:Concept ;
+    skos:notation "08.44" ;
+    skos:topConceptOf <> .
+
+<83.13> a skos:Concept ;
+    skos:notation "83.13" ;
+    skos:topConceptOf <> .
+
+<20.08> a skos:Concept ;
+    skos:notation "20.08" ;
+    skos:topConceptOf <> .
+
+<06.13> a skos:Concept ;
+    skos:notation "06.13" ;
+    skos:topConceptOf <> .
+
+<20.22> a skos:Concept ;
+    skos:notation "20.22" ;
+    skos:topConceptOf <> .
+
+<42.21> a skos:Concept ;
+    skos:notation "42.21" ;
+    skos:topConceptOf <> .
+
+<88.03> a skos:Concept ;
+    skos:notation "88.03" ;
+    skos:topConceptOf <> .
+
+<50> a skos:Concept ;
+    skos:notation "50" ;
+    skos:topConceptOf <> .
+
+<05.12> a skos:Concept ;
+    skos:notation "05.12" ;
+    skos:topConceptOf <> .
+
+<44.05> a skos:Concept ;
+    skos:notation "44.05" ;
+    skos:topConceptOf <> .
+
+<52.57> a skos:Concept ;
+    skos:notation "52.57" ;
+    skos:topConceptOf <> .
+
+<17.81> a skos:Concept ;
+    skos:notation "17.81" ;
+    skos:topConceptOf <> .
+
+<11.54> a skos:Concept ;
+    skos:notation "11.54" ;
+    skos:topConceptOf <> .
+
+<89.41> a skos:Concept ;
+    skos:notation "89.41" ;
+    skos:topConceptOf <> .
+
+<38.59> a skos:Concept ;
+    skos:notation "38.59" ;
+    skos:topConceptOf <> .
+
+<48.20> a skos:Concept ;
+    skos:notation "48.20" ;
+    skos:topConceptOf <> .
+
+<86.68> a skos:Concept ;
+    skos:notation "86.68" ;
+    skos:topConceptOf <> .
+
+<58.04> a skos:Concept ;
+    skos:notation "58.04" ;
+    skos:topConceptOf <> .
+
+<06.60> a skos:Concept ;
+    skos:notation "06.60" ;
+    skos:topConceptOf <> .
+
+<15.36> a skos:Concept ;
+    skos:notation "15.36" ;
+    skos:topConceptOf <> .
+
+<52.79> a skos:Concept ;
+    skos:notation "52.79" ;
+    skos:topConceptOf <> .
+
+<79.22> a skos:Concept ;
+    skos:notation "79.22" ;
+    skos:topConceptOf <> .
+
+<18.84> a skos:Concept ;
+    skos:notation "18.84" ;
+    skos:topConceptOf <> .
+
+<44.60> a skos:Concept ;
+    skos:notation "44.60" ;
+    skos:topConceptOf <> .
+
+<48.10> a skos:Concept ;
+    skos:notation "48.10" ;
+    skos:topConceptOf <> .
+
+<05.01> a skos:Concept ;
+    skos:notation "05.01" ;
+    skos:topConceptOf <> .
+
+<89.57> a skos:Concept ;
+    skos:notation "89.57" ;
+    skos:topConceptOf <> .
+
+<74.28> a skos:Concept ;
+    skos:notation "74.28" ;
+    skos:topConceptOf <> .
+
+<42.13> a skos:Concept ;
+    skos:notation "42.13" ;
+    skos:topConceptOf <> .
+
+<57.36> a skos:Concept ;
+    skos:notation "57.36" ;
+    skos:topConceptOf <> .
+
+<53.59> a skos:Concept ;
+    skos:notation "53.59" ;
+    skos:topConceptOf <> .
+
+<33.18> a skos:Concept ;
+    skos:notation "33.18" ;
+    skos:topConceptOf <> .
+
+<80.39> a skos:Concept ;
+    skos:notation "80.39" ;
+    skos:topConceptOf <> .
+
+<77.56> a skos:Concept ;
+    skos:notation "77.56" ;
+    skos:topConceptOf <> .
+
+<35.02> a skos:Concept ;
+    skos:notation "35.02" ;
+    skos:topConceptOf <> .
+
+<80.50> a skos:Concept ;
+    skos:notation "80.50" ;
+    skos:topConceptOf <> .
+
+<76.22> a skos:Concept ;
+    skos:notation "76.22" ;
+    skos:topConceptOf <> .
+
+<35.26> a skos:Concept ;
+    skos:notation "35.26" ;
+    skos:topConceptOf <> .
+
+<39.29> a skos:Concept ;
+    skos:notation "39.29" ;
+    skos:topConceptOf <> .
+
+<81.22> a skos:Concept ;
+    skos:notation "81.22" ;
+    skos:topConceptOf <> .
+
+<52.47> a skos:Concept ;
+    skos:notation "52.47" ;
+    skos:topConceptOf <> .
+
+<83.73> a skos:Concept ;
+    skos:notation "83.73" ;
+    skos:topConceptOf <> .
+
+<21.92> a skos:Concept ;
+    skos:notation "21.92" ;
+    skos:topConceptOf <> .
+
+<15.74> a skos:Concept ;
+    skos:notation "15.74" ;
+    skos:topConceptOf <> .
+
+<89.74> a skos:Concept ;
+    skos:notation "89.74" ;
+    skos:topConceptOf <> .
+
+<42.93> a skos:Concept ;
+    skos:notation "42.93" ;
+    skos:topConceptOf <> .
+
+<35.71> a skos:Concept ;
+    skos:notation "35.71" ;
+    skos:topConceptOf <> .
+
+<86.77> a skos:Concept ;
+    skos:notation "86.77" ;
+    skos:topConceptOf <> .
+
+<21.42> a skos:Concept ;
+    skos:notation "21.42" ;
+    skos:topConceptOf <> .
+
+<20.01> a skos:Concept ;
+    skos:notation "20.01" ;
+    skos:topConceptOf <> .
+
+<18.23> a skos:Concept ;
+    skos:notation "18.23" ;
+    skos:topConceptOf <> .
+
+<11.04> a skos:Concept ;
+    skos:notation "11.04" ;
+    skos:topConceptOf <> .
+
+<83.21> a skos:Concept ;
+    skos:notation "83.21" ;
+    skos:topConceptOf <> .
+
+<06.20> a skos:Concept ;
+    skos:notation "06.20" ;
+    skos:topConceptOf <> .
+
+<15.78> a skos:Concept ;
+    skos:notation "15.78" ;
+    skos:topConceptOf <> .
+
+<11.55> a skos:Concept ;
+    skos:notation "11.55" ;
+    skos:topConceptOf <> .
+
+<86.53> a skos:Concept ;
+    skos:notation "86.53" ;
+    skos:topConceptOf <> .
+
+<21.10> a skos:Concept ;
+    skos:notation "21.10" ;
+    skos:topConceptOf <> .
+
+<79.69> a skos:Concept ;
+    skos:notation "79.69" ;
+    skos:topConceptOf <> .
+
+<42.05> a skos:Concept ;
+    skos:notation "42.05" ;
+    skos:topConceptOf <> .
+
+<55.82> a skos:Concept ;
+    skos:notation "55.82" ;
+    skos:topConceptOf <> .
+
+<53.73> a skos:Concept ;
+    skos:notation "53.73" ;
+    skos:topConceptOf <> .
+
+<55.83> a skos:Concept ;
+    skos:notation "55.83" ;
+    skos:topConceptOf <> .
+
+<44.64> a skos:Concept ;
+    skos:notation "44.64" ;
+    skos:topConceptOf <> .
+
+<06.04> a skos:Concept ;
+    skos:notation "06.04" ;
+    skos:topConceptOf <> .
+
+<42.01> a skos:Concept ;
+    skos:notation "42.01" ;
+    skos:topConceptOf <> .
+
+<21.31> a skos:Concept ;
+    skos:notation "21.31" ;
+    skos:topConceptOf <> .
+
+<77.60> a skos:Concept ;
+    skos:notation "77.60" ;
+    skos:topConceptOf <> .
+
+<52.53> a skos:Concept ;
+    skos:notation "52.53" ;
+    skos:topConceptOf <> .
+
+<31.45> a skos:Concept ;
+    skos:notation "31.45" ;
+    skos:topConceptOf <> .
+
+<56.62> a skos:Concept ;
+    skos:notation "56.62" ;
+    skos:topConceptOf <> .
+
+<81.31> a skos:Concept ;
+    skos:notation "81.31" ;
+    skos:topConceptOf <> .
+
+<53.89> a skos:Concept ;
+    skos:notation "53.89" ;
+    skos:topConceptOf <> .
+
+<76.62> a skos:Concept ;
+    skos:notation "76.62" ;
+    skos:topConceptOf <> .
+
+<43.30> a skos:Concept ;
+    skos:notation "43.30" ;
+    skos:topConceptOf <> .
+
+<80.99> a skos:Concept ;
+    skos:notation "80.99" ;
+    skos:topConceptOf <> .
+
+<73.61> a skos:Concept ;
+    skos:notation "73.61" ;
+    skos:topConceptOf <> .
+
+<18.75> a skos:Concept ;
+    skos:notation "18.75" ;
+    skos:topConceptOf <> .
+
+<42.47> a skos:Concept ;
+    skos:notation "42.47" ;
+    skos:topConceptOf <> .
+
+<73.66> a skos:Concept ;
+    skos:notation "73.66" ;
+    skos:topConceptOf <> .
+
+<11.98> a skos:Concept ;
+    skos:notation "11.98" ;
+    skos:topConceptOf <> .
+
+<89.99> a skos:Concept ;
+    skos:notation "89.99" ;
+    skos:topConceptOf <> .
+
+<38.29> a skos:Concept ;
+    skos:notation "38.29" ;
+    skos:topConceptOf <> .
+
+<83.64> a skos:Concept ;
+    skos:notation "83.64" ;
+    skos:topConceptOf <> .
+
+<73.93> a skos:Concept ;
+    skos:notation "73.93" ;
+    skos:topConceptOf <> .
+
+<33.77> a skos:Concept ;
+    skos:notation "33.77" ;
+    skos:topConceptOf <> .
+
+<38.49> a skos:Concept ;
+    skos:notation "38.49" ;
+    skos:topConceptOf <> .
+
+<85.10> a skos:Concept ;
+    skos:notation "85.10" ;
+    skos:topConceptOf <> .
+
+<71.31> a skos:Concept ;
+    skos:notation "71.31" ;
+    skos:topConceptOf <> .
+
+<35.79> a skos:Concept ;
+    skos:notation "35.79" ;
+    skos:topConceptOf <> .
+
+<83.44> a skos:Concept ;
+    skos:notation "83.44" ;
+    skos:topConceptOf <> .
+
+<56.15> a skos:Concept ;
+    skos:notation "56.15" ;
+    skos:topConceptOf <> .
+
+<50.25> a skos:Concept ;
+    skos:notation "50.25" ;
+    skos:topConceptOf <> .
+
+<49.15> a skos:Concept ;
+    skos:notation "49.15" ;
+    skos:topConceptOf <> .
+
+<77.52> a skos:Concept ;
+    skos:notation "77.52" ;
+    skos:topConceptOf <> .
+
+<50.01> a skos:Concept ;
+    skos:notation "50.01" ;
+    skos:topConceptOf <> .
+
+<76.72> a skos:Concept ;
+    skos:notation "76.72" ;
+    skos:topConceptOf <> .
+
+<18.38> a skos:Concept ;
+    skos:notation "18.38" ;
+    skos:topConceptOf <> .
+
+<02> a skos:Concept ;
+    skos:prefLabel "Wissenschaft und Kultur allgemein"@de ;
+    skos:notation "02" ;
+    skos:topConceptOf <> .
+
+<89.83> a skos:Concept ;
+    skos:notation "89.83" ;
+    skos:topConceptOf <> .
+
+<21.12> a skos:Concept ;
+    skos:notation "21.12" ;
+    skos:topConceptOf <> .
+
+<20.15> a skos:Concept ;
+    skos:notation "20.15" ;
+    skos:topConceptOf <> .
+
+<44.44> a skos:Concept ;
+    skos:notation "44.44" ;
+    skos:topConceptOf <> .
+
+<51.40> a skos:Concept ;
+    skos:notation "51.40" ;
+    skos:topConceptOf <> .
+
+<74.12> a skos:Concept ;
+    skos:notation "74.12" ;
+    skos:topConceptOf <> .
+
+<83.10> a skos:Concept ;
+    skos:notation "83.10" ;
+    skos:topConceptOf <> .
+
+<54.10> a skos:Concept ;
+    skos:notation "54.10" ;
+    skos:topConceptOf <> .
+
+<24.01> a skos:Concept ;
+    skos:notation "24.01" ;
+    skos:topConceptOf <> .
+
+<71.05> a skos:Concept ;
+    skos:notation "71.05" ;
+    skos:topConceptOf <> .
+
+<89.62> a skos:Concept ;
+    skos:notation "89.62" ;
+    skos:topConceptOf <> .
+
+<86.09> a skos:Concept ;
+    skos:notation "86.09" ;
+    skos:topConceptOf <> .
+
+<81.99> a skos:Concept ;
+    skos:notation "81.99" ;
+    skos:topConceptOf <> .
+
+<86.19> a skos:Concept ;
+    skos:notation "86.19" ;
+    skos:topConceptOf <> .
+
+<18.55> a skos:Concept ;
+    skos:notation "18.55" ;
+    skos:topConceptOf <> .
+
+<38.24> a skos:Concept ;
+    skos:notation "38.24" ;
+    skos:topConceptOf <> .
+
+<89.19> a skos:Concept ;
+    skos:notation "89.19" ;
+    skos:topConceptOf <> .
+
+<83.71> a skos:Concept ;
+    skos:notation "83.71" ;
+    skos:topConceptOf <> .
+
+<33.43> a skos:Concept ;
+    skos:notation "33.43" ;
+    skos:topConceptOf <> .
+
+<58.21> a skos:Concept ;
+    skos:notation "58.21" ;
+    skos:topConceptOf <> .
+
+<43.65> a skos:Concept ;
+    skos:notation "43.65" ;
+    skos:topConceptOf <> .
+
+<35.65> a skos:Concept ;
+    skos:notation "35.65" ;
+    skos:topConceptOf <> .
+
+<42.04> a skos:Concept ;
+    skos:notation "42.04" ;
+    skos:topConceptOf <> .
+
+<31.62> a skos:Concept ;
+    skos:notation "31.62" ;
+    skos:topConceptOf <> .
+
+<06.24> a skos:Concept ;
+    skos:notation "06.24" ;
+    skos:topConceptOf <> .
+
+<24.29> a skos:Concept ;
+    skos:notation "24.29" ;
+    skos:topConceptOf <> .
+
+<86.04> a skos:Concept ;
+    skos:notation "86.04" ;
+    skos:topConceptOf <> .
+
+<11> a skos:Concept ;
+    skos:notation "11" ;
+    skos:topConceptOf <> .
+
+<51.00> a skos:Concept ;
+    skos:notation "51.00" ;
+    skos:topConceptOf <> .
+
+<85.00> a skos:Concept ;
+    skos:notation "85.00" ;
+    skos:topConceptOf <> .
+
+<44.92> a skos:Concept ;
+    skos:notation "44.92" ;
+    skos:topConceptOf <> .
+
+<48.99> a skos:Concept ;
+    skos:notation "48.99" ;
+    skos:topConceptOf <> .
+
+<11.75> a skos:Concept ;
+    skos:notation "11.75" ;
+    skos:topConceptOf <> .
+
+<20.89> a skos:Concept ;
+    skos:notation "20.89" ;
+    skos:topConceptOf <> .
+
+<15.76> a skos:Concept ;
+    skos:notation "15.76" ;
+    skos:topConceptOf <> .
+
+<11.46> a skos:Concept ;
+    skos:notation "11.46" ;
+    skos:topConceptOf <> .
+
+<44.15> a skos:Concept ;
+    skos:notation "44.15" ;
+    skos:topConceptOf <> .
+
+<05.15> a skos:Concept ;
+    skos:notation "05.15" ;
+    skos:topConceptOf <> .
+
+<44.04> a skos:Concept ;
+    skos:notation "44.04" ;
+    skos:topConceptOf <> .
+
+<79.23> a skos:Concept ;
+    skos:notation "79.23" ;
+    skos:topConceptOf <> .
+
+<55.61> a skos:Concept ;
+    skos:notation "55.61" ;
+    skos:topConceptOf <> .
+
+<52.10> a skos:Concept ;
+    skos:notation "52.10" ;
+    skos:topConceptOf <> .
+
+<85.27> a skos:Concept ;
+    skos:notation "85.27" ;
+    skos:topConceptOf <> .
+
+<53.50> a skos:Concept ;
+    skos:notation "53.50" ;
+    skos:topConceptOf <> .
+
+<11.20> a skos:Concept ;
+    skos:notation "11.20" ;
+    skos:topConceptOf <> .
+
+<44.52> a skos:Concept ;
+    skos:notation "44.52" ;
+    skos:topConceptOf <> .
+
+<35.19> a skos:Concept ;
+    skos:notation "35.19" ;
+    skos:topConceptOf <> .
+
+<06.19> a skos:Concept ;
+    skos:notation "06.19" ;
+    skos:topConceptOf <> .
+
+<24.84> a skos:Concept ;
+    skos:notation "24.84" ;
+    skos:topConceptOf <> .
+
+<73> a skos:Concept ;
+    skos:notation "73" ;
+    skos:topConceptOf <> .
+
+<33.72> a skos:Concept ;
+    skos:notation "33.72" ;
+    skos:topConceptOf <> .
+
+<89.63> a skos:Concept ;
+    skos:notation "89.63" ;
+    skos:topConceptOf <> .
+
+<11.31> a skos:Concept ;
+    skos:notation "11.31" ;
+    skos:topConceptOf <> .
+
+<08.22> a skos:Concept ;
+    skos:notation "08.22" ;
+    skos:topConceptOf <> .
+
+<46.60> a skos:Concept ;
+    skos:notation "46.60" ;
+    skos:topConceptOf <> .
+
+<74.41> a skos:Concept ;
+    skos:notation "74.41" ;
+    skos:topConceptOf <> .
+
+<20.04> a skos:Concept ;
+    skos:notation "20.04" ;
+    skos:topConceptOf <> .
+
+<31.48> a skos:Concept ;
+    skos:notation "31.48" ;
+    skos:topConceptOf <> .
+
+<15.87> a skos:Concept ;
+    skos:notation "15.87" ;
+    skos:topConceptOf <> .
+
+<17.80> a skos:Concept ;
+    skos:notation "17.80" ;
+    skos:topConceptOf <> .
+
+<10.02> a skos:Concept ;
+    skos:notation "10.02" ;
+    skos:topConceptOf <> .
+
+<53.38> a skos:Concept ;
+    skos:notation "53.38" ;
+    skos:topConceptOf <> .
+
+<44.84> a skos:Concept ;
+    skos:notation "44.84" ;
+    skos:topConceptOf <> .
+
+<89.70> a skos:Concept ;
+    skos:notation "89.70" ;
+    skos:topConceptOf <> .
+
+<79.14> a skos:Concept ;
+    skos:notation "79.14" ;
+    skos:topConceptOf <> .
+
+<44.89> a skos:Concept ;
+    skos:notation "44.89" ;
+    skos:topConceptOf <> .
+
+<86.54> a skos:Concept ;
+    skos:notation "86.54" ;
+    skos:topConceptOf <> .
+
+<86.14> a skos:Concept ;
+    skos:notation "86.14" ;
+    skos:topConceptOf <> .
+
+<73.57> a skos:Concept ;
+    skos:notation "73.57" ;
+    skos:topConceptOf <> .
+
+<35.21> a skos:Concept ;
+    skos:notation "35.21" ;
+    skos:topConceptOf <> .
+
+<17.56> a skos:Concept ;
+    skos:notation "17.56" ;
+    skos:topConceptOf <> .
+
+<79.99> a skos:Concept ;
+    skos:notation "79.99" ;
+    skos:topConceptOf <> .
+
+<18.64> a skos:Concept ;
+    skos:notation "18.64" ;
+    skos:topConceptOf <> .
+
+<55.23> a skos:Concept ;
+    skos:notation "55.23" ;
+    skos:topConceptOf <> .
+
+<11.17> a skos:Concept ;
+    skos:notation "11.17" ;
+    skos:topConceptOf <> .
+
+<24> a skos:Concept ;
+    skos:notation "24" ;
+    skos:topConceptOf <> .
+
+<86.47> a skos:Concept ;
+    skos:notation "86.47" ;
+    skos:topConceptOf <> .
+
+<53.33> a skos:Concept ;
+    skos:notation "53.33" ;
+    skos:topConceptOf <> .
+
+<51.45> a skos:Concept ;
+    skos:notation "51.45" ;
+    skos:topConceptOf <> .
+
+<11.76> a skos:Concept ;
+    skos:notation "11.76" ;
+    skos:topConceptOf <> .
+
+<89.29> a skos:Concept ;
+    skos:notation "89.29" ;
+    skos:topConceptOf <> .
+
+<56.31> a skos:Concept ;
+    skos:notation "56.31" ;
+    skos:topConceptOf <> .
+
+<79.62> a skos:Concept ;
+    skos:notation "79.62" ;
+    skos:topConceptOf <> .
+
+<80.48> a skos:Concept ;
+    skos:notation "80.48" ;
+    skos:topConceptOf <> .
+
+<55.84> a skos:Concept ;
+    skos:notation "55.84" ;
+    skos:topConceptOf <> .
+
+<58.01> a skos:Concept ;
+    skos:notation "58.01" ;
+    skos:topConceptOf <> .
+
+<85.06> a skos:Concept ;
+    skos:notation "85.06" ;
+    skos:topConceptOf <> .
+
+<43.63> a skos:Concept ;
+    skos:notation "43.63" ;
+    skos:topConceptOf <> .
+
+<17.31> a skos:Concept ;
+    skos:notation "17.31" ;
+    skos:topConceptOf <> .
+
+<55.51> a skos:Concept ;
+    skos:notation "55.51" ;
+    skos:topConceptOf <> .
+
+<54.71> a skos:Concept ;
+    skos:notation "54.71" ;
+    skos:topConceptOf <> .
+
+<17.69> a skos:Concept ;
+    skos:notation "17.69" ;
+    skos:topConceptOf <> .
+
+<10.99> a skos:Concept ;
+    skos:notation "10.99" ;
+    skos:topConceptOf <> .
+
+<17.10> a skos:Concept ;
+    skos:notation "17.10" ;
+    skos:topConceptOf <> .
+
+<48.18> a skos:Concept ;
+    skos:notation "48.18" ;
+    skos:topConceptOf <> .
+
+<74.77> a skos:Concept ;
+    skos:notation "74.77" ;
+    skos:topConceptOf <> .
+
+<35.52> a skos:Concept ;
+    skos:notation "35.52" ;
+    skos:topConceptOf <> .
+
+<17.77> a skos:Concept ;
+    skos:notation "17.77" ;
+    skos:topConceptOf <> .
+
+<86.17> a skos:Concept ;
+    skos:notation "86.17" ;
+    skos:topConceptOf <> .
+
+<71.42> a skos:Concept ;
+    skos:notation "71.42" ;
+    skos:topConceptOf <> .
+
+<10.04> a skos:Concept ;
+    skos:notation "10.04" ;
+    skos:topConceptOf <> .
+
+<81.53> a skos:Concept ;
+    skos:notation "81.53" ;
+    skos:topConceptOf <> .
+
+<15.80> a skos:Concept ;
+    skos:notation "15.80" ;
+    skos:topConceptOf <> .
+
+<08.46> a skos:Concept ;
+    skos:notation "08.46" ;
+    skos:topConceptOf <> .
+
+<18.01> a skos:Concept ;
+    skos:notation "18.01" ;
+    skos:topConceptOf <> .
+
+<38.52> a skos:Concept ;
+    skos:notation "38.52" ;
+    skos:topConceptOf <> .
+
+<15.29> a skos:Concept ;
+    skos:notation "15.29" ;
+    skos:topConceptOf <> .
+
+<39.23> a skos:Concept ;
+    skos:notation "39.23" ;
+    skos:topConceptOf <> .
+
+<86.59> a skos:Concept ;
+    skos:notation "86.59" ;
+    skos:topConceptOf <> .
+
+<44.47> a skos:Concept ;
+    skos:notation "44.47" ;
+    skos:topConceptOf <> .
+
+<38.53> a skos:Concept ;
+    skos:notation "38.53" ;
+    skos:topConceptOf <> .
+
+<77.04> a skos:Concept ;
+    skos:notation "77.04" ;
+    skos:topConceptOf <> .
+
+<15.03> a skos:Concept ;
+    skos:notation "15.03" ;
+    skos:topConceptOf <> .
+
+<08.20> a skos:Concept ;
+    skos:notation "08.20" ;
+    skos:topConceptOf <> .
+
+<83.99> a skos:Concept ;
+    skos:notation "83.99" ;
+    skos:topConceptOf <> .
+
+<17.42> a skos:Concept ;
+    skos:notation "17.42" ;
+    skos:topConceptOf <> .
+
+<79.13> a skos:Concept ;
+    skos:notation "79.13" ;
+    skos:topConceptOf <> .
+
+<50.15> a skos:Concept ;
+    skos:notation "50.15" ;
+    skos:topConceptOf <> .
+
+<18.42> a skos:Concept ;
+    skos:notation "18.42" ;
+    skos:topConceptOf <> .
+
+<24.62> a skos:Concept ;
+    skos:notation "24.62" ;
+    skos:topConceptOf <> .
+
+<88.01> a skos:Concept ;
+    skos:notation "88.01" ;
+    skos:topConceptOf <> .
+
+<15.20> a skos:Concept ;
+    skos:notation "15.20" ;
+    skos:topConceptOf <> .
+
+<74.02> a skos:Concept ;
+    skos:notation "74.02" ;
+    skos:topConceptOf <> .
+
+<71.22> a skos:Concept ;
+    skos:notation "71.22" ;
+    skos:topConceptOf <> .
+
+<05.31> a skos:Concept ;
+    skos:notation "05.31" ;
+    skos:topConceptOf <> .
+
+<58.13> a skos:Concept ;
+    skos:notation "58.13" ;
+    skos:topConceptOf <> .
+
+<18.25> a skos:Concept ;
+    skos:notation "18.25" ;
+    skos:topConceptOf <> .
+
+<24.02> a skos:Concept ;
+    skos:notation "24.02" ;
+    skos:topConceptOf <> .
+
+<15.21> a skos:Concept ;
+    skos:notation "15.21" ;
+    skos:topConceptOf <> .
+
+<76.44> a skos:Concept ;
+    skos:notation "76.44" ;
+    skos:topConceptOf <> .
+
+<76.15> a skos:Concept ;
+    skos:notation "76.15" ;
+    skos:topConceptOf <> .
+
+<53.78> a skos:Concept ;
+    skos:notation "53.78" ;
+    skos:topConceptOf <> .
+
+<15.95> a skos:Concept ;
+    skos:notation "15.95" ;
+    skos:topConceptOf <> .
+
+<71.99> a skos:Concept ;
+    skos:notation "71.99" ;
+    skos:topConceptOf <> .
+
+<71.80> a skos:Concept ;
+    skos:notation "71.80" ;
+    skos:topConceptOf <> .
+
+<53.54> a skos:Concept ;
+    skos:notation "53.54" ;
+    skos:topConceptOf <> .
+
+<33.60> a skos:Concept ;
+    skos:notation "33.60" ;
+    skos:topConceptOf <> .
+
+<42.43> a skos:Concept ;
+    skos:notation "42.43" ;
+    skos:topConceptOf <> .
+
+<81.90> a skos:Concept ;
+    skos:notation "81.90" ;
+    skos:topConceptOf <> .
+
+<80.41> a skos:Concept ;
+    skos:notation "80.41" ;
+    skos:topConceptOf <> .
+
+<74.74> a skos:Concept ;
+    skos:notation "74.74" ;
+    skos:topConceptOf <> .
+
+<55.30> a skos:Concept ;
+    skos:notation "55.30" ;
+    skos:topConceptOf <> .
+
+<17.55> a skos:Concept ;
+    skos:notation "17.55" ;
+    skos:topConceptOf <> .
+
+<73.29> a skos:Concept ;
+    skos:notation "73.29" ;
+    skos:topConceptOf <> .
+
+<02.00> a skos:Concept ;
+    skos:notation "02.00" ;
+    skos:topConceptOf <> .
+
+<76.13> a skos:Concept ;
+    skos:notation "76.13" ;
+    skos:topConceptOf <> .
+
+<77.77> a skos:Concept ;
+    skos:notation "77.77" ;
+    skos:topConceptOf <> .
+
+<44.07> a skos:Concept ;
+    skos:notation "44.07" ;
+    skos:topConceptOf <> .
+
+<74.48> a skos:Concept ;
+    skos:notation "74.48" ;
+    skos:topConceptOf <> .
+
+<58.56> a skos:Concept ;
+    skos:notation "58.56" ;
+    skos:topConceptOf <> .
+
+<20.61> a skos:Concept ;
+    skos:notation "20.61" ;
+    skos:topConceptOf <> .
+
+<33.52> a skos:Concept ;
+    skos:notation "33.52" ;
+    skos:topConceptOf <> .
+
+<50.21> a skos:Concept ;
+    skos:notation "50.21" ;
+    skos:topConceptOf <> .
+
+<86.61> a skos:Concept ;
+    skos:notation "86.61" ;
+    skos:topConceptOf <> .
+
+<54.26> a skos:Concept ;
+    skos:notation "54.26" ;
+    skos:topConceptOf <> .
+
+<20.24> a skos:Concept ;
+    skos:notation "20.24" ;
+    skos:topConceptOf <> .
+
+<35.76> a skos:Concept ;
+    skos:notation "35.76" ;
+    skos:topConceptOf <> .
+
+<71.32> a skos:Concept ;
+    skos:notation "71.32" ;
+    skos:topConceptOf <> .
+
+<80.82> a skos:Concept ;
+    skos:notation "80.82" ;
+    skos:topConceptOf <> .
+
+<52.51> a skos:Concept ;
+    skos:notation "52.51" ;
+    skos:topConceptOf <> .
+
+<48.46> a skos:Concept ;
+    skos:notation "48.46" ;
+    skos:topConceptOf <> .
+
+<11.84> a skos:Concept ;
+    skos:notation "11.84" ;
+    skos:topConceptOf <> .
+
+<81.69> a skos:Concept ;
+    skos:notation "81.69" ;
+    skos:topConceptOf <> .
+
+<74.60> a skos:Concept ;
+    skos:notation "74.60" ;
+    skos:topConceptOf <> .
+
+<52> a skos:Concept ;
+    skos:notation "52" ;
+    skos:topConceptOf <> .
+
+<85.62> a skos:Concept ;
+    skos:notation "85.62" ;
+    skos:topConceptOf <> .
+
+<73.41> a skos:Concept ;
+    skos:notation "73.41" ;
+    skos:topConceptOf <> .
+
+<38.95> a skos:Concept ;
+    skos:notation "38.95" ;
+    skos:topConceptOf <> .
+
+<53.82> a skos:Concept ;
+    skos:notation "53.82" ;
+    skos:topConceptOf <> .
+
+<35.43> a skos:Concept ;
+    skos:notation "35.43" ;
+    skos:topConceptOf <> .
+
+<42.62> a skos:Concept ;
+    skos:notation "42.62" ;
+    skos:topConceptOf <> .
+
+<06.53> a skos:Concept ;
+    skos:notation "06.53" ;
+    skos:topConceptOf <> .
+
+<24.33> a skos:Concept ;
+    skos:notation "24.33" ;
+    skos:topConceptOf <> .
+
+<42.32> a skos:Concept ;
+    skos:notation "42.32" ;
+    skos:topConceptOf <> .
+
+<73.12> a skos:Concept ;
+    skos:notation "73.12" ;
+    skos:topConceptOf <> .
+
+<05.04> a skos:Concept ;
+    skos:notation "05.04" ;
+    skos:topConceptOf <> .
+
+<15.16> a skos:Concept ;
+    skos:notation "15.16" ;
+    skos:topConceptOf <> .
+
+<15.00> a skos:Concept ;
+    skos:notation "15.00" ;
+    skos:topConceptOf <> .
+
+<17.60> a skos:Concept ;
+    skos:notation "17.60" ;
+    skos:topConceptOf <> .
+
+<05.20> a skos:Concept ;
+    skos:notation "05.20" ;
+    skos:topConceptOf <> .
+
+<83.66> a skos:Concept ;
+    skos:notation "83.66" ;
+    skos:topConceptOf <> .
+
+<15.49> a skos:Concept ;
+    skos:notation "15.49" ;
+    skos:topConceptOf <> .
+
+<42.12> a skos:Concept ;
+    skos:notation "42.12" ;
+    skos:topConceptOf <> .
+
+<86.85> a skos:Concept ;
+    skos:notation "86.85" ;
+    skos:topConceptOf <> .
+
+<35.14> a skos:Concept ;
+    skos:notation "35.14" ;
+    skos:topConceptOf <> .
+
+<89.12> a skos:Concept ;
+    skos:notation "89.12" ;
+    skos:topConceptOf <> .
+
+<54.23> a skos:Concept ;
+    skos:notation "54.23" ;
+    skos:topConceptOf <> .
+
+<83> a skos:Concept ;
+    skos:notation "83" ;
+    skos:topConceptOf <> .
+
+<73.32> a skos:Concept ;
+    skos:notation "73.32" ;
+    skos:topConceptOf <> .
+
+<08.33> a skos:Concept ;
+    skos:notation "08.33" ;
+    skos:topConceptOf <> .
+
+<08.41> a skos:Concept ;
+    skos:notation "08.41" ;
+    skos:topConceptOf <> .
+
+<35.29> a skos:Concept ;
+    skos:notation "35.29" ;
+    skos:topConceptOf <> .
+
+<89.79> a skos:Concept ;
+    skos:notation "89.79" ;
+    skos:topConceptOf <> .
+
+<54.33> a skos:Concept ;
+    skos:notation "54.33" ;
+    skos:topConceptOf <> .
+
+<39.30> a skos:Concept ;
+    skos:notation "39.30" ;
+    skos:topConceptOf <> .
+
+<55.39> a skos:Concept ;
+    skos:notation "55.39" ;
+    skos:topConceptOf <> .
+
+<39.19> a skos:Concept ;
+    skos:notation "39.19" ;
+    skos:topConceptOf <> .
+
+<44.21> a skos:Concept ;
+    skos:notation "44.21" ;
+    skos:topConceptOf <> .
+
+<15.60> a skos:Concept ;
+    skos:notation "15.60" ;
+    skos:topConceptOf <> .
+
+<73.90> a skos:Concept ;
+    skos:notation "73.90" ;
+    skos:topConceptOf <> .
+
+<80.00> a skos:Concept ;
+    skos:notation "80.00" ;
+    skos:topConceptOf <> .
+
+<15.48> a skos:Concept ;
+    skos:notation "15.48" ;
+    skos:topConceptOf <> .
+
+<11.07> a skos:Concept ;
+    skos:notation "11.07" ;
+    skos:topConceptOf <> .
+
+<38.90> a skos:Concept ;
+    skos:notation "38.90" ;
+    skos:topConceptOf <> .
+
+<49.99> a skos:Concept ;
+    skos:notation "49.99" ;
+    skos:topConceptOf <> .
+
+<21.21> a skos:Concept ;
+    skos:notation "21.21" ;
+    skos:topConceptOf <> .
+
+<44.35> a skos:Concept ;
+    skos:notation "44.35" ;
+    skos:topConceptOf <> .
+
+<54.61> a skos:Concept ;
+    skos:notation "54.61" ;
+    skos:topConceptOf <> .
+
+<56.20> a skos:Concept ;
+    skos:notation "56.20" ;
+    skos:topConceptOf <> .
+
+<52.85> a skos:Concept ;
+    skos:notation "52.85" ;
+    skos:topConceptOf <> .
+
+<54.04> a skos:Concept ;
+    skos:notation "54.04" ;
+    skos:topConceptOf <> .
+
+<38.41> a skos:Concept ;
+    skos:notation "38.41" ;
+    skos:topConceptOf <> .
+
+<73.71> a skos:Concept ;
+    skos:notation "73.71" ;
+    skos:topConceptOf <> .
+
+<33.79> a skos:Concept ;
+    skos:notation "33.79" ;
+    skos:topConceptOf <> .
+
+<83.02> a skos:Concept ;
+    skos:notation "83.02" ;
+    skos:topConceptOf <> .
+
+<20.07> a skos:Concept ;
+    skos:notation "20.07" ;
+    skos:topConceptOf <> .
+
+<83.14> a skos:Concept ;
+    skos:notation "83.14" ;
+    skos:topConceptOf <> .
+
+<71.89> a skos:Concept ;
+    skos:notation "71.89" ;
+    skos:topConceptOf <> .
+
+<20.28> a skos:Concept ;
+    skos:notation "20.28" ;
+    skos:topConceptOf <> .
+
+<06.43> a skos:Concept ;
+    skos:notation "06.43" ;
+    skos:topConceptOf <> .
+
+<81.11> a skos:Concept ;
+    skos:notation "81.11" ;
+    skos:topConceptOf <> .
+
+<15.11> a skos:Concept ;
+    skos:notation "15.11" ;
+    skos:topConceptOf <> .
+
+<38.22> a skos:Concept ;
+    skos:notation "38.22" ;
+    skos:topConceptOf <> .
+
+<81.66> a skos:Concept ;
+    skos:notation "81.66" ;
+    skos:topConceptOf <> .
+
+<71.29> a skos:Concept ;
+    skos:notation "71.29" ;
+    skos:topConceptOf <> .
+
+<39.13> a skos:Concept ;
+    skos:notation "39.13" ;
+    skos:topConceptOf <> .
+
+<46.04> a skos:Concept ;
+    skos:notation "46.04" ;
+    skos:topConceptOf <> .
+
+<85.20> a skos:Concept ;
+    skos:notation "85.20" ;
+    skos:topConceptOf <> .
+
+<81.72> a skos:Concept ;
+    skos:notation "81.72" ;
+    skos:topConceptOf <> .
+
+<33.69> a skos:Concept ;
+    skos:notation "33.69" ;
+    skos:topConceptOf <> .
+
+<86.69> a skos:Concept ;
+    skos:notation "86.69" ;
+    skos:topConceptOf <> .
+
+<74.70> a skos:Concept ;
+    skos:notation "74.70" ;
+    skos:topConceptOf <> .
+
+<71.07> a skos:Concept ;
+    skos:notation "71.07" ;
+    skos:topConceptOf <> .
+
+<76.70> a skos:Concept ;
+    skos:notation "76.70" ;
+    skos:topConceptOf <> .
+
+<18> a skos:Concept ;
+    skos:notation "18" ;
+    skos:topConceptOf <> .
+
+<43.00> a skos:Concept ;
+    skos:notation "43.00" ;
+    skos:topConceptOf <> .
+
+<89.35> a skos:Concept ;
+    skos:notation "89.35" ;
+    skos:topConceptOf <> .
+
+<58.99> a skos:Concept ;
+    skos:notation "58.99" ;
+    skos:topConceptOf <> .
+
+<17.75> a skos:Concept ;
+    skos:notation "17.75" ;
+    skos:topConceptOf <> .
+
+<31.99> a skos:Concept ;
+    skos:notation "31.99" ;
+    skos:topConceptOf <> .
+
+<35.72> a skos:Concept ;
+    skos:notation "35.72" ;
+    skos:topConceptOf <> .
+
+<70.01> a skos:Concept ;
+    skos:notation "70.01" ;
+    skos:topConceptOf <> .
+
+<15.54> a skos:Concept ;
+    skos:notation "15.54" ;
+    skos:topConceptOf <> .
+
+<08.31> a skos:Concept ;
+    skos:notation "08.31" ;
+    skos:topConceptOf <> .
+
+<77.11> a skos:Concept ;
+    skos:notation "77.11" ;
+    skos:topConceptOf <> .
+
+<18.17> a skos:Concept ;
+    skos:notation "18.17" ;
+    skos:topConceptOf <> .
+
+<80.59> a skos:Concept ;
+    skos:notation "80.59" ;
+    skos:topConceptOf <> .
+
+<52.01> a skos:Concept ;
+    skos:notation "52.01" ;
+    skos:topConceptOf <> .
+
+<17.25> a skos:Concept ;
+    skos:notation "17.25" ;
+    skos:topConceptOf <> .
+
+<20.52> a skos:Concept ;
+    skos:notation "20.52" ;
+    skos:topConceptOf <> .
+
+<44.94> a skos:Concept ;
+    skos:notation "44.94" ;
+    skos:topConceptOf <> .
+
+<35.23> a skos:Concept ;
+    skos:notation "35.23" ;
+    skos:topConceptOf <> .
+
+<18.58> a skos:Concept ;
+    skos:notation "18.58" ;
+    skos:topConceptOf <> .
+
+<73.34> a skos:Concept ;
+    skos:notation "73.34" ;
+    skos:topConceptOf <> .
+
+<31.60> a skos:Concept ;
+    skos:notation "31.60" ;
+    skos:topConceptOf <> .
+
+<89.85> a skos:Concept ;
+    skos:notation "89.85" ;
+    skos:topConceptOf <> .
+
+<38.10> a skos:Concept ;
+    skos:notation "38.10" ;
+    skos:topConceptOf <> .
+
+<76.23> a skos:Concept ;
+    skos:notation "76.23" ;
+    skos:topConceptOf <> .
+
+<11.11> a skos:Concept ;
+    skos:notation "11.11" ;
+    skos:topConceptOf <> .
+
+<42.10> a skos:Concept ;
+    skos:notation "42.10" ;
+    skos:topConceptOf <> .
+
+<73.83> a skos:Concept ;
+    skos:notation "73.83" ;
+    skos:topConceptOf <> .
+
+<11.33> a skos:Concept ;
+    skos:notation "11.33" ;
+    skos:topConceptOf <> .
+
+<85.25> a skos:Concept ;
+    skos:notation "85.25" ;
+    skos:topConceptOf <> .
+
+<33.09> a skos:Concept ;
+    skos:notation "33.09" ;
+    skos:topConceptOf <> .
+
+<17.89> a skos:Concept ;
+    skos:notation "17.89" ;
+    skos:topConceptOf <> .
+
+<02.99> a skos:Concept ;
+    skos:notation "02.99" ;
+    skos:topConceptOf <> .
+
+<33.74> a skos:Concept ;
+    skos:notation "33.74" ;
+    skos:topConceptOf <> .
+
+<73.59> a skos:Concept ;
+    skos:notation "73.59" ;
+    skos:topConceptOf <> .
+
+<76.99> a skos:Concept ;
+    skos:notation "76.99" ;
+    skos:topConceptOf <> .
+
+<38.65> a skos:Concept ;
+    skos:notation "38.65" ;
+    skos:topConceptOf <> .
+
+<77.99> a skos:Concept ;
+    skos:notation "77.99" ;
+    skos:topConceptOf <> .
+
+<76.50> a skos:Concept ;
+    skos:notation "76.50" ;
+    skos:topConceptOf <> .
+
+<86.07> a skos:Concept ;
+    skos:notation "86.07" ;
+    skos:topConceptOf <> .
+
+<73.64> a skos:Concept ;
+    skos:notation "73.64" ;
+    skos:topConceptOf <> .
+
+<86.75> a skos:Concept ;
+    skos:notation "86.75" ;
+    skos:topConceptOf <> .
+
+<11.77> a skos:Concept ;
+    skos:notation "11.77" ;
+    skos:topConceptOf <> .
+
+<44.75> a skos:Concept ;
+    skos:notation "44.75" ;
+    skos:topConceptOf <> .
+
+<71.67> a skos:Concept ;
+    skos:notation "71.67" ;
+    skos:topConceptOf <> .
+
+<17.95> a skos:Concept ;
+    skos:notation "17.95" ;
+    skos:topConceptOf <> .
+
+<38.36> a skos:Concept ;
+    skos:notation "38.36" ;
+    skos:topConceptOf <> .
+
+<81.20> a skos:Concept ;
+    skos:notation "81.20" ;
+    skos:topConceptOf <> .
+
+<06.01> a skos:Concept ;
+    skos:notation "06.01" ;
+    skos:topConceptOf <> .
+
+<81> a skos:Concept ;
+    skos:notation "81" ;
+    skos:topConceptOf <> .
+
+<18.82> a skos:Concept ;
+    skos:notation "18.82" ;
+    skos:topConceptOf <> .
+
+<18.36> a skos:Concept ;
+    skos:notation "18.36" ;
+    skos:topConceptOf <> .
+
+<85.69> a skos:Concept ;
+    skos:notation "85.69" ;
+    skos:topConceptOf <> .
+
+<08.03> a skos:Concept ;
+    skos:notation "08.03" ;
+    skos:topConceptOf <> .
+
+<35.06> a skos:Concept ;
+    skos:notation "35.06" ;
+    skos:topConceptOf <> .
+
+<86> a skos:Concept ;
+    skos:notation "86" ;
+    skos:topConceptOf <> .
+
+<48.30> a skos:Concept ;
+    skos:notation "48.30" ;
+    skos:topConceptOf <> .
+
+<17.40> a skos:Concept ;
+    skos:notation "17.40" ;
+    skos:topConceptOf <> .
+
+<50.17> a skos:Concept ;
+    skos:notation "50.17" ;
+    skos:topConceptOf <> .
+
+<42.41> a skos:Concept ;
+    skos:notation "42.41" ;
+    skos:topConceptOf <> .
+
+<18.06> a skos:Concept ;
+    skos:notation "18.06" ;
+    skos:topConceptOf <> .
+
+<57.30> a skos:Concept ;
+    skos:notation "57.30" ;
+    skos:topConceptOf <> .
+
+<15.67> a skos:Concept ;
+    skos:notation "15.67" ;
+    skos:topConceptOf <> .
+
+<74.10> a skos:Concept ;
+    skos:notation "74.10" ;
+    skos:topConceptOf <> .
+
+<71.19> a skos:Concept ;
+    skos:notation "71.19" ;
+    skos:topConceptOf <> .
+
+<42.02> a skos:Concept ;
+    skos:notation "42.02" ;
+    skos:topConceptOf <> .
+
+<77.73> a skos:Concept ;
+    skos:notation "77.73" ;
+    skos:topConceptOf <> .
+
+<39.53> a skos:Concept ;
+    skos:notation "39.53" ;
+    skos:topConceptOf <> .
+
+<55.40> a skos:Concept ;
+    skos:notation "55.40" ;
+    skos:topConceptOf <> .
+
+<11.40> a skos:Concept ;
+    skos:notation "11.40" ;
+    skos:topConceptOf <> .
+
+<71.13> a skos:Concept ;
+    skos:notation "71.13" ;
+    skos:topConceptOf <> .
+
+<52.43> a skos:Concept ;
+    skos:notation "52.43" ;
+    skos:topConceptOf <> .
+
+<33.14> a skos:Concept ;
+    skos:notation "33.14" ;
+    skos:topConceptOf <> .
+
+<73.07> a skos:Concept ;
+    skos:notation "73.07" ;
+    skos:topConceptOf <> .
+
+<86.45> a skos:Concept ;
+    skos:notation "86.45" ;
+    skos:topConceptOf <> .
+
+<53.76> a skos:Concept ;
+    skos:notation "53.76" ;
+    skos:topConceptOf <> .
+
+<52.38> a skos:Concept ;
+    skos:notation "52.38" ;
+    skos:topConceptOf <> .
+
+<42.17> a skos:Concept ;
+    skos:notation "42.17" ;
+    skos:topConceptOf <> .
+
+<15.70> a skos:Concept ;
+    skos:notation "15.70" ;
+    skos:topConceptOf <> .
+
+<79.16> a skos:Concept ;
+    skos:notation "79.16" ;
+    skos:topConceptOf <> .
+
+<57.99> a skos:Concept ;
+    skos:notation "57.99" ;
+    skos:topConceptOf <> .
+
+<43.02> a skos:Concept ;
+    skos:notation "43.02" ;
+    skos:topConceptOf <> .
+
+<55.86> a skos:Concept ;
+    skos:notation "55.86" ;
+    skos:topConceptOf <> .
+
+<86.01> a skos:Concept ;
+    skos:notation "86.01" ;
+    skos:topConceptOf <> .
+
+<71.44> a skos:Concept ;
+    skos:notation "71.44" ;
+    skos:topConceptOf <> .
+
+<06.80> a skos:Concept ;
+    skos:notation "06.80" ;
+    skos:topConceptOf <> .
+
+<58.11> a skos:Concept ;
+    skos:notation "58.11" ;
+    skos:topConceptOf <> .
+
+<55.21> a skos:Concept ;
+    skos:notation "55.21" ;
+    skos:topConceptOf <> .
+
+<71.60> a skos:Concept ;
+    skos:notation "71.60" ;
+    skos:topConceptOf <> .
+
+<43.99> a skos:Concept ;
+    skos:notation "43.99" ;
+    skos:topConceptOf <> .
+
+<74.79> a skos:Concept ;
+    skos:notation "74.79" ;
+    skos:topConceptOf <> .
+
+<11.48> a skos:Concept ;
+    skos:notation "11.48" ;
+    skos:topConceptOf <> .
+
+<35.48> a skos:Concept ;
+    skos:notation "35.48" ;
+    skos:topConceptOf <> .
+
+<02.10> a skos:Concept ;
+    skos:notation "02.10" ;
+    skos:topConceptOf <> .
+
+<42.65> a skos:Concept ;
+    skos:notation "42.65" ;
+    skos:topConceptOf <> .
+
+<77.49> a skos:Concept ;
+    skos:notation "77.49" ;
+    skos:topConceptOf <> .
+
+<53.84> a skos:Concept ;
+    skos:notation "53.84" ;
+    skos:topConceptOf <> .
+
+<81.85> a skos:Concept ;
+    skos:notation "81.85" ;
+    skos:topConceptOf <> .
+
+<81.42> a skos:Concept ;
+    skos:notation "81.42" ;
+    skos:topConceptOf <> .
+
+<74.95> a skos:Concept ;
+    skos:notation "74.95" ;
+    skos:topConceptOf <> .
+
+<17.53> a skos:Concept ;
+    skos:notation "17.53" ;
+    skos:topConceptOf <> .
+
+<73.02> a skos:Concept ;
+    skos:notation "73.02" ;
+    skos:topConceptOf <> .
+
+<17.91> a skos:Concept ;
+    skos:notation "17.91" ;
+    skos:topConceptOf <> .
+
+<15.42> a skos:Concept ;
+    skos:notation "15.42" ;
+    skos:topConceptOf <> .
+
+<73.39> a skos:Concept ;
+    skos:notation "73.39" ;
+    skos:topConceptOf <> .
+
+<15.79> a skos:Concept ;
+    skos:notation "15.79" ;
+    skos:topConceptOf <> .
+
+<54.70> a skos:Concept ;
+    skos:notation "54.70" ;
+    skos:topConceptOf <> .
+
+<46.99> a skos:Concept ;
+    skos:notation "46.99" ;
+    skos:topConceptOf <> .
+
+<20.64> a skos:Concept ;
+    skos:notation "20.64" ;
+    skos:topConceptOf <> .
+
+<71.15> a skos:Concept ;
+    skos:notation "71.15" ;
+    skos:topConceptOf <> .
+
+<55.89> a skos:Concept ;
+    skos:notation "55.89" ;
+    skos:topConceptOf <> .
+
+<80.25> a skos:Concept ;
+    skos:notation "80.25" ;
+    skos:topConceptOf <> .
+
+<17.04> a skos:Concept ;
+    skos:notation "17.04" ;
+    skos:topConceptOf <> .
+
+<11.79> a skos:Concept ;
+    skos:notation "11.79" ;
+    skos:topConceptOf <> .
+
+<35.31> a skos:Concept ;
+    skos:notation "35.31" ;
+    skos:topConceptOf <> .
+
+<52.76> a skos:Concept ;
+    skos:notation "52.76" ;
+    skos:topConceptOf <> .
+
+<18.40> a skos:Concept ;
+    skos:notation "18.40" ;
+    skos:topConceptOf <> .
+
+<50.03> a skos:Concept ;
+    skos:notation "50.03" ;
+    skos:topConceptOf <> .
+
+<48.01> a skos:Concept ;
+    skos:notation "48.01" ;
+    skos:topConceptOf <> .
+
+<39.42> a skos:Concept ;
+    skos:notation "39.42" ;
+    skos:topConceptOf <> .
+
+<15.31> a skos:Concept ;
+    skos:notation "15.31" ;
+    skos:topConceptOf <> .
+
+<06.70> a skos:Concept ;
+    skos:notation "06.70" ;
+    skos:topConceptOf <> .
+
+<44.38> a skos:Concept ;
+    skos:notation "44.38" ;
+    skos:topConceptOf <> .
+
+<02.02> a skos:Concept ;
+    skos:notation "02.02" ;
+    skos:topConceptOf <> .
+
+<24.37> a skos:Concept ;
+    skos:notation "24.37" ;
+    skos:topConceptOf <> .
+
+<38.71> a skos:Concept ;
+    skos:notation "38.71" ;
+    skos:topConceptOf <> .
+
+<06.17> a skos:Concept ;
+    skos:notation "06.17" ;
+    skos:topConceptOf <> .
+
+<24.43> a skos:Concept ;
+    skos:notation "24.43" ;
+    skos:topConceptOf <> .
+
+<38.55> a skos:Concept ;
+    skos:notation "38.55" ;
+    skos:topConceptOf <> .
+
+<15.17> a skos:Concept ;
+    skos:notation "15.17" ;
+    skos:topConceptOf <> .
+
+<21.98> a skos:Concept ;
+    skos:notation "21.98" ;
+    skos:topConceptOf <> .
+
+<53.11> a skos:Concept ;
+    skos:notation "53.11" ;
+    skos:topConceptOf <> .
+
+<73.19> a skos:Concept ;
+    skos:notation "73.19" ;
+    skos:topConceptOf <> .
+
+<17.50> a skos:Concept ;
+    skos:notation "17.50" ;
+    skos:topConceptOf <> .
+
+<06.51> a skos:Concept ;
+    skos:notation "06.51" ;
+    skos:topConceptOf <> .
+
+<52.87> a skos:Concept ;
+    skos:notation "52.87" ;
+    skos:topConceptOf <> .
+
+<18.88> a skos:Concept ;
+    skos:notation "18.88" ;
+    skos:topConceptOf <> .
+
+<76.49> a skos:Concept ;
+    skos:notation "76.49" ;
+    skos:topConceptOf <> .
+
+<33.02> a skos:Concept ;
+    skos:notation "33.02" ;
+    skos:topConceptOf <> .
+
+<33.38> a skos:Concept ;
+    skos:notation "33.38" ;
+    skos:topConceptOf <> .
+
+<81.92> a skos:Concept ;
+    skos:notation "81.92" ;
+    skos:topConceptOf <> .
+
+<24.99> a skos:Concept ;
+    skos:notation "24.99" ;
+    skos:topConceptOf <> .
+
+<11.09> a skos:Concept ;
+    skos:notation "11.09" ;
+    skos:topConceptOf <> .
+
+<44.49> a skos:Concept ;
+    skos:notation "44.49" ;
+    skos:topConceptOf <> .
+
+<57.11> a skos:Concept ;
+    skos:notation "57.11" ;
+    skos:topConceptOf <> .
+
+<33.99> a skos:Concept ;
+    skos:notation "33.99" ;
+    skos:topConceptOf <> .
+
+<74.61> a skos:Concept ;
+    skos:notation "74.61" ;
+    skos:topConceptOf <> .
+
+<73.95> a skos:Concept ;
+    skos:notation "73.95" ;
+    skos:topConceptOf <> .
+
+<17.00> a skos:Concept ;
+    skos:notation "17.00" ;
+    skos:topConceptOf <> .
+
+<20.26> a skos:Concept ;
+    skos:notation "20.26" ;
+    skos:topConceptOf <> .
+
+<42.64> a skos:Concept ;
+    skos:notation "42.64" ;
+    skos:topConceptOf <> .
+
+<83.46> a skos:Concept ;
+    skos:notation "83.46" ;
+    skos:topConceptOf <> .
+
+<80.02> a skos:Concept ;
+    skos:notation "80.02" ;
+    skos:topConceptOf <> .
+
+<44.95> a skos:Concept ;
+    skos:notation "44.95" ;
+    skos:topConceptOf <> .
+
+<86.52> a skos:Concept ;
+    skos:notation "86.52" ;
+    skos:topConceptOf <> .
+
+<53.03> a skos:Concept ;
+    skos:notation "53.03" ;
+    skos:topConceptOf <> .
+
+<44.09> a skos:Concept ;
+    skos:notation "44.09" ;
+    skos:topConceptOf <> .
+
+<15.55> a skos:Concept ;
+    skos:notation "15.55" ;
+    skos:topConceptOf <> .
+
+<35.01> a skos:Concept ;
+    skos:notation "35.01" ;
+    skos:topConceptOf <> .
+
+<89.20> a skos:Concept ;
+    skos:notation "89.20" ;
+    skos:topConceptOf <> .
+
+<74.05> a skos:Concept ;
+    skos:notation "74.05" ;
+    skos:topConceptOf <> .
+
+<51.04> a skos:Concept ;
+    skos:notation "51.04" ;
+    skos:topConceptOf <> .
+
+<71.37> a skos:Concept ;
+    skos:notation "71.37" ;
+    skos:topConceptOf <> .
+
+<52.80> a skos:Concept ;
+    skos:notation "52.80" ;
+    skos:topConceptOf <> .
+
+<88.17> a skos:Concept ;
+    skos:notation "88.17" ;
+    skos:topConceptOf <> .
+
+<11.72> a skos:Concept ;
+    skos:notation "11.72" ;
+    skos:topConceptOf <> .
+
+<38.43> a skos:Concept ;
+    skos:notation "38.43" ;
+    skos:topConceptOf <> .
+
+<31.80> a skos:Concept ;
+    skos:notation "31.80" ;
+    skos:topConceptOf <> .
+
+<56> a skos:Concept ;
+    skos:notation "56" ;
+    skos:topConceptOf <> .
+
+<81.02> a skos:Concept ;
+    skos:notation "81.02" ;
+    skos:topConceptOf <> .
+
+<31.01> a skos:Concept ;
+    skos:notation "31.01" ;
+    skos:topConceptOf <> .
+
+<48.04> a skos:Concept ;
+    skos:notation "48.04" ;
+    skos:topConceptOf <> .
+
+<77.65> a skos:Concept ;
+    skos:notation "77.65" ;
+    skos:topConceptOf <> .
+
+<86.50> a skos:Concept ;
+    skos:notation "86.50" ;
+    skos:topConceptOf <> .
+
+<77.75> a skos:Concept ;
+    skos:notation "77.75" ;
+    skos:topConceptOf <> .
+
+<46.10> a skos:Concept ;
+    skos:notation "46.10" ;
+    skos:topConceptOf <> .
+
+<54> a skos:Concept ;
+    skos:notation "54" ;
+    skos:topConceptOf <> .
+
+<73.72> a skos:Concept ;
+    skos:notation "73.72" ;
+    skos:topConceptOf <> .
+
+<77.13> a skos:Concept ;
+    skos:notation "77.13" ;
+    skos:topConceptOf <> .
+
+<70> a skos:Concept ;
+    skos:notation "70" ;
+    skos:topConceptOf <> .
+
+<38.46> a skos:Concept ;
+    skos:notation "38.46" ;
+    skos:topConceptOf <> .
+
+<46.90> a skos:Concept ;
+    skos:notation "46.90" ;
+    skos:topConceptOf <> .
+
+<33.19> a skos:Concept ;
+    skos:notation "33.19" ;
+    skos:topConceptOf <> .
+
+<86.33> a skos:Concept ;
+    skos:notation "86.33" ;
+    skos:topConceptOf <> .
+
+<49.55> a skos:Concept ;
+    skos:notation "49.55" ;
+    skos:topConceptOf <> .
+
+<11.37> a skos:Concept ;
+    skos:notation "11.37" ;
+    skos:topConceptOf <> .
+
+<88> a skos:Concept ;
+    skos:notation "88" ;
+    skos:topConceptOf <> .
+
+<17.62> a skos:Concept ;
+    skos:notation "17.62" ;
+    skos:topConceptOf <> .
+
+<38.04> a skos:Concept ;
+    skos:notation "38.04" ;
+    skos:topConceptOf <> .
+
+<30> a skos:Concept ;
+    skos:notation "30" ;
+    skos:topConceptOf <> .
+
+<18.95> a skos:Concept ;
+    skos:notation "18.95" ;
+    skos:topConceptOf <> .
+
+<31.50> a skos:Concept ;
+    skos:notation "31.50" ;
+    skos:topConceptOf <> .
+
+<83.68> a skos:Concept ;
+    skos:notation "83.68" ;
+    skos:topConceptOf <> .
+
+<58.52> a skos:Concept ;
+    skos:notation "58.52" ;
+    skos:topConceptOf <> .
+
+<48.69> a skos:Concept ;
+    skos:notation "48.69" ;
+    skos:topConceptOf <> .
+
+<70.99> a skos:Concept ;
+    skos:notation "70.99" ;
+    skos:topConceptOf <> .
+
+<74.24> a skos:Concept ;
+    skos:notation "74.24" ;
+    skos:topConceptOf <> .
+
+<54.73> a skos:Concept ;
+    skos:notation "54.73" ;
+    skos:topConceptOf <> .
+
+<18.66> a skos:Concept ;
+    skos:notation "18.66" ;
+    skos:topConceptOf <> .
+
+<74.29> a skos:Concept ;
+    skos:notation "74.29" ;
+    skos:topConceptOf <> .
+
+<54.28> a skos:Concept ;
+    skos:notation "54.28" ;
+    skos:topConceptOf <> .
+
+<89.05> a skos:Concept ;
+    skos:notation "89.05" ;
+    skos:topConceptOf <> .
+
+<31.14> a skos:Concept ;
+    skos:notation "31.14" ;
+    skos:topConceptOf <> .
+
+<86.15> a skos:Concept ;
+    skos:notation "86.15" ;
+    skos:topConceptOf <> .
+
+<81.55> a skos:Concept ;
+    skos:notation "81.55" ;
+    skos:topConceptOf <> .
+
+<86.40> a skos:Concept ;
+    skos:notation "86.40" ;
+    skos:topConceptOf <> .
+
+<73.43> a skos:Concept ;
+    skos:notation "73.43" ;
+    skos:topConceptOf <> .
+
+<81.51> a skos:Concept ;
+    skos:notation "81.51" ;
+    skos:topConceptOf <> .
+
+<17.70> a skos:Concept ;
+    skos:notation "17.70" ;
+    skos:topConceptOf <> .
+
+<24.08> a skos:Concept ;
+    skos:notation "24.08" ;
+    skos:topConceptOf <> .
+
+<86.72> a skos:Concept ;
+    skos:notation "86.72" ;
+    skos:topConceptOf <> .
+
+<21.19> a skos:Concept ;
+    skos:notation "21.19" ;
+    skos:topConceptOf <> .
+
+<76.40> a skos:Concept ;
+    skos:notation "76.40" ;
+    skos:topConceptOf <> .
+
+<48.64> a skos:Concept ;
+    skos:notation "48.64" ;
+    skos:topConceptOf <> .
+
+<33.12> a skos:Concept ;
+    skos:notation "33.12" ;
+    skos:topConceptOf <> .
+
+<79.30> a skos:Concept ;
+    skos:notation "79.30" ;
+    skos:topConceptOf <> .
+
+<52.23> a skos:Concept ;
+    skos:notation "52.23" ;
+    skos:topConceptOf <> .
+
+<38.99> a skos:Concept ;
+    skos:notation "38.99" ;
+    skos:topConceptOf <> .
+
+<44.70> a skos:Concept ;
+    skos:notation "44.70" ;
+    skos:topConceptOf <> .
+
+<85.30> a skos:Concept ;
+    skos:notation "85.30" ;
+    skos:topConceptOf <> .
+
+<74.04> a skos:Concept ;
+    skos:notation "74.04" ;
+    skos:topConceptOf <> .
+
+<11.00> a skos:Concept ;
+    skos:notation "11.00" ;
+    skos:topConceptOf <> .
+
+<44.33> a skos:Concept ;
+    skos:notation "44.33" ;
+    skos:topConceptOf <> .
+
+<86.57> a skos:Concept ;
+    skos:notation "86.57" ;
+    skos:topConceptOf <> .
+
+<54.01> a skos:Concept ;
+    skos:notation "54.01" ;
+    skos:topConceptOf <> .
+
+<21.51> a skos:Concept ;
+    skos:notation "21.51" ;
+    skos:topConceptOf <> .
+
+<85.01> a skos:Concept ;
+    skos:notation "85.01" ;
+    skos:topConceptOf <> .
+
+<17.49> a skos:Concept ;
+    skos:notation "17.49" ;
+    skos:topConceptOf <> .
+
+<08.43> a skos:Concept ;
+    skos:notation "08.43" ;
+    skos:topConceptOf <> .
+
+<17.46> a skos:Concept ;
+    skos:notation "17.46" ;
+    skos:topConceptOf <> .
+
+<48.52> a skos:Concept ;
+    skos:notation "48.52" ;
+    skos:topConceptOf <> .
+
+<15.09> a skos:Concept ;
+    skos:notation "15.09" ;
+    skos:topConceptOf <> .
+
+<44.02> a skos:Concept ;
+    skos:notation "44.02" ;
+    skos:topConceptOf <> .
+
+<86.83> a skos:Concept ;
+    skos:notation "86.83" ;
+    skos:topConceptOf <> .
+
+<56.85> a skos:Concept ;
+    skos:notation "56.85" ;
+    skos:topConceptOf <> .
+
+<49.00> a skos:Concept ;
+    skos:notation "49.00" ;
+    skos:topConceptOf <> .
+
+<50.23> a skos:Concept ;
+    skos:notation "50.23" ;
+    skos:topConceptOf <> .
+
+<44.01> a skos:Concept ;
+    skos:notation "44.01" ;
+    skos:topConceptOf <> .
+
+<77.08> a skos:Concept ;
+    skos:notation "77.08" ;
+    skos:topConceptOf <> .
+
+<20.12> a skos:Concept ;
+    skos:notation "20.12" ;
+    skos:topConceptOf <> .
+
+<08.24> a skos:Concept ;
+    skos:notation "08.24" ;
+    skos:topConceptOf <> .
+
+<86.82> a skos:Concept ;
+    skos:notation "86.82" ;
+    skos:topConceptOf <> .
+
+<57.60> a skos:Concept ;
+    skos:notation "57.60" ;
+    skos:topConceptOf <> .
+
+<11.90> a skos:Concept ;
+    skos:notation "11.90" ;
+    skos:topConceptOf <> .
+
+<18.31> a skos:Concept ;
+    skos:notation "18.31" ;
+    skos:topConceptOf <> .
+
+<89.77> a skos:Concept ;
+    skos:notation "89.77" ;
+    skos:topConceptOf <> .
+
+<77.30> a skos:Concept ;
+    skos:notation "77.30" ;
+    skos:topConceptOf <> .
+
+<44.68> a skos:Concept ;
+    skos:notation "44.68" ;
+    skos:topConceptOf <> .

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>SPARQL</title>
+	<link rel="stylesheet" type="text/css" href="/css/endpoint.css"/>
+
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/codemirror.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="/js/endpoint.js"></script>
+
+</head><body>
+    <h1>SPARQL endpoint</h1>
+    <div id="result"/>
+    <h2>Query</h2>
+	<form id="queryform" action="" method="get">
+	<p>
+		<textarea id="query" name="query" rows="10" cols="60">
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT *
+WHERE {
+	?s ?p ?o
+}
+LIMIT 10
+</textarea><br/>
+		<select id="media-type" name="media-type">
+			<option value="">Result Format...</option>
+			<option label="HTML" value="text/html">HTML</option>
+			<option label="Turtle" value="text/turtle">Turtle</option>
+			<option label="XML" value="text/xml">XML</option>
+			<option label="JSON" value="application/json">JSON</option>
+		</select>
+		<input name="submit" id="submit" type="submit" value="Submit" />
+	</p>
+	</form>
+    <div id='footer'>
+        <!-- service description -->
+        <a href="?media-type=text/turtle" title="Service description in RDF/Turtle format">ttl</a>
+        <a href="?media-type=application/json" title="Service description in RDF/JSON format">json</a>
+    </div>
+</body></html>
